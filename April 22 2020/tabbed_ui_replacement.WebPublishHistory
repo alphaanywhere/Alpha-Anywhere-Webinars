@@ -1,0 +1,102 @@
+<PubHist<[1]<type="calendaricons">
+<name="calendaricons">
+<target_folder="c:\a5webroot\tabbed_ui_replacement">
+<timestamp=CTODT('04/22/2020 05:41:05 87 pm')>
+>
+<[2]<type="folder">
+<name="ExeReportStyles">
+<target_folder="c:\a5webroot\tabbed_ui_replacement">
+<timestamp=CTODT('04/22/2020 06:06:23 56 pm')>
+>
+<[3]<type="folder">
+<name="AppDataReportStyles">
+<target_folder="c:\a5webroot\tabbed_ui_replacement">
+<timestamp=CTODT('04/22/2020 06:06:23 56 pm')>
+>
+<[4]<type="folder">
+<name="ExeChartStyles">
+<target_folder="c:\a5webroot\tabbed_ui_replacement">
+<timestamp=CTODT('04/22/2020 06:06:23 56 pm')>
+>
+<[5]<type="folder">
+<name="AppDataChartStyles">
+<target_folder="c:\a5webroot\tabbed_ui_replacement">
+<timestamp=CTODT('04/22/2020 06:06:23 56 pm')>
+>
+<[6]<type="A5WPage">
+<name="{c:\users\administrator\dropbox\alphadrop\tabbed_ui_replacement\tabbed_ui_replacement.webprojects\default.webproject\home.a5w}">
+<target_folder="c:\a5webroot\tabbed_ui_replacement">
+<timestamp=CTODT('04/14/2020 08:00:19 12 pm')>
+>
+<[7]<type="A5WPage">
+<name="{c:\users\administrator\dropbox\alphadrop\tabbed_ui_replacement\tabbed_ui_replacement.webprojects\default.webproject\index.a5w}">
+<target_folder="c:\a5webroot\tabbed_ui_replacement">
+<timestamp=CTODT('04/22/2020 05:41:06 36 pm')>
+>
+<[8]<type="WebComponent">
+<name="{c:\users\administrator\dropbox\alphadrop\tabbed_ui_replacement\tabbed_ui_replacement.webprojects\default.webproject\tabbedui_ux.a5wcmp}">
+<target_folder="c:\a5webroot\tabbed_ui_replacement">
+<timestamp=CTODT('04/22/2020 06:06:23 92 pm')>
+>
+<[9]<type="css">
+<name="a5system">
+<target_folder="c:\a5webroot\tabbed_ui_replacement">
+<timestamp=CTODT('04/22/2020 05:41:06 56 pm')>
+>
+<[10]<type="css">
+<name="alpha">
+<target_folder="c:\a5webroot\tabbed_ui_replacement">
+<timestamp=CTODT('04/22/2020 06:05:20 11 pm')>
+>
+<[11]<type="css">
+<name="alpha-blue2">
+<target_folder="c:\a5webroot\tabbed_ui_replacement">
+<timestamp=CTODT('04/22/2020 06:05:21 37 pm')>
+>
+<[12]<type="file">
+<name="{c:\users\administrator\dropbox\alphadrop\tabbed_ui_replacement\tabbed_ui_replacement.webprojects\default.webproject\pages.securitysettings}">
+<target_folder="c:\a5webroot\tabbed_ui_replacement">
+<timestamp=CTODT('04/22/2020 05:41:07 76 pm')>
+>
+<[13]<type="file">
+<name="{c:\users\administrator\dropbox\alphadrop\tabbed_ui_replacement\tabbed_ui_replacement.webprojects\default.webproject\project.securitysettings}">
+<target_folder="c:\a5webroot\tabbed_ui_replacement">
+<timestamp=CTODT('04/22/2020 05:41:07 78 pm')>
+>
+<[14]<type="file">
+<name="{c:\users\administrator\dropbox\alphadrop\tabbed_ui_replacement\tabbed_ui_replacement.webprojects\default.webproject\datalink.securitysettings}">
+<target_folder="c:\a5webroot\tabbed_ui_replacement">
+<timestamp=CTODT('04/22/2020 05:41:07 79 pm')>
+<project="Default">
+<profile="Local Webroot">
+>
+<[15]<type="file">
+<name="{c:\users\administrator\dropbox\alphadrop\tabbed_ui_replacement\tabbed_ui_replacement.webprojects\default.webproject\projectproperties.projectproperties}">
+<target_folder="c:\a5webroot\tabbed_ui_replacement">
+<timestamp=CTODT('04/14/2020 08:00:23 07 pm')>
+<project="Default">
+<profile="Local Webroot">
+>
+<[16]<type="file">
+<name="{c:\users\administrator\dropbox\alphadrop\tabbed_ui_replacement\tabbed_ui_replacement.webprojects\default.webproject\alpha2.jpg}">
+<target_folder="c:\a5webroot\tabbed_ui_replacement">
+<timestamp=CTODT('04/22/2020 05:41:07 80 pm')>
+<project="Default">
+<profile="Local Webroot">
+>
+<[17]<type="WebComponent">
+<name="{c:\users\administrator\dropbox\alphadrop\tabbed_ui_replacement\tabbed_ui_replacement.webprojects\default.webproject\customer_ux.a5wcmp}">
+<target_folder="c:\a5webroot\tabbed_ui_replacement">
+<timestamp=CTODT('04/15/2020 05:49:29 72 pm')>
+>
+<[18]<type="WebComponent">
+<name="{c:\users\administrator\dropbox\alphadrop\tabbed_ui_replacement\tabbed_ui_replacement.webprojects\default.webproject\expanding_menu_collapse_menu_ux.a5wcmp}">
+<target_folder="c:\a5webroot\tabbed_ui_replacement">
+<timestamp=CTODT('04/15/2020 05:49:29 76 pm')>
+>
+<[19]<type="WebComponent">
+<name="{c:\users\administrator\dropbox\alphadrop\tabbed_ui_replacement\tabbed_ui_replacement.webprojects\default.webproject\tabbedui_webinar_ux.a5wcmp}">
+<target_folder="c:\a5webroot\tabbed_ui_replacement">
+<timestamp=CTODT('04/22/2020 04:57:09 86 pm')>
+>
+>

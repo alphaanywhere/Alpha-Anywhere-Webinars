@@ -1,0 +1,897 @@
+{
+    "$schema": "UX",
+    "$definition": {
+        "builderType": "Dialog2",
+        "info": {
+            "createdBy": "mac",
+            "dateCreated": "2020-3-18",
+            "dateLastEdited": "2020-3-18",
+            "revisionnumber": 7
+        },
+        "flagOptimizedUXTree": true,
+        "flagReanalyzeContainers": false,
+        "minimumBuildNumber": "",
+        "_display": "",
+        "guid": "ca1cf033-dc28-4fef-9204-fb5768dbb7f5",
+        "style_name": "Alpha-Blue2",
+        "componentName": "api_data_source_2_viewbox_ux",
+        "componentFilename": "C:\\Users\\mac\\Dropbox\\alphaDrop\\demonstration\\demonstration.WebProjects\\viewBox.WebProject\\api_data_source_2_viewbox_ux.a5wcmp",
+        "page_fields": [
+            {
+                "controltype": "layout_directive_PanelCardBegin",
+                "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{Data=f47ad053-5829-4af9-b937-08e4cedaffaa}{I:'$$web.panel.card'} [Panel Card: PANELCARD_1]",
+                "idInternal": "f47ad053-5829-4af9-b937-08e4cedaffaa",
+                "lastIndex": 6,
+                "containerStartIndex": 0,
+                "v": {
+                    "container": {
+                        "id": "PANELCARD_1"
+                    },
+                    "panelInstance": {
+                        "sections": {
+                            "name": "<UsePanelId>",
+                            "renderMethod": "Auto-Create-Destroy"
+                        }
+                    },
+                    "panelCard": {
+                        "javascript": {
+                            "onActivate": "",
+                            "onView": ""
+                        },
+                        "allowBodyScrolling": true,
+                        "bodyScrolling": {
+                            "axis": "Both"
+                        },
+                        "pull": {
+                            "pullpastEnd": {
+                                "YSetting": "auto",
+                                "XSetting": "auto"
+                            }
+                        },
+                        "scrolling": {
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "location": "top",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "type": "Default",
+                        "pinchToZoom": false
+                    },
+                    "info": {
+                        "level": 0,
+                        "isContainerStart": true,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": false,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 1,
+                        "color": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}",
+                        "icon": "$$web.panel.card",
+                        "displayText": "[Panel Card: PANELCARD_1]",
+                        "parentPanelCardId": "f47ad053-5829-4af9-b937-08e4cedaffaa",
+                        "lastID": "687d9637-f153-4a91-b169-db6ee800797f",
+                        "break": false,
+                        "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{Data=f47ad053-5829-4af9-b937-08e4cedaffaa}{I:'$$web.panel.card'} [Panel Card: PANELCARD_1]"
+                    },
+                    "listview": {
+                        "allchildren": ""
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "'xbasic\n\nv._dirty = .f.\n\n\n",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294908634",
+                "iscollapsed": false
+            },
+            {
+                "controltype": "layout_directive_ContainerBegin",
+                "displayODFlat": "{Data=6ad8b419-68c6-47ca-8192-3ac15ccf3960}{I:'$$format.border.style.dash'} [Container: PANELHEADER_1]",
+                "idInternal": "6ad8b419-68c6-47ca-8192-3ac15ccf3960",
+                "displayOD": "{Data=6ad8b419-68c6-47ca-8192-3ac15ccf3960}{I:'$$format.border.style.dash'} [Container: PANELHEADER_1]",
+                "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertline'}{Data=6ad8b419-68c6-47ca-8192-3ac15ccf3960}{I:'$$web.panel.header'} [PanelHeader:PANELHEADER_1]",
+                "displayODTree": "{Data=6ad8b419-68c6-47ca-8192-3ac15ccf3960}{I:'$$format.border.style.dash'} [Container: PANELHEADER_1]",
+                "iscollapsed": false,
+                "parentIsCollapsed": false,
+                "lastIndex": 4,
+                "parentContainer": 1,
+                "containerStartIndex": 0,
+                "v": {
+                    "container": {
+                        "ID": "PANELHEADER_1",
+                        "contentAlignment": "Left",
+                        "contentVerticalAlign": "Top",
+                        "useFlex": true,
+                        "useFlexLeft": false,
+                        "alignItems": "",
+                        "edgeOffset": "",
+                        "buttonGroup": {
+                            "orientation": "Horizontal"
+                        },
+                        "subType": "PanelHeader",
+                        "allowScrolling": false,
+                        "scrolling": {
+                            "axis": "Both",
+                            "stopPropogation": false,
+                            "isDefined": false,
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "className": "",
+                                    "barClassName": "",
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "className": "",
+                                    "barClassName": "",
+                                    "location": "top",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "pull": {
+                            "isDefined": false,
+                            "javascript": {
+                                "onPullRelease": "",
+                                "onPullEnd": "",
+                                "onPull": ""
+                            },
+                            "pullpastEnd": {
+                                "YSetting": "auto",
+                                "XSetting": "auto"
+                            }
+                        }
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "info": {
+                        "level": 1,
+                        "isContainerStart": true,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "f47ad053-5829-4af9-b937-08e4cedaffaa",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 2,
+                        "color": "{C=Orange,White}{B=White,Orange}{F=+B}",
+                        "icon": "$$web.panel.header",
+                        "displayText": "[PanelHeader:PANELHEADER_1]",
+                        "parentPanelCardId": "f47ad053-5829-4af9-b937-08e4cedaffaa",
+                        "lastID": "db2b4b02-04ea-41b9-b730-a9e8cf6b3b26",
+                        "break": false,
+                        "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertline'}{Data=6ad8b419-68c6-47ca-8192-3ac15ccf3960}{I:'$$web.panel.header'} [PanelHeader:PANELHEADER_1]"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.PANELHEADER_1\"   \n\t\t\tclass=\"A5CWLayout \"  style=\"\"  ><!--DIV for Container control-->",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294955904"
+            },
+            {
+                "controltype": "layout_directive_statictext",
+                "idInternal": "f3a524db-77c2-438f-971b-3bcaa8560527",
+                "parentContainer": 2,
+                "containerStartIndex": 0,
+                "display": "{B=White,Light Blue}{I:'vertline'}{I:'vertline'}{Data=f3a524db-77c2-438f-971b-3bcaa8560527}{I:'$$format.text'} [Static Text:API Example Viewbox] ¶",
+                "v": {
+                    "StaticText": "API Example Viewbox",
+                    "Class": "<Default>",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "STATICTEXT_1",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "info": {
+                        "level": 2,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "6ad8b419-68c6-47ca-8192-3ac15ccf3960",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 3,
+                        "color": "",
+                        "icon": "$$format.text",
+                        "displayText": "[Static Text:API Example Viewbox]",
+                        "parentPanelCardId": "f47ad053-5829-4af9-b937-08e4cedaffaa",
+                        "break": true,
+                        "display": "{B=White,Light Blue}{I:'vertline'}{I:'vertline'}{Data=f3a524db-77c2-438f-971b-3bcaa8560527}{I:'$$format.text'} [Static Text:API Example Viewbox]<<break>>"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_1\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >API Example Viewbox</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "crc": "4294944534"
+            },
+            {
+                "controltype": "layout_directive_ContainerEnd",
+                "displayODFlat": "{Data=db2b4b02-04ea-41b9-b730-a9e8cf6b3b26}{I:'$$format.border.style.dash'} [Container End]",
+                "idInternal": "db2b4b02-04ea-41b9-b730-a9e8cf6b3b26",
+                "displayOD": "{Data=db2b4b02-04ea-41b9-b730-a9e8cf6b3b26}{I:'$$format.border.style.dash'} [Container End]",
+                "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertline'}{Data=db2b4b02-04ea-41b9-b730-a9e8cf6b3b26}{I:'vertLineCap'} [PanelHeader End: PANELHEADER_1]",
+                "displayODTree": "{Data=db2b4b02-04ea-41b9-b730-a9e8cf6b3b26}{I:'$$format.border.style.dash'} [Container End]",
+                "iscollapsed": false,
+                "parentIsCollapsed": false,
+                "parentContainer": 1,
+                "containerStartIndex": 2,
+                "__flagwrapcontentsindiv": false,
+                "precalc": {
+                    "ControlHTML": "<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n",
+                    "DesignViewHTML": ""
+                },
+                "v": {
+                    "container": {
+                        "BreakType": "None",
+                        "BreakHeight": ".1in",
+                        "breakHorizontalSpace": ".1in"
+                    },
+                    "info": {
+                        "level": 1,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": true,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "f47ad053-5829-4af9-b937-08e4cedaffaa",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 4,
+                        "containerStartID": "6ad8b419-68c6-47ca-8192-3ac15ccf3960",
+                        "color": "{C=Orange,White}{B=White,Orange}{F=+B}",
+                        "icon": "vertLineCap",
+                        "displayText": "[PanelHeader End: PANELHEADER_1]",
+                        "parentPanelCardId": "f47ad053-5829-4af9-b937-08e4cedaffaa",
+                        "break": false,
+                        "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertline'}{Data=db2b4b02-04ea-41b9-b730-a9e8cf6b3b26}{I:'vertLineCap'} [PanelHeader End: PANELHEADER_1]"
+                    }
+                },
+                "crc": "4294943480"
+            },
+            {
+                "controltype": "dialog_formcontrol",
+                "idInternal": "5e601508_303f_47cc_b303_5bcc7d04e8df",
+                "iscollapsed": false,
+                "parentIsCollapsed": false,
+                "parentContainer": 1,
+                "containerStartIndex": 0,
+                "display": "{B=White,Light Blue}{I:'vertline'}{Data=5e601508_303f_47cc_b303_5bcc7d04e8df}{I:'$$control.staticHTML'} [viewbox_api] ¶",
+                "displayODFlat": "{Data=5e601508_303f_47cc_b303_5bcc7d04e8df}",
+                "displayOD": "{Data=5e601508_303f_47cc_b303_5bcc7d04e8df}",
+                "displayODtree": "{Data=5e601508_303f_47cc_b303_5bcc7d04e8df}",
+                "crc": "4294957820",
+                "v": {
+                    "controlType": "viewbox",
+                    "variableName": "viewbox_api",
+                    "type": "Character",
+                    "maxLength": -1,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "lookup": {
+                        "editCombo": {
+                            "openLookupOnFocus": false
+                        }
+                    },
+                    "textboxSubTheme": "",
+                    "textboxAutocorrect": true,
+                    "textboxAutoCapitalize": true,
+                    "label": "Viewbox Api",
+                    "class": "<Default>",
+                    "breakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "labelClass": "<Default>",
+                    "labelPosition": "Left",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "embeddedJavascriptControl": true,
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "getFunction": "",
+                    "setFunction": "",
+                    "onChange_ValidationOption": "Client-side only",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        },
+                        "ink": {
+                            "hasbackgroundimage": false,
+                            "backgroundimage": "",
+                            "inkunits": 1
+                        }
+                    },
+                    "datePicker": {
+                        "friendlyDisplay": {
+                            "enabled": false,
+                            "settingsJSON": ""
+                        },
+                        "displayTimePicker": false,
+                        "openMethod": "ClickIcon",
+                        "dateFormat": "<Default>",
+                        "iconNumber": 2,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "userMustSelectFromDatePicker": false,
+                        "multiple": {
+                            "allow": false,
+                            "separators": ".."
+                        },
+                        "hasMask": false,
+                        "format": {
+                            "mask": ""
+                        },
+                        "timePickerOptionsDefined": false,
+                        "display": false,
+                        "useComboBoxes": true,
+                        "lowYear": 1950,
+                        "highYear": 2050,
+                        "switchYear": 30,
+                        "lowDate": "",
+                        "highDate": "",
+                        "disabledDays": "",
+                        "disabledDates": ""
+                    },
+                    "viewbox": {
+                        "height": "3in",
+                        "width": "4in",
+                        "fillPanelContainer": true,
+                        "definitionJSON": "{\n\t\"formview\": {\n\t\t\"datasource\": {\n\t\t\t\"type\": \"REST API\",\n\t\t\t\"listName\": \"\",\n\t\t\t\"sampleData\": \"[\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P001\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"UnoFold Quick Dry Socks\\\",\\r\\n        \\\"COST\\\": \\\"2.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"7.06\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"10\\\",\\r\\n        \\\"VENDOR\\\": \\\"V006\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"104\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P002\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Victor 100% Cotton  Sweatshirt\\\",\\r\\n        \\\"COST\\\": \\\"21\\\",\\r\\n        \\\"RETAIL\\\": \\\"47.11\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"120\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P003\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Nuprene 1 Qt. Bottle\\\",\\r\\n        \\\"COST\\\": \\\"1.75\\\",\\r\\n        \\\"RETAIL\\\": \\\"4.7\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"8\\\",\\r\\n        \\\"VENDOR\\\": \\\"V006\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"102\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P004\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"BiltRite 2 Person Tent\\\",\\r\\n        \\\"COST\\\": \\\"14.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"29.44\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"3\\\",\\r\\n        \\\"VENDOR\\\": \\\"V006\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"104\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P005\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Black Forest Bug Repellant\\\",\\r\\n        \\\"COST\\\": \\\"1.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"3.52\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"10\\\",\\r\\n        \\\"VENDOR\\\": \\\"V006\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"7\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P006\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Arctic Trek Dome Tent\\\",\\r\\n        \\\"COST\\\": \\\"200\\\",\\r\\n        \\\"RETAIL\\\": \\\"353.42\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"93\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P007\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Safe-T H20 Purification Tablets\\\",\\r\\n        \\\"COST\\\": \\\"0.98\\\",\\r\\n        \\\"RETAIL\\\": \\\"3.52\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V006\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"120\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P008\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"NuTech Hiking Boot (Women's)\\\",\\r\\n        \\\"COST\\\": \\\"22.88\\\",\\r\\n        \\\"RETAIL\\\": \\\"58.89\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"20\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"112\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P009\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"TrueNorth Compass\\\",\\r\\n        \\\"COST\\\": \\\"6.88\\\",\\r\\n        \\\"RETAIL\\\": \\\"18.84\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"103\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P010\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Slazinger Cricket Bat\\\",\\r\\n        \\\"COST\\\": \\\"135\\\",\\r\\n        \\\"RETAIL\\\": \\\"235.61\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V001\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"107\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P011\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Ray Block Sunglasses\\\",\\r\\n        \\\"COST\\\": \\\"12.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"47.11\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"12\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"107\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P012\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"DuoFold Quick Dry Socks\\\",\\r\\n        \\\"COST\\\": \\\"2.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"7.06\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"10\\\",\\r\\n        \\\"VENDOR\\\": \\\"V006\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"3\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P013\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"MaxiMag Replacement Bulbs\\\",\\r\\n        \\\"COST\\\": \\\"1.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"4.7\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"10\\\",\\r\\n        \\\"VENDOR\\\": \\\"V006\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"107\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P014\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Ribbit Sunglasses Strap\\\",\\r\\n        \\\"COST\\\": \\\"1.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"5.88\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"106\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P015\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"UnoFold Thernal Underwear\\\",\\r\\n        \\\"COST\\\": \\\"4.99\\\",\\r\\n        \\\"RETAIL\\\": \\\"15.3\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"10\\\",\\r\\n        \\\"VENDOR\\\": \\\"V006\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"127\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P016\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Techelon Graphite Racquet\\\",\\r\\n        \\\"COST\\\": \\\"21.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"47.11\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"105\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P017\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Cali Pressureless Racquetballs\\\",\\r\\n        \\\"COST\\\": \\\"1.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"3.52\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"15\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"108\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P018\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Techelon Safety Glasses\\\",\\r\\n        \\\"COST\\\": \\\"5.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"15.25\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"85\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P019\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Techelon Hybrid Racquet\\\",\\r\\n        \\\"COST\\\": \\\"42\\\",\\r\\n        \\\"RETAIL\\\": \\\"94.24\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"3\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"93\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P020\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Spencer Basketball Hoop\\\",\\r\\n        \\\"COST\\\": \\\"22.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"58.89\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"103\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P021\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"EZ Lite Waterproof Matches\\\",\\r\\n        \\\"COST\\\": \\\"0.49\\\",\\r\\n        \\\"RETAIL\\\": \\\"1.75\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V006\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"110\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P022\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"GoodSport Air Pump\\\",\\r\\n        \\\"COST\\\": \\\"6.99\\\",\\r\\n        \\\"RETAIL\\\": \\\"15.3\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"82\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P023\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"GoodSport Ball Inflation Needle\\\",\\r\\n        \\\"COST\\\": \\\"0.98\\\",\\r\\n        \\\"RETAIL\\\": \\\"2.35\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"10\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"95\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P024\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Victor 100% Cotton Sweatpants\\\",\\r\\n        \\\"COST\\\": \\\"12.88\\\",\\r\\n        \\\"RETAIL\\\": \\\"29.44\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"109\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P025\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Spencer Basketball\\\",\\r\\n        \\\"COST\\\": \\\"10.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"23.55\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"124\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P026\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Techelon Knee Pads\\\",\\r\\n        \\\"COST\\\": \\\"5.75\\\",\\r\\n        \\\"RETAIL\\\": \\\"17.66\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"10\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"108\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P027\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Rider Athletic Socks - 3 Pack\\\",\\r\\n        \\\"COST\\\": \\\"2.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"8.23\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"114\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P028\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Ultima X Flying Disc\\\",\\r\\n        \\\"COST\\\": \\\"2.75\\\",\\r\\n        \\\"RETAIL\\\": \\\"8.23\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"103\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P029\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"SIP Metal Whistle\\\",\\r\\n        \\\"COST\\\": \\\"1.98\\\",\\r\\n        \\\"RETAIL\\\": \\\"5.88\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"105\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P030\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"SIP Stop Watch\\\",\\r\\n        \\\"COST\\\": \\\"6.99\\\",\\r\\n        \\\"RETAIL\\\": \\\"21.2\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"12\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"112\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P031\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"SIP Binoculars\\\",\\r\\n        \\\"COST\\\": \\\"12.88\\\",\\r\\n        \\\"RETAIL\\\": \\\"41.22\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"3\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"107\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P032\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Trails' Mini Propane Stove\\\",\\r\\n        \\\"COST\\\": \\\"14\\\",\\r\\n        \\\"RETAIL\\\": \\\"29.44\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"104\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P033\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Pearlman Propane Canister\\\",\\r\\n        \\\"COST\\\": \\\"1.88\\\",\\r\\n        \\\"RETAIL\\\": \\\"4.7\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"10\\\",\\r\\n        \\\"VENDOR\\\": \\\"V006\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"101\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P034\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Reeler's 40 # Fishing Line 200'\\\",\\r\\n        \\\"COST\\\": \\\"1.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"5.88\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"10\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"108\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P035\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Alpha Sports T-Shirt\\\",\\r\\n        \\\"COST\\\": \\\"5.99\\\",\\r\\n        \\\"RETAIL\\\": \\\"11.77\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"119\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P036\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Alpha Sports Fishing Hat\\\",\\r\\n        \\\"COST\\\": \\\"3.99\\\",\\r\\n        \\\"RETAIL\\\": \\\"11.77\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"122\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P037\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Alpha Sports Cap\\\",\\r\\n        \\\"COST\\\": \\\"4.8\\\",\\r\\n        \\\"RETAIL\\\": \\\"11.77\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"135\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P038\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Blue Hawaii Fishing Rod\\\",\\r\\n        \\\"COST\\\": \\\"32\\\",\\r\\n        \\\"RETAIL\\\": \\\"58.89\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"6\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"106\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P039\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Jed's Hand Wound Lures\\\",\\r\\n        \\\"COST\\\": \\\"2.75\\\",\\r\\n        \\\"RETAIL\\\": \\\"8.23\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"10\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"120\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P040\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Blue Hawaii Fishing Net\\\",\\r\\n        \\\"COST\\\": \\\"8.75\\\",\\r\\n        \\\"RETAIL\\\": \\\"23.55\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"3\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"99\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P041\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Trails' Stainless Steel Mess Kit\\\",\\r\\n        \\\"COST\\\": \\\"7.8\\\",\\r\\n        \\\"RETAIL\\\": \\\"17.66\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V006\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"105\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P042\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Reeler's Tackle Box\\\",\\r\\n        \\\"COST\\\": \\\"7\\\",\\r\\n        \\\"RETAIL\\\": \\\"17.66\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"10\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"108\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P043\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Reeler's Fishing Weights\\\",\\r\\n        \\\"COST\\\": \\\"1.88\\\",\\r\\n        \\\"RETAIL\\\": \\\"5.88\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"110\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P044\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Reeler's Bobbin Assortment\\\",\\r\\n        \\\"COST\\\": \\\"1.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"4.7\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"12\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"109\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P045\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Alpha Sports Sweatband\\\",\\r\\n        \\\"COST\\\": \\\"1.75\\\",\\r\\n        \\\"RETAIL\\\": \\\"5.88\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"102\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P046\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Stuart Surridge Cricket Ball\\\",\\r\\n        \\\"COST\\\": \\\"22\\\",\\r\\n        \\\"RETAIL\\\": \\\"58.89\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V001\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"105\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P047\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Garfield Sobers' Wicket Set\\\",\\r\\n        \\\"COST\\\": \\\"30\\\",\\r\\n        \\\"RETAIL\\\": \\\"70.68\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V001\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"108\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P048\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Garfield Sobers' Bail Set\\\",\\r\\n        \\\"COST\\\": \\\"8.75\\\",\\r\\n        \\\"RETAIL\\\": \\\"23.55\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V001\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"108\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P049\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"NuTech Hiking Boot (Men's)\\\",\\r\\n        \\\"COST\\\": \\\"22.88\\\",\\r\\n        \\\"RETAIL\\\": \\\"58.89\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"20\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"115\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P050\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"TruBalance Running Shoe (Men)\\\",\\r\\n        \\\"COST\\\": \\\"23\\\",\\r\\n        \\\"RETAIL\\\": \\\"53\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"113\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P051\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"TruBalance Running Shoe (Women)\\\",\\r\\n        \\\"COST\\\": \\\"23\\\",\\r\\n        \\\"RETAIL\\\": \\\"53\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"118\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P052\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Arctic Trek Wool Mittens\\\",\\r\\n        \\\"COST\\\": \\\"10.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"18.84\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V006\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"112\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P053\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Arctic Trek Wool Cap\\\",\\r\\n        \\\"COST\\\": \\\"3.99\\\",\\r\\n        \\\"RETAIL\\\": \\\"9.41\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V006\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"115\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P054\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"React Ski Poles\\\",\\r\\n        \\\"COST\\\": \\\"14.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"29.44\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"24\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"126\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P055\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Arctica Ski Boots\\\",\\r\\n        \\\"COST\\\": \\\"68\\\",\\r\\n        \\\"RETAIL\\\": \\\"147.25\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"114\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P056\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Arctica Downhill Skis\\\",\\r\\n        \\\"COST\\\": \\\"78\\\",\\r\\n        \\\"RETAIL\\\": \\\"176.7\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"111\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P057\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Madison Cross Country Skis\\\",\\r\\n        \\\"COST\\\": \\\"39\\\",\\r\\n        \\\"RETAIL\\\": \\\"82.46\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"14\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"114\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P058\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"NuTech Ski Gloves\\\",\\r\\n        \\\"COST\\\": \\\"14\\\",\\r\\n        \\\"RETAIL\\\": \\\"35.33\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"20\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"120\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P059\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"EuroPal Pocket Knife\\\",\\r\\n        \\\"COST\\\": \\\"8.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"20.01\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V006\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"111\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P060\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Noonan's 48 Qt Cooler\\\",\\r\\n        \\\"COST\\\": \\\"12\\\",\\r\\n        \\\"RETAIL\\\": \\\"29.44\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"6\\\",\\r\\n        \\\"VENDOR\\\": \\\"V006\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"103\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P061\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Flexall Dual Stack Gym Machine\\\",\\r\\n        \\\"COST\\\": \\\"500\\\",\\r\\n        \\\"RETAIL\\\": \\\"941.31\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"1\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"101\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P062\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"EverStrong Bench Press\\\",\\r\\n        \\\"COST\\\": \\\"68\\\",\\r\\n        \\\"RETAIL\\\": \\\"147.25\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"102\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P063\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"EverStrong Excercise Mat\\\",\\r\\n        \\\"COST\\\": \\\"8\\\",\\r\\n        \\\"RETAIL\\\": \\\"23.55\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"101\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P064\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Live Free Treadmill\\\",\\r\\n        \\\"COST\\\": \\\"375\\\",\\r\\n        \\\"RETAIL\\\": \\\"706.85\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"2\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"102\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P065\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Flexall Rowing Machine\\\",\\r\\n        \\\"COST\\\": \\\"65\\\",\\r\\n        \\\"RETAIL\\\": \\\"176.7\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"104\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P066\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Live Free Stair Machine\\\",\\r\\n        \\\"COST\\\": \\\"160\\\",\\r\\n        \\\"RETAIL\\\": \\\"265.06\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"105\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P067\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Live Free Exercise Bike\\\",\\r\\n        \\\"COST\\\": \\\"80\\\",\\r\\n        \\\"RETAIL\\\": \\\"176.7\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"3\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"103\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P068\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Racer's Choice Ski Goggles\\\",\\r\\n        \\\"COST\\\": \\\"15\\\",\\r\\n        \\\"RETAIL\\\": \\\"29.44\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"12\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"111\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P069\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Johnson 11 Piece Golf Set\\\",\\r\\n        \\\"COST\\\": \\\"140\\\",\\r\\n        \\\"RETAIL\\\": \\\"294.51\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"10\\\",\\r\\n        \\\"VENDOR\\\": \\\"V001\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"109\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P070\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Spencer Golf Bag\\\",\\r\\n        \\\"COST\\\": \\\"22.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"58.89\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"106\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P071\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Spencer Golf Bag Cart\\\",\\r\\n        \\\"COST\\\": \\\"27.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"82.46\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"104\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P072\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Long Flite Golf Balls 1 Dozen\\\",\\r\\n        \\\"COST\\\": \\\"9.75\\\",\\r\\n        \\\"RETAIL\\\": \\\"25.91\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"20\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"115\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P073\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Techelon Graphite Tennis Racket\\\",\\r\\n        \\\"COST\\\": \\\"24.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"70.68\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"107\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P074\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Techelon Hi-Performance Racket\\\",\\r\\n        \\\"COST\\\": \\\"78\\\",\\r\\n        \\\"RETAIL\\\": \\\"176.7\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"102\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P075\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Techelon Racket Bag\\\",\\r\\n        \\\"COST\\\": \\\"13.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"29.44\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"112\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P076\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Spencer Gym Bag\\\",\\r\\n        \\\"COST\\\": \\\"11.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"29.44\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"6\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"107\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P077\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Spencer Bowling Ball Bag\\\",\\r\\n        \\\"COST\\\": \\\"22.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"53\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"104\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P078\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Johnson Bowling Ball\\\",\\r\\n        \\\"COST\\\": \\\"21.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"58.89\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"6\\\",\\r\\n        \\\"VENDOR\\\": \\\"V001\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"106\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P079\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Johnson 6 Player Croquet Set\\\",\\r\\n        \\\"COST\\\": \\\"38.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"94.24\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"4\\\",\\r\\n        \\\"VENDOR\\\": \\\"V001\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"105\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P080\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Spencer Backboard Set\\\",\\r\\n        \\\"COST\\\": \\\"158\\\",\\r\\n        \\\"RETAIL\\\": \\\"306.3\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"102\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P081\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Spencer Batting T\\\",\\r\\n        \\\"COST\\\": \\\"5.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"14.13\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"106\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P082\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Spencer Baseball Glove\\\",\\r\\n        \\\"COST\\\": \\\"17.8\\\",\\r\\n        \\\"RETAIL\\\": \\\"41.22\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"102\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P083\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Frequent Flyer Baseball\\\",\\r\\n        \\\"COST\\\": \\\"2.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"5.88\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"108\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P084\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Frequent Flyer Softball\\\",\\r\\n        \\\"COST\\\": \\\"3.12\\\",\\r\\n        \\\"RETAIL\\\": \\\"8.23\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"106\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P085\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"ACE Baseball Glove Conditioner\\\",\\r\\n        \\\"COST\\\": \\\"0.78\\\",\\r\\n        \\\"RETAIL\\\": \\\"2.35\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"108\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P086\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Frequent Flyer Batter's Glove\\\",\\r\\n        \\\"COST\\\": \\\"10.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"23.55\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"106\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P087\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Spencer Aluminum Bat\\\",\\r\\n        \\\"COST\\\": \\\"42\\\",\\r\\n        \\\"RETAIL\\\": \\\"82.46\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"15\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"112\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P088\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Spencer Wood Bat\\\",\\r\\n        \\\"COST\\\": \\\"12.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"29.44\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"114\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P089\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Frequent Flyer Batter's Helmet\\\",\\r\\n        \\\"COST\\\": \\\"7.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"18.84\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"105\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P090\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Spencer Soccer Ball\\\",\\r\\n        \\\"COST\\\": \\\"11.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"23.55\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"126\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P091\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"GoodSport Darts\\\",\\r\\n        \\\"COST\\\": \\\"4.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"11.77\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"112\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P092\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"GoodSport Dart Flights\\\",\\r\\n        \\\"COST\\\": \\\"0.75\\\",\\r\\n        \\\"RETAIL\\\": \\\"2.35\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"106\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P093\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"GoodSport Dart Board\\\",\\r\\n        \\\"COST\\\": \\\"12.75\\\",\\r\\n        \\\"RETAIL\\\": \\\"23.55\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"104\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P094\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Gold Coast Badminton Set\\\",\\r\\n        \\\"COST\\\": \\\"17.55\\\",\\r\\n        \\\"RETAIL\\\": \\\"35.33\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V001\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"105\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P095\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Gold Coast Volleyball Set\\\",\\r\\n        \\\"COST\\\": \\\"17.55\\\",\\r\\n        \\\"RETAIL\\\": \\\"35.33\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V001\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"105\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P096\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"ProTech  Neck Collar\\\",\\r\\n        \\\"COST\\\": \\\"5.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"15.3\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"4\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"104\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P097\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"ProTech Forearm Pads\\\",\\r\\n        \\\"COST\\\": \\\"5.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"15.3\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"4\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"104\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P098\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"ProTech Elbow Pads\\\",\\r\\n        \\\"COST\\\": \\\"7.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"21.2\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"4\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"104\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P099\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Spencer Football Gloves\\\",\\r\\n        \\\"COST\\\": \\\"12.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"23.55\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"105\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P100\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"ProTech Football Helmet\\\",\\r\\n        \\\"COST\\\": \\\"26.75\\\",\\r\\n        \\\"RETAIL\\\": \\\"47.11\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"7\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"106\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P101\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Nikita Warm Up Suit\\\",\\r\\n        \\\"COST\\\": \\\"29.99\\\",\\r\\n        \\\"RETAIL\\\": \\\"64.78\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"15\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"112\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P102\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Fast Trak Cross Trainers (Men)\\\",\\r\\n        \\\"COST\\\": \\\"23.75\\\",\\r\\n        \\\"RETAIL\\\": \\\"47.11\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"115\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P103\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Fast Trak Cross Trainers (Women)\\\",\\r\\n        \\\"COST\\\": \\\"23.75\\\",\\r\\n        \\\"RETAIL\\\": \\\"47.11\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"114\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P104\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Fast Trak Football Cleats (W)\\\",\\r\\n        \\\"COST\\\": \\\"21.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"41.22\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"115\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P105\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Fast Trak Football Cleats (M)\\\",\\r\\n        \\\"COST\\\": \\\"21.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"41.22\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"115\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P106\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Nykey Aerobic Shoes (M)\\\",\\r\\n        \\\"COST\\\": \\\"26.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"58.89\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"15\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"109\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P107\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Nykey Aerobic Shoes (W)\\\",\\r\\n        \\\"COST\\\": \\\"26.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"58.89\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"15\\\",\\r\\n        \\\"VENDOR\\\": \\\"V002\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"112\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P108\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"ProTech Bike Helmet\\\",\\r\\n        \\\"COST\\\": \\\"21.75\\\",\\r\\n        \\\"RETAIL\\\": \\\"47.11\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"20\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"105\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P109\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Spencer In-Line Skates\\\",\\r\\n        \\\"COST\\\": \\\"48.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"106.02\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"108\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P110\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Johnson Trampoline\\\",\\r\\n        \\\"COST\\\": \\\"32\\\",\\r\\n        \\\"RETAIL\\\": \\\"53\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V001\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"105\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P111\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Arctic Trek Sleeping Bag\\\",\\r\\n        \\\"COST\\\": \\\"47.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"94.24\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V006\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"101\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P112\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Arctic Trek Ground Mat\\\",\\r\\n        \\\"COST\\\": \\\"8.75\\\",\\r\\n        \\\"RETAIL\\\": \\\"23.55\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V006\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"98\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P113\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Day Tripper Day Pack\\\",\\r\\n        \\\"COST\\\": \\\"21.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"47.11\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"107\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P114\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Day Tripper Frame Pack\\\",\\r\\n        \\\"COST\\\": \\\"62.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"153.14\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"105\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P115\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Spencer Aerobic Step W/ Video\\\",\\r\\n        \\\"COST\\\": \\\"24.75\\\",\\r\\n        \\\"RETAIL\\\": \\\"58.89\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"15\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"114\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P116\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"EverStrong Weight Belt\\\",\\r\\n        \\\"COST\\\": \\\"12.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"23.55\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"106\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P117\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"EverStrong 32# Chrome Weights\\\",\\r\\n        \\\"COST\\\": \\\"28.75\\\",\\r\\n        \\\"RETAIL\\\": \\\"58.89\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"105\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P118\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"EverStrong Weight Set\\\",\\r\\n        \\\"COST\\\": \\\"78.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"176.7\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"103\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P119\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Spencer Lifting Gloves\\\",\\r\\n        \\\"COST\\\": \\\"8.5\\\",\\r\\n        \\\"RETAIL\\\": \\\"29.44\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"110\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P120\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"EverStrong Aerobic Hand Weights\\\",\\r\\n        \\\"COST\\\": \\\"8.75\\\",\\r\\n        \\\"RETAIL\\\": \\\"23.55\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V005\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"115\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P121\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Spencer Football\\\",\\r\\n        \\\"COST\\\": \\\"8.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"23.55\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"5\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"120\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P122\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Long Flite Golf Tees 50-Pack\\\",\\r\\n        \\\"COST\\\": \\\"0.72\\\",\\r\\n        \\\"RETAIL\\\": \\\"1.75\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"8\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"106\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P123\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Racket Head Tape\\\",\\r\\n        \\\"COST\\\": \\\"1.76\\\",\\r\\n        \\\"RETAIL\\\": \\\"4.7\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"20\\\",\\r\\n        \\\"VENDOR\\\": \\\"V003\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"118\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P124\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Water Pistol\\\",\\r\\n        \\\"COST\\\": \\\"1\\\",\\r\\n        \\\"RETAIL\\\": \\\"4\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"2\\\",\\r\\n        \\\"VENDOR\\\": \\\"V004\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"132\\\"\\r\\n    },\\r\\n    {\\r\\n        \\\"PRODUCT_ID\\\": \\\"P125\\\",\\r\\n        \\\"DESCRIPTION\\\": \\\"Black Forest Bug Repellant\\\",\\r\\n        \\\"COST\\\": \\\"1.25\\\",\\r\\n        \\\"RETAIL\\\": \\\"3.52\\\",\\r\\n        \\\"RE_ORDER_QTY\\\": \\\"10\\\",\\r\\n        \\\"VENDOR\\\": \\\"V006\\\",\\r\\n        \\\"QTY_IN_STOCK\\\": \\\"4\\\"\\r\\n    }\\r\\n]\",\n\t\t\t\"staticJson\": \"\",\n\t\t\t\"databasequeryType\": \"SQL query\",\n\t\t\t\"xbasicdefinition\": \"\",\n\t\t\t\"sql\": {\n\t\t\t\t\"connectionString\": \"\",\n\t\t\t\t\"selectType\": \"FieldsFromTable\",\n\t\t\t\t\"tablename\": \"\",\n\t\t\t\t\"fieldlist\": \"\",\n\t\t\t\t\"filter\": \"\",\n\t\t\t\t\"distinct\": false,\n\t\t\t\t\"order\": \"\",\n\t\t\t\t\"sqlstatement\": \"\",\n\t\t\t\t\"portableSQL\": true,\n\t\t\t\t\"first\": -1,\n\t\t\t\t\"primaryKey\": \"\",\n\t\t\t\t\"serverSideAfterQueryEvent\": \"\",\n\t\t\t\t\"dataReturnType\": \"PrimaryKey\",\n\t\t\t\t\"dataReturnField\": \"\",\n\t\t\t\t\"dataReturnExpression\": \"\",\n\t\t\t\t\"sqlSecurityJSON\": \"\",\n\t\t\t\t\"delayRenderTillVisible\": false,\n\t\t\t\t\"delayRenderTillRefresh\": false,\n\t\t\t\t\"serversidedatenumberformatjson\": \"\"\n\t\t\t},\n\t\t\t\"nestedsql\": {\n\t\t\t\t\"definitionJSON\": \"\",\n\t\t\t\t\"delayRenderTillVisible\": false,\n\t\t\t\t\"delayRenderTillRefresh\": false,\n\t\t\t\t\"primaryKey\": \"\",\n\t\t\t\t\"serverSideAfterQueryEvent\": \"\",\n\t\t\t\t\"dataReturnType\": \"PrimaryKey\",\n\t\t\t\t\"dataReturnField\": \"\",\n\t\t\t\t\"dataReturnExpression\": \"\",\n\t\t\t\t\"serversidedatenumberformatjson\": \"\"\n\t\t\t},\n\t\t\t\"custom\": {\n\t\t\t\t\"delayRenderTillVisible\": false,\n\t\t\t\t\"delayRenderTillRefresh\": false\n\t\t\t},\n\t\t\t\"restapi\": {\n\t\t\t\t\"delayRenderTillVisible\": false,\n\t\t\t\t\"delayRenderTillRefresh\": false,\n\t\t\t\t\"endpoint\": \"https://gkt-asapisandbox.cloud.alphasoftware.com/api.a5svc/products\",\n\t\t\t\t\"authenticated\": false,\n\t\t\t\t\"namedprovider\": \"\",\n\t\t\t\t\"hascustomheaders\": false,\n\t\t\t\t\"customheadersjson\": \"\",\n\t\t\t\t\"customheadersjavascript\": \"\",\n\t\t\t\t\"enpointjavascript\": \"\\r\\n\\r\\nreturn 'https://gkt-asapisandbox.cloud.alphasoftware.com/api.a5svc/products'\",\n\t\t\t\t\"makecallfrom\": \"Client\",\n\t\t\t\t\"postprocessjavascript\": \"\",\n\t\t\t\t\"postprocessxbasic\": \"\",\n\t\t\t\t\"jsonpath\": \"\"\n\t\t\t}\n\t\t},\n\t\t\"formProperties\": {\n\t\t\t\"hasMultipleLayouts\": false,\n\t\t\t\"autoSelectOnOrientationChange\": false,\n\t\t\t\"portraitLayout\": \"\",\n\t\t\t\"landscapeLayout\": \"\",\n\t\t\t\"multipleSelection\": false,\n\t\t\t\"selectionMode\": \"Default\",\n\t\t\t\"separator\": \"\",\n\t\t\t\"loopNavigate\": false,\n\t\t\t\"loopNavigateNullSelection\": true,\n\t\t\t\"allowNullSelection\": false,\n\t\t\t\"allowNullDeselection\": false,\n\t\t\t\"allowTextSelection\": false,\n\t\t\t\"allowAnimation\": true,\n\t\t\t\"autoRefresh\": false,\n\t\t\t\"allowAnyValue\": false,\n\t\t\t\"captureFocus\": true,\n\t\t\t\"preserveLineBreaksInFreeformTemplates\": false,\n\t\t\t\"container\": {\n\t\t\t\t\"allowScrolling\": false,\n\t\t\t\t\"scrolling\": {\n\t\t\t\t\t\"axis\": \"Both\",\n\t\t\t\t\t\"stopPropogation\": false,\n\t\t\t\t\t\"isDefined\": false,\n\t\t\t\t\t\"indicator\": {\n\t\t\t\t\t\t\"m\": {\n\t\t\t\t\t\t\t\"show\": true,\n\t\t\t\t\t\t\t\"className\": \"\",\n\t\t\t\t\t\t\t\"barClassName\": \"\",\n\t\t\t\t\t\t\t\"location\": \"right\",\n\t\t\t\t\t\t\t\"offset\": \"0px\",\n\t\t\t\t\t\t\t\"top\": \"0px\",\n\t\t\t\t\t\t\t\"bottom\": \"0px\"\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"h\": {\n\t\t\t\t\t\t\t\"show\": true,\n\t\t\t\t\t\t\t\"className\": \"\",\n\t\t\t\t\t\t\t\"barClassName\": \"\",\n\t\t\t\t\t\t\t\"location\": \"top\",\n\t\t\t\t\t\t\t\"offset\": \"0px\",\n\t\t\t\t\t\t\t\"left\": \"0px\",\n\t\t\t\t\t\t\t\"right\": \"0px\"\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t},\n\t\t\t\t\"pull\": {\n\t\t\t\t\t\"isDefined\": false,\n\t\t\t\t\t\"javascript\": {\n\t\t\t\t\t\t\"onPullRelease\": \"\",\n\t\t\t\t\t\t\"onPullEnd\": \"\",\n\t\t\t\t\t\t\"onPull\": \"\"\n\t\t\t\t\t},\n\t\t\t\t\t\"pullpastEnd\": {\n\t\t\t\t\t\t\"YSetting\": \"auto\",\n\t\t\t\t\t\t\"XSetting\": \"auto\"\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t},\n\t\t\t\"javascript\": {\n\t\t\t\t\"onDraw\": \"\",\n\t\t\t\t\"onBeforeDraw\": \"\",\n\t\t\t\t\"onBeforePopulate\": \"\",\n\t\t\t\t\"onPopulate\": \"\",\n\t\t\t\t\"onBeforeSelect\": \"\",\n\t\t\t\t\"onBeforeSelectBegin\": \"\",\n\t\t\t\t\"onSelect\": \"\",\n\t\t\t\t\"onSelectComplete\": \"\",\n\t\t\t\t\"onChange\": \"\",\n\t\t\t\t\"onClick\": \"\",\n\t\t\t\t\"onDblClick\": \"\",\n\t\t\t\t\"onRightClick\": \"\",\n\t\t\t\t\"onDown\": \"\",\n\t\t\t\t\"onUp\": \"\",\n\t\t\t\t\"onSwipe\": \"\",\n\t\t\t\t\"onDownHold\": \"\",\n\t\t\t\t\"onFocus\": \"\",\n\t\t\t\t\"onBlur\": \"\",\n\t\t\t\t\"onInitialize\": \"\"\n\t\t\t},\n\t\t\t\"css\": {\n\t\t\t\t\"focusClassName\": \"\",\n\t\t\t\t\"className\": \"\",\n\t\t\t\t\"disabledClassname\": \"\"\n\t\t\t},\n\t\t\t\"svg\": {\n\t\t\t\t\"localsvg\": \"\"\n\t\t\t},\n\t\t\t\"overrides\": \"\",\n\t\t\t\"partialTemplatesJSON\": \"\",\n\t\t\t\"postProcessJavascript\": \"\",\n\t\t\t\"statePropertiesJSON\": \"{\\r\\n}\"\n\t\t},\n\t\t\"lowLevelMode\": \"Data\",\n\t\t\"htmlMode\": \"DefineNow\",\n\t\t\"htmlJavascript\": \"\",\n\t\t\"javascriptObjectName\": \"\",\n\t\t\"fields\": [\n\t\t{\n\t\t\t\"fieldName\": \"PRODUCT_ID\",\n\t\t\t\"display\": \"{B=White,Light Blue}{data=PRODUCT_ID}{T=0}{I:'$$control.text'}PRODUCT_ID\",\n\t\t\t\"lookup\": {\n\t\t\t\t\"has\": false\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"fieldName\": \"DESCRIPTION\",\n\t\t\t\"display\": \"{B=White,Light Blue}{data=DESCRIPTION}{T=0}{I:'$$control.text'}DESCRIPTION\",\n\t\t\t\"lookup\": {\n\t\t\t\t\"has\": false\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"fieldName\": \"COST\",\n\t\t\t\"display\": \"{B=White,Light Blue}{data=COST}{T=0}{I:'$$control.text'}COST\",\n\t\t\t\"lookup\": {\n\t\t\t\t\"has\": false\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"fieldName\": \"RETAIL\",\n\t\t\t\"display\": \"{B=White,Light Blue}{data=RETAIL}{T=0}{I:'$$control.text'}RETAIL\",\n\t\t\t\"lookup\": {\n\t\t\t\t\"has\": false\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"fieldName\": \"RE_ORDER_QTY\",\n\t\t\t\"display\": \"{B=White,Light Blue}{data=RE_ORDER_QTY}{T=0}{I:'$$control.text'}RE_ORDER_QTY\",\n\t\t\t\"lookup\": {\n\t\t\t\t\"has\": false\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"fieldName\": \"VENDOR\",\n\t\t\t\"display\": \"{B=White,Light Blue}{data=VENDOR}{T=0}{I:'$$control.text'}VENDOR\",\n\t\t\t\"lookup\": {\n\t\t\t\t\"has\": false\n\t\t\t}\n\t\t},\n\t\t{\n\t\t\t\"fieldName\": \"QTY_IN_STOCK\",\n\t\t\t\"display\": \"{B=White,Light Blue}{data=QTY_IN_STOCK}{T=0}{I:'$$control.text'}QTY_IN_STOCK\",\n\t\t\t\"lookup\": {\n\t\t\t\t\"has\": false\n\t\t\t}\n\t\t}],\n\t\t\"items\": [\n\t\t{\n\t\t\t\"itemName\": \"_AARow\",\n\t\t\t\"selectable\": true,\n\t\t\t\"selectedClassName\": \"[theme:listBox.base.item.selectedClassName|{dialog.style}ListItemSelected]\"\n\t\t},\n\t\t{\n\t\t\t\"itemName\": \"hello_world\",\n\t\t\t\"selectable\": true,\n\t\t\t\"itemType\": \"Default\",\n\t\t\t\"item\": {\n\t\t\t\t\"inheritFrom\": \"*edit\",\n\t\t\t\t\"openEditorEvent\": \"onSelect\",\n\t\t\t\t\"defaultTemplate\": \"\"\n\t\t\t},\n\t\t\t\"selectedClassName\": \"\",\n\t\t\t\"disabledClassName\": \"\",\n\t\t\t\"itemClassName\": \"formView\",\n\t\t\t\"javascript\": {\n\t\t\t\t\"onClick\": \"\",\n\t\t\t\t\"onBeforeSelect\": \"\",\n\t\t\t\t\"onSelect\": \"\",\n\t\t\t\t\"onDown\": \"\",\n\t\t\t\t\"onUp\": \"\",\n\t\t\t\t\"onSwipe\": \"\",\n\t\t\t\t\"onDownHold\": \"\",\n\t\t\t\t\"onDblClick\": \"\",\n\t\t\t\t\"onRightClick\": \"\"\n\t\t\t}\n\t\t}],\n\t\t\"groups\": [],\n\t\t\"layouts\": [\n\t\t{\n\t\t\t\"layoutName\": \"default\",\n\t\t\t\"defaultLayout\": false,\n\t\t\t\"layoutDataType\": \"Data\",\n\t\t\t\"layoutDefinition\": \"<div class=\\\"[theme:listBox.base.item.className|{dialog.style}ListItem]\\\"  a5-item=\\\"_AARow\\\" a5-value=\\\"\\\"><div>\\r\\n<p id=\\\"product\\\">{PRODUCT_ID}</p><br>\\r\\n&nbsp;\\r\\n<b>Description:</b>{DESCRIPTION}<br>\\r\\n&nbsp;\\r\\n{COST}<br>\\r\\n&nbsp;\\r\\n{RETAIL}<br>\\r\\n&nbsp;\\r\\n{RE_ORDER_QTY}<br>\\r\\n&nbsp;\\r\\n{VENDOR}<br>\\r\\n&nbsp;\\r\\n{QTY_IN_STOCK}\\r\\n&nbsp;\\r\\n</div></div>\",\n\t\t\t\"defaultTemplate\": \"\",\n\t\t\t\"postProcessJavascript\": \"\",\n\t\t\t\"layoutType\": \"Genie\",\n\t\t\t\"last_layoutGenieFieldSelected_c\": \"74de0772-42e4-4eae-905b-80ba3b3600ad\",\n\t\t\t\"itemsArray\": [\n\t\t\t{\n\t\t\t\t\"idInternal\": \"74de0772-42e4-4eae-905b-80ba3b3600ad\",\n\t\t\t\t\"controltype\": \"ListRowContainer:Start\",\n\t\t\t\t\"displayName\": \"ContainerStart:Item1_1\",\n\t\t\t\t\"indentLevel\": 0,\n\t\t\t\t\"isContainer\": true,\n\t\t\t\t\"W\": {\n\t\t\t\t\t\"id\": \"LISTROWCONTAINER_1\",\n\t\t\t\t\t\"layoutType\": \"Grid\",\n\t\t\t\t\t\"container\": {\n\t\t\t\t\t\t\"class\": \"\",\n\t\t\t\t\t\t\"inlinestyle\": \"\",\n\t\t\t\t\t\t\"itemName\": \"\",\n\t\t\t\t\t\t\"itemArgument\": \"\",\n\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t},\n\t\t\t\t\t\"row\": {\n\t\t\t\t\t\t\"className\": \"[theme:listBox.base.item.className|{dialog.style}ListItem]\",\n\t\t\t\t\t\t\"selectedClassName\": \"[theme:listBox.base.item.selectedClassName|{dialog.style}ListItemSelected]\",\n\t\t\t\t\t\t\"itemName\": \"\",\n\t\t\t\t\t\t\"value\": \"\",\n\t\t\t\t\t\t\"controlSpacer\": \"&nbsp;\"\n\t\t\t\t\t},\n\t\t\t\t\t\"fieldname\": \"\",\n\t\t\t\t\t\"fieldNamefullpath\": \"\"\n\t\t\t\t},\n\t\t\t\t\"firstIndex\": -1,\n\t\t\t\t\"lastIndex\": 9,\n\t\t\t\t\"parentSectionIndex\": -1,\n\t\t\t\t\"parentContainerIndex\": -1,\n\t\t\t\t\"children\": \"\",\n\t\t\t\t\"__currentcontainer\": \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"idInternal\": \"74cbc121-7077-4a30-a7a1-dcc1016ffb32\",\n\t\t\t\t\"controltype\": \"DataField_Label\",\n\t\t\t\t\"displayName\": \"Item1_3\",\n\t\t\t\t\"indentLevel\": 1,\n\t\t\t\t\"isContainer\": false,\n\t\t\t\t\"W\": {\n\t\t\t\t\t\"controlType\": \"Label\",\n\t\t\t\t\t\"fieldName\": \"PRODUCT_ID\",\n\t\t\t\t\t\"friendlyName\": \"Product Id\",\n\t\t\t\t\t\"break\": \"None\",\n\t\t\t\t\t\"fieldNameFullPath\": \"PRODUCT_ID\",\n\t\t\t\t\t\"template\": \"\",\n\t\t\t\t\t\"showHideExpression\": \"\",\n\t\t\t\t\t\"itemClassName\": \"\",\n\t\t\t\t\t\"allowEditing\": true,\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"flowstyle\": \"\",\n\t\t\t\t\t\"flowclass\": \"\",\n\t\t\t\t\t\"customControlItemsJSON\": \"\"\n\t\t\t\t},\n\t\t\t\t\"firstIndex\": -1,\n\t\t\t\t\"LastIndex\": -1,\n\t\t\t\t\"parentSectionIndex\": -1,\n\t\t\t\t\"parentContainerIndex\": 1,\n\t\t\t\t\"__currentcontainer\": \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"idInternal\": \"d6fa0c6d-f28c-45c7-aa91-8236bf8a0145\",\n\t\t\t\t\"controltype\": \"DataField_Label\",\n\t\t\t\t\"displayName\": \"Item1_3\",\n\t\t\t\t\"indentLevel\": 1,\n\t\t\t\t\"isContainer\": false,\n\t\t\t\t\"W\": {\n\t\t\t\t\t\"controlType\": \"Label\",\n\t\t\t\t\t\"fieldName\": \"DESCRIPTION\",\n\t\t\t\t\t\"friendlyName\": \"Description\",\n\t\t\t\t\t\"break\": \"None\",\n\t\t\t\t\t\"fieldNameFullPath\": \"DESCRIPTION\",\n\t\t\t\t\t\"template\": \"\",\n\t\t\t\t\t\"showHideExpression\": \"\",\n\t\t\t\t\t\"itemClassName\": \"\",\n\t\t\t\t\t\"allowEditing\": true,\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"flowstyle\": \"\",\n\t\t\t\t\t\"flowclass\": \"\",\n\t\t\t\t\t\"customControlItemsJSON\": \"\"\n\t\t\t\t},\n\t\t\t\t\"firstIndex\": -1,\n\t\t\t\t\"LastIndex\": -1,\n\t\t\t\t\"parentSectionIndex\": -1,\n\t\t\t\t\"parentContainerIndex\": 1,\n\t\t\t\t\"__currentcontainer\": \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"idInternal\": \"8341e4e5-8181-4f89-b29b-a2cfb0b14ed9\",\n\t\t\t\t\"controltype\": \"DataField_Label\",\n\t\t\t\t\"displayName\": \"Item1_3\",\n\t\t\t\t\"indentLevel\": 1,\n\t\t\t\t\"isContainer\": false,\n\t\t\t\t\"W\": {\n\t\t\t\t\t\"controlType\": \"Label\",\n\t\t\t\t\t\"fieldName\": \"COST\",\n\t\t\t\t\t\"friendlyName\": \"Cost\",\n\t\t\t\t\t\"break\": \"None\",\n\t\t\t\t\t\"fieldNameFullPath\": \"COST\",\n\t\t\t\t\t\"template\": \"\",\n\t\t\t\t\t\"showHideExpression\": \"\",\n\t\t\t\t\t\"itemClassName\": \"\",\n\t\t\t\t\t\"allowEditing\": true,\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"flowstyle\": \"\",\n\t\t\t\t\t\"flowclass\": \"\",\n\t\t\t\t\t\"customControlItemsJSON\": \"\"\n\t\t\t\t},\n\t\t\t\t\"firstIndex\": -1,\n\t\t\t\t\"LastIndex\": -1,\n\t\t\t\t\"parentSectionIndex\": -1,\n\t\t\t\t\"parentContainerIndex\": 1,\n\t\t\t\t\"__currentcontainer\": \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"idInternal\": \"b8d750a5-e507-437b-8eec-5547f378bb5c\",\n\t\t\t\t\"controltype\": \"DataField_Label\",\n\t\t\t\t\"displayName\": \"Item1_3\",\n\t\t\t\t\"indentLevel\": 1,\n\t\t\t\t\"isContainer\": false,\n\t\t\t\t\"W\": {\n\t\t\t\t\t\"controlType\": \"Label\",\n\t\t\t\t\t\"fieldName\": \"RETAIL\",\n\t\t\t\t\t\"friendlyName\": \"Retail\",\n\t\t\t\t\t\"break\": \"None\",\n\t\t\t\t\t\"fieldNameFullPath\": \"RETAIL\",\n\t\t\t\t\t\"template\": \"\",\n\t\t\t\t\t\"showHideExpression\": \"\",\n\t\t\t\t\t\"itemClassName\": \"\",\n\t\t\t\t\t\"allowEditing\": true,\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"flowstyle\": \"\",\n\t\t\t\t\t\"flowclass\": \"\",\n\t\t\t\t\t\"customControlItemsJSON\": \"\"\n\t\t\t\t},\n\t\t\t\t\"firstIndex\": -1,\n\t\t\t\t\"LastIndex\": -1,\n\t\t\t\t\"parentSectionIndex\": -1,\n\t\t\t\t\"parentContainerIndex\": 1,\n\t\t\t\t\"__currentcontainer\": \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"idInternal\": \"9849d4a1-8c0e-4962-922a-5cad4acd3a6a\",\n\t\t\t\t\"controltype\": \"DataField_Label\",\n\t\t\t\t\"displayName\": \"Item1_3\",\n\t\t\t\t\"indentLevel\": 1,\n\t\t\t\t\"isContainer\": false,\n\t\t\t\t\"W\": {\n\t\t\t\t\t\"controlType\": \"Label\",\n\t\t\t\t\t\"fieldName\": \"RE_ORDER_QTY\",\n\t\t\t\t\t\"friendlyName\": \"Re Order Qty\",\n\t\t\t\t\t\"break\": \"None\",\n\t\t\t\t\t\"fieldNameFullPath\": \"RE_ORDER_QTY\",\n\t\t\t\t\t\"template\": \"\",\n\t\t\t\t\t\"showHideExpression\": \"\",\n\t\t\t\t\t\"itemClassName\": \"\",\n\t\t\t\t\t\"allowEditing\": true,\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"flowstyle\": \"\",\n\t\t\t\t\t\"flowclass\": \"\",\n\t\t\t\t\t\"customControlItemsJSON\": \"\"\n\t\t\t\t},\n\t\t\t\t\"firstIndex\": -1,\n\t\t\t\t\"LastIndex\": -1,\n\t\t\t\t\"parentSectionIndex\": -1,\n\t\t\t\t\"parentContainerIndex\": 1,\n\t\t\t\t\"__currentcontainer\": \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"idInternal\": \"582dbbee-0dda-4ad2-962a-eaaebec80bd2\",\n\t\t\t\t\"controltype\": \"DataField_Label\",\n\t\t\t\t\"displayName\": \"Item1_3\",\n\t\t\t\t\"indentLevel\": 1,\n\t\t\t\t\"isContainer\": false,\n\t\t\t\t\"W\": {\n\t\t\t\t\t\"controlType\": \"Label\",\n\t\t\t\t\t\"fieldName\": \"VENDOR\",\n\t\t\t\t\t\"friendlyName\": \"Vendor\",\n\t\t\t\t\t\"break\": \"None\",\n\t\t\t\t\t\"fieldNameFullPath\": \"VENDOR\",\n\t\t\t\t\t\"template\": \"\",\n\t\t\t\t\t\"showHideExpression\": \"\",\n\t\t\t\t\t\"itemClassName\": \"\",\n\t\t\t\t\t\"allowEditing\": true,\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"flowstyle\": \"\",\n\t\t\t\t\t\"flowclass\": \"\",\n\t\t\t\t\t\"customControlItemsJSON\": \"\"\n\t\t\t\t},\n\t\t\t\t\"firstIndex\": -1,\n\t\t\t\t\"LastIndex\": -1,\n\t\t\t\t\"parentSectionIndex\": -1,\n\t\t\t\t\"parentContainerIndex\": 1,\n\t\t\t\t\"__currentcontainer\": \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"idInternal\": \"dca5a962-d733-46bb-aae9-49d5b8d53019\",\n\t\t\t\t\"controltype\": \"DataField_Label\",\n\t\t\t\t\"displayName\": \"Item1_3\",\n\t\t\t\t\"indentLevel\": 1,\n\t\t\t\t\"isContainer\": false,\n\t\t\t\t\"W\": {\n\t\t\t\t\t\"controlType\": \"Label\",\n\t\t\t\t\t\"fieldName\": \"QTY_IN_STOCK\",\n\t\t\t\t\t\"friendlyName\": \"Qty In Stock\",\n\t\t\t\t\t\"break\": \"None\",\n\t\t\t\t\t\"fieldNameFullPath\": \"QTY_IN_STOCK\",\n\t\t\t\t\t\"template\": \"\",\n\t\t\t\t\t\"showHideExpression\": \"\",\n\t\t\t\t\t\"itemClassName\": \"\",\n\t\t\t\t\t\"allowEditing\": true,\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"flowstyle\": \"\",\n\t\t\t\t\t\"flowclass\": \"\",\n\t\t\t\t\t\"customControlItemsJSON\": \"\"\n\t\t\t\t},\n\t\t\t\t\"firstIndex\": -1,\n\t\t\t\t\"LastIndex\": -1,\n\t\t\t\t\"parentSectionIndex\": -1,\n\t\t\t\t\"parentContainerIndex\": 1,\n\t\t\t\t\"__currentcontainer\": \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"idInternal\": \"db15e0a0-3c26-482c-8d97-a949410cd1cb\",\n\t\t\t\t\"controltype\": \"ListRowContainer:End\",\n\t\t\t\t\"displayName\": \"ContainerEnd:Item1_1\",\n\t\t\t\t\"indentLevel\": 0,\n\t\t\t\t\"isContainer\": true,\n\t\t\t\t\"W\": {\n\t\t\t\t\t\"break\": \"None\"\n\t\t\t\t},\n\t\t\t\t\"firstIndex\": 1,\n\t\t\t\t\"LastIndex\": -1,\n\t\t\t\t\"parentSectionIndex\": -1,\n\t\t\t\t\"parentContainerIndex\": -1\n\t\t\t}],\n\t\t\t\"_temp\": {\n\t\t\t\t\"objectType\": \"ViewBox\"\n\t\t\t},\n\t\t\t\"errorStyle\": \"inline\"\n\t\t}],\n\t\t\"javascriptLocal\": [],\n\t\t\"css\": \"\",\n\t\t\"Javascript\": \"\"\n\t},\n\t\"_state\": {\n\t\t\"showPane\": {\n\t\t\t\"css\": true,\n\t\t\t\"javascript\": true,\n\t\t\t\"items\": true,\n\t\t\t\"preview\": true\n\t\t},\n\t\t\"tabPage\": \"FormLayout\",\n\t\t\"LayoutSelected_n\": 1,\n\t\t\"fieldSelected_n\": 1,\n\t\t\"layoutGenieFieldSelected_c\": \"74de0772-42e4-4eae-905b-80ba3b3600ad\\r\\n\",\n\t\t\"fieldselected_c\": \"QTY_IN_STOCK\",\n\t\t\"itemSelected_c\": \"hello_world\",\n\t\t\"groupSelected_c\": \"\",\n\t\t\"cssMode\": 1,\n\t\t\"jsmode\": 1,\n\t\t\"selected_javascriptLocal_c\": \"\"\n\t}\n}",
+                        "class": "",
+                        "style": ""
+                    },
+                    "info": {
+                        "level": 1,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "f47ad053-5829-4af9-b937-08e4cedaffaa",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 5,
+                        "color": "",
+                        "icon": "$$control.staticHTML",
+                        "displayText": "[viewbox_api]",
+                        "parentPanelCardId": "f47ad053-5829-4af9-b937-08e4cedaffaa",
+                        "break": true,
+                        "display": "{B=White,Light Blue}{I:'vertline'}{Data=5e601508_303f_47cc_b303_5bcc7d04e8df}{I:'$$control.staticHTML'} [viewbox_api]<<break>>"
+                    },
+                    "displayAsSlider": false,
+                    "listView": {
+                        "class": ""
+                    },
+                    "precalc": {
+                        "controlHTMLInPanelCard": "in panel card",
+                        "javascript_viewBoxData": "{dialog.object}._viewBoxData['VIEWBOX_API'] = [[dialog.viewBoxData.viewbox_api]]; ",
+                        "javascript_viewBoxSettings": "{dialog.object}._viewBoxSettings['VIEWBOX_API'] = [[dialog.viewBoxSettings.viewbox_api]]; ",
+                        "javascript_viewBox": "{dialog.object}._controls['VIEWBOX_API'] =  { type: 'viewBox',  data: {dialog.object}._viewBoxData['VIEWBOX_API'],  onInitialize: function() { if(this._onInitialize) {this._onInitialize();} },  settings: {dialog.object}._viewBoxSettings['VIEWBOX_API'] }",
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "flags": {
+                        "clientSideDefinition": false
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 4in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.VIEWBOX_API\" for=\"{grid.componentname}.V.R{grid.rownumber}.VIEWBOX_API\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"float: left; width: __global.labelWidth__; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\">Viewbox Api</label>\n<!--LblE--><!--FldS--><div style=\"margin-left: __global.labelWidth__ ;\"><!--JSControlStart--><input type=\"hidden\" id=\"{grid.componentname}.V.R{grid.rownumber}.VIEWBOX_API\" name=\"V.R{grid.rownumber}.VIEWBOX_API\" /><!--JSControlEnd-->\n<div >\n\t<div id=\"{grid.componentname}.V.R{grid.rownumber}.VIEWBOX_API.CONTROL\"  class=\"{grid.componentName}_VIEWBOX_API\" style=\"overflow: auto; width: 100%; height: 3in; \"></div>\n</div>\n</div><!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'VIEWBOX_API': {info: {controlType: 'viewbox'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
+                }
+            },
+            {
+                "controltype": "layout_directive_PanelCardEnd",
+                "idInternal": "687d9637-f153-4a91-b169-db6ee800797f",
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "containerStartIndex": 1,
+                "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{Data=687d9637-f153-4a91-b169-db6ee800797f}{I:'vertLineCap'} [Panel Card End: PANELCARD_1]",
+                "v": {
+                    "info": {
+                        "level": 0,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": true,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": false,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 6,
+                        "containerStartID": "f47ad053-5829-4af9-b937-08e4cedaffaa",
+                        "color": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}",
+                        "icon": "vertLineCap",
+                        "parentPanelCardId": "f47ad053-5829-4af9-b937-08e4cedaffaa",
+                        "displayText": "[Panel Card End: PANELCARD_1]",
+                        "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{Data=687d9637-f153-4a91-b169-db6ee800797f}{I:'vertLineCap'} [Panel Card End: PANELCARD_1]"
+                    }
+                },
+                "crc": "4294933192"
+            }
+        ],
+        "style_color_palette": "",
+        "_style_versionNumber": 4,
+        "_style_hasSassOverrides": false,
+        "_style_hasCSSTweaks": false,
+        "_style_hasCSS_or_subtheme_tweaks": false,
+        "style_type": "Alpha Five",
+        "resolveAbstractClassNames": true,
+        "customTabOrder": "",
+        "builderVersionNumber": 1,
+        "overrideStyleName": "Default",
+        "useCompactTheme": true,
+        "showPulseEffect": true,
+        "flagShowDeleteConfirmation": true,
+        "FontSize": "Medium",
+        "LocalCss": "<style type=\"text/css\">\n\n\n\n\n\n\n\n\n\n</style>",
+        "styleTweaksCSS": "",
+        "styleTweaksSubthemes": "",
+        "A5ContainerClassPadding": "0px",
+        "A5ContainerClassPaddingForContainerWidthMode": "4px",
+        "controlflowdirection": "ltr",
+        "JavaScriptFunctionDeclarations": "    function mouseover(e) {\n        alert('ID:' + this.id + '\\n Event type: ' +e.type + '\\n Value in control: ' + this.value);\n    }\n",
+        "SVGLinkedFiles": "",
+        "localsvg": "",
+        "createAppCacheVersion": false,
+        "createAppCacheVersionC": "No",
+        "appcache": {
+            "pageName": "<Default>",
+            "pageTitle": "",
+            "hasHomeScreenIcons": false,
+            "homeScreenIconName": "",
+            "icons": {
+                "precomposed": false
+            },
+            "pageHeadSection": ""
+        },
+        "layoutType": "ContainerWidth",
+        "previewMode": "Default",
+        "useDragScrolling": "Auto",
+        "pageTitle": "UX",
+        "waitMsg": {
+            "message": {
+                "text": "Wait...",
+                "waitIcon": "css/A5System/Images/wait.gif"
+            },
+            "cssAnimation": {
+                "size": "32"
+            }
+        },
+        "_conversiontoOptimizeUXTreeHasRun": false,
+        "globalSettings": {
+            "labelWidth": "1in"
+        },
+        "serverSideEvents": {
+            "onDialogInitialize": "function onDialogInitialize as v (e as p)\n\n\n'Request - The Request object. Includes Request.Variables, which should be used instead of the older e.rv construct\n'Session - The Session object. Should be used instead of the older e.session construct\n'Inside e:\n'e.tmpl = Component definition\n'e.rtc = Runtime calculations - you can use this to store data to be passed to other server side events (Note: the 'rtc' object cannot be used to persist state information - i.e. you can't set a value in rtc and then read that value in a subsequent callback. To persist state info see e._state).\n'e.arguments = SQL::Arguments object with values for each of the arguments defined in this component.  To read a value from arguments: e.arguments.find(\"argumentName\").data\n'TIP: You can also set the value of an argument. For example: e.arguments[e.arguments.ArgumentNumber(\"country\")].data = \"portugal\"\n'TIP: If you need to write code that performs actions on a SQL database you can use the 'Xbasic SQL Actions Code Generator' by right clicking and selecting the 'Genies...' menu option\n\n'You can set the initial value of any field by setting the property (see comment at end for Javascript technique to use when setting values for a large number of controls)\n'e.control.<fieldname>\n'For example:\n'e.control.firstname = \"Fred\"\n'e.control.lastname = \"Jones\"\n\n'For multi-valued controls (such as checkbox, List control configured as multi-select, etc.) you can set the value to a cr-lf list of values or use the special array() syntax.\n'Either of the following two methods will work\n'e.control.colors = \"array(red,green)\"\n'e.control.colors = comma_to_crlf(\"red,green\")\n\n'To set the value of a field in a repeating section, you must use \"_A5INSTANCE\" and the instance number as a suffix on the fieldname.\n'For example:\n'e.control.firstname_A5INSTANCE2 = \"Bob\"  'sets the value in the 2nd row of the repeating section.\n\n'To specify any javascript that you want to execute set the  e.javascript property. For example:\n'e.javascript = \"alert('hello');\"\n\n'You can set 'state' variables in this event. The value of any state variables will be available in all subsequent ajax callbacks.\n'To set a state variable:\n'e._state.myvar1 = \"value1\"\n'e._state.myvar2 = \"value2\"\n\n\n'Using Javascript to Set Control Values and the Row Count in a Repeating Section -- Recommended For Maximum Efficiency (Advanced users)\n'---------------------------------------------------------------------------------------------------------------------------\n'When setting the value of a large number of controls, you will improve performance if you generate the Javascript directly,\n'rather than setting properties in the e.control object (as described above) and then having Alpha Five generate the Javascript from this object.\n'The following example shows Javascript code that sets the number of rows in a Repeating Section and sets the value of various control\n'in the top section and Repeating Section of the Dialog:\n\n'Generate the Javascript to emit\n'dim js as c\n'js = <<%txt%\n'var rows = 7;\n'var setFocusToFirst = true;\n'var nullOutExistingData = true;\n'var repeatingSectionId = 'CONTAINER_1';\n'{dialog.object}._setRepeatingSectionRowCount(repeatingSectionId,rows,setFocusToFirst,nullOutExistingData);\n'var _d = {};\n\n'//Next command is optional. It is ONLY needed if the ._setRepeatingSectionRowCount() method has been called.\n'//The command copies default values into the _d object. Without this command, default values defined in the component will not be set.\n'//$u.o.assign(_d,DLG1_DlgObj.originalValues[0]);\n\n'_d['B'] = 'alpha'; //set the value of a control called 'B'\n'_d['E:2'] = 'beta'; //set the value of a control called 'E' in the 2nd Repeating Section row\n'_d['G:6'] = ['Red','Green']; //set the value of a checkbox called 'G' in the 6th Repeating Section row to 'Red' and 'Green'\n'{dialog.object}.prepare();\n'{dialog.object}.populate(_d);\n'{dialog.object}.refreshClientSideComputations();\n\n'%txt%\n\n'Now, emit the Javascript...\n'e.javascript = js\n\n'NOTE: In the above example, if the ._setRepeating() method is called in the 'onDialogInitialize' event, you are responsible for setting\n'values in ALL of the controls in the component. For example, if you have defined default values for some controls, and then set the values\n'of other controls using the .populate() method, only the values set in the _d object will be set. (The default values will NOT be set).\n'You can, however, put the default values into the _d object using this code:\n'$u.o.assign(_d,{dialog.object}.originalValues[0]);\n\n\n\n\n'Tip: You can use the xbasic varToJSON() function to help generate the Javascript object passed to the .populate() method.\n'For example:\n'dim j as p\n'j.firstname = \"John\"\n'j.lastname = \"Smith\"\n'j.quantity_a5instance1 = \"2\"\n'dim j.colorchoices_a5instance2[3] as c\n'j.colorchoices_a5instance2[1] = \"Red\"\n'j.colorchoices_a5instance2[2] = \"Blue\"\n'dim jsTxt as c\n'jsTxt = varToJSON(j)\n'js = \"{dialog.object}.populate(\" + jsTxt + \"); {dialog.object}.prepare();\"\n\n\n'TIP: To simulate session variables when running in Working Preview you can use this code:\n'if eval_valid(\"request.SERVER_PROTOCOL\") then \n'\tif request.SERVER_PROTOCOL = \"A5RES\" then \n'\t\t'running in working preview\n'\t\tsession.var1 = \"simulated value for var1\"\n'\tend if \n'end if \n\nend function\n",
+            "canAjaxCallback": "",
+            "afterAjaxCallback": ""
+        },
+        "onTimerEventInterval": 60,
+        "securityDeniedAction": "Redirect to login page",
+        "clientSideEvents": {
+            "onAjaxCallbackFailed": "",
+            "onAjaxCallbackNotAvailable": "",
+            "onAjaxCallbackNotAllowed": "",
+            "onBeforeCreate": "",
+            "onServerSideEventHandlerError": "",
+            "onFieldValidationError": "",
+            "beforePrepare": "",
+            "afterPrepare": "",
+            "afterValidate": "",
+            "onTabPaneChanged": "",
+            "beforeRptSectionRowPrepare": "",
+            "afterRptSectionRowPrepare": "",
+            "canRptSectionRowAdd": "",
+            "afterRptSectionRowAdd": "",
+            "canRptSectionRowDelete": "",
+            "afterRptSectionRowDelete": "",
+            "onStateChange": "",
+            "onDataStateChange": "",
+            "afterControlBasedOnClientSideDataCacheRefreshed": "",
+            "onControlFocus": "",
+            "onRptSectionFocus": "",
+            "onRptSectionRowChange": "",
+            "canResetForm": "",
+            "afterResetForm": "",
+            "canRecordNavigate": "",
+            "afterRecordNavigate": "",
+            "onSynchronizeDialog": "",
+            "afterPopulateFromTable": "",
+            "onRenderComplete": "",
+            "onAndroidBackButton": "",
+            "onPanelActivate": "",
+            "afterSaveToRepository": "",
+            "afterLoadFromRepository": "",
+            "afterGoogleVisualization": "",
+            "canDeleteParentRecord": "",
+            "afterDeleteParentRecord": "",
+            "onOrientationChange": "",
+            "onKeyboard": "",
+            "onCordovaReady": "",
+            "onPhoneGapReady": "",
+            "onImageError": "",
+            "onSignatureCaptureToggle": "",
+            "onSignatureCaptureAccept": "",
+            "onTimer": "",
+            "beforeOnTimer": "",
+            "canLogin": "",
+            "afterLogin": "",
+            "afterFailedLogin": "",
+            "canLogout": "",
+            "afterLogout": "",
+            "onSessionTimeoutWarning": "",
+            "onServerSideListSummaryCompute": "",
+            "beforeHTMLReportExport": "",
+            "onConnectionChange": "",
+            "appCache_cached": "",
+            "appCache_checking": "",
+            "appCache_downloading": "",
+            "appCache_error": "",
+            "appCache_noupdate": "",
+            "appCache_obsolete": "",
+            "appCache_progress": "",
+            "appCache_updateready": "",
+            "onOAuthCompleted": "",
+            "onControlBlur": "",
+            "onControlChange": "",
+            "onBeforePersistControlValuesToLocalStorage": "",
+            "onPersistControlValuesToLocalStorage": "",
+            "onRestoreVariablesFromLocalStorage": "",
+            "onRestoreComponentStateFromLocalStorage": "",
+            "localStorageEncryption": "",
+            "localStorageDecryption": "",
+            "securityNotAuthenticated": "",
+            "securityPermissionDenied": "",
+            "webSocketOnMessage": "",
+            "webSocketServerClose": "",
+            "webSocketSendMessageFail": "",
+            "onOAuthAuthorize": "",
+            "afterGoogleAddressSelect": "",
+            "onBeforeClientSideDataCacheRead": "",
+            "afterClientSideDataCacheAjaxCallback": "",
+            "onWatchEvent": "",
+            "onWindowResize": "",
+            "onPusherMessage": ""
+        },
+        "onlyValidateChangedFields": true,
+        "edit": {
+            "field_error_style": {
+                "type": "Block",
+                "showWarning": true,
+                "icon": "<Specified by Style>",
+                "controlContainer_classname": ""
+            },
+            "row_errors_window_title": "Error",
+            "row_errors_window_style": "color: red; width: 6in; height: 2in;",
+            "fieldValidationErrorMessage": "Form has errors."
+        },
+        "submitDialogIfHasClientSideValidationErrors": true,
+        "activeLanguage": "<Default>",
+        "datePicker": {
+            "dayNames": "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+            "monthNames": "January,February,March,April,May,June,July,August,September,October,November,December",
+            "firstDayOfWeek": 1,
+            "todayButtonText": "Today",
+            "closeButtonText": "Close"
+        },
+        "friendlydatesCustomizationJSON": "",
+        "clientSideDateFormat": "MM/dd/yyyy",
+        "clientsideNumberFormatDecimal": "period",
+        "clientsideNumberFormatThousands": "comma",
+        "fontScalingOption": "All",
+        "helpTableType": "DBF",
+        "fieldHelpWindowStyle": "modal-resizeable",
+        "customization": {
+            "resetFormMessage": "Are you sure you want to reset the form?",
+            "resetFormTitle": "Warning",
+            "resetFormIcon": "<Specified by Style>",
+            "resetFormYesButton": "Yes",
+            "resetFormNoButton": "No",
+            "windowTitleDirection": "ltr",
+            "dirtyWarning": "You must first save your changes or cancel changes by clicking the Reset button.",
+            "dirtyWarningTitle": "Notice",
+            "dirtyWarningIcon": "<Specified by Style>",
+            "deleteRecordWarningTitle": "Delete Record",
+            "deleteRecordWarningMessage": "Are you sure you want to delete this record?"
+        },
+        "dataBinding": {
+            "computeDataBindingCodeAtDesignTimePrompt": "Prompt",
+            "computeDataBindingEveryTimeComponentIsSaved": true,
+            "autoRefreshSchemaOnLoad": true,
+            "autoRefreshPromptFirst": "Prompt"
+        },
+        "actionJavascriptDefined": true,
+        "dataSeriesPublishToClientSide": false,
+        "captureJSErrorStackTrace": false,
+        "optionalSystemLibraries": "",
+        "flagShowCommentsInTree": true,
+        "treeCommentOffset": "6",
+        "showLineNumbersInControlsList": false,
+        "renderUXLocation": {
+            "type": "window",
+            "sizeToElement": true
+        },
+        "saveFileType": "Formatted JSON",
+        "keyboardShortcutsJSON": "",
+        "checkSessionEvery": 1,
+        "warningIntervalBeforeExpiration": 1,
+        "sessionTimeOutWarningMessage": "Your session will expire in {secondsToSessionEnd} seconds. Click the button to extend your session.",
+        "sessionExtendSessionButtonLabel": "Extend Session",
+        "sessionTimeoutWarningDialogTitle": "Warning",
+        "sessionHasExpiredMessage": "Your session has expired.",
+        "sessionHasExpiredButtonLabel": "OK",
+        "sessionHasExpiredAction": "Nothing",
+        "sessionHasExpiredRedirectPage": "<self>",
+        "sessionHasExpiredDialogTitle": "Notice",
+        "sessionHasExpiredOKButtonJavascript": "<ReloadThisPage>",
+        "login": {
+            "errorMessageStyle": "color: red;",
+            "logoutDoesFullPageReload": true,
+            "twofactoreventfunctionname": ""
+        },
+        "applyResponsiveDesignSettings": true,
+        "responseDesignRulesMode": "FirstTrue",
+        "localStorage": {
+            "namespace": "<Default>",
+            "variablesToNotPersist": "",
+            "__version": 1,
+            "workingPreviewTestingMode": "Browser"
+        },
+        "preRenderComputeWhen": "Every time component is saved",
+        "preRenderWarningMessageShow": true,
+        "autoSetPreRenderOnForAllUX": false,
+        "useIphoneXStyling": false,
+        "iPhoneXStylingJSON": "",
+        "wrapPasswordFieldsInForms": true,
+        "useCSSFlexForContainerAlignment": true,
+        "pusherConfigJSON": "",
+        "pusherApp": false,
+        "selected": "5e601508_303f_47cc_b303_5bcc7d04e8df\n",
+        "designPaneIndex": 1,
+        "masterPaneC": "controls",
+        "serverSideEventIndex": 1,
+        "clientSideEventIndex": 1,
+        "clientSideEventIndexC": "1",
+        "lastControlSelected": "insert_dialog_viewbox",
+        "__WPhostName": "Chrome",
+        "__LPhostName": "Chrome",
+        "embeddedMode": false,
+        "_style_hassubthemeTweaks": false,
+        "_style_isInherited": true,
+        "_analyzecontainersjs": true,
+        "repeatingSectionsAreDirty": true,
+        "__allowCascadingRecalc": true,
+        "_flagForceRecalcChildren": true,
+        "_repeatingSectionPendingRecalc": "\n",
+        "toolBox_value": "",
+        "addinBuildNumber": "5428",
+        "addinBuildNumberHighestUsed": "5428",
+        "alphaFiveBuildNumber": "12",
+        "openedFromTemplate": false,
+        "builtWithVersionNumer": 1,
+        "_buildCount": "6",
+        "cachecomponent": false,
+        "_crcXbEvents": 4294920976,
+        "_crcJSFunctions": 4294955510,
+        "_crcJSEvents": 43605,
+        "_treeErrors": "",
+        "securityEnabled": false,
+        "showHideIsUsed": false,
+        "precalc": {
+            "flagHasShowTimer": false,
+            "hasListNavigator": false,
+            "vb_based_on_lists": "",
+            "vb_based_on_javascritFunctions": "",
+            "constrainContainerJS": "",
+            "hasFormViewControls": false,
+            "setScreenHeightJS": "",
+            "js_editorSetInitialization": ";\n",
+            "customControl": {
+                "js_beforePrepare": "",
+                "js_afterRender": "",
+                "customControl_xbasicFunctions": ""
+            },
+            "jschart": {
+                "js_beforePrepare": "",
+                "js_afterRender": "",
+                "jschart_xbasicFunctions": ""
+            },
+            "hasListColumnSelector": false,
+            "hasCharts": false,
+            "hasformbox": false,
+            "hasExpandingmenus": false,
+            "rgraph": {
+                "libraries": ""
+            },
+            "actionsheet": {
+                "has": false
+            },
+            "kanban": {
+                "has": false
+            },
+            "transformdataviewer": {
+                "has": false,
+                "controlnames": ""
+            },
+            "requiredPlugins": "",
+            "getSetFunctions": {
+                "js_beforePrepare": ""
+            },
+            "viewBoxSettings": {
+                "viewbox_api": "{\n\t\"inputId\": \"viewbox_api\",\n\t\"variableName\": \"VIEWBOX_API\",\n\t\"theme\": \"{dialog.style}\",\n\t\"animation\": {\n\t\t\"allow\": true\n\t},\n\t\"datasource\": {\n\t\t\"lowLevel\": \"Data\",\n\t\t\"type\": \"REST API\"\n\t},\n\t\"multiple\": false,\n\t\"loopNavigate\": false,\n\t\"loopNavigateNullSelection\": true,\n\t\"allowNullSelection\": false,\n\t\"allowTextSelection\": false,\n\t\"allowNullDeselection\": false,\n\t\"autoRefresh\": false,\n\t\"allowAnyValue\": false,\n\t\"captureFocus\": true,\n\t\"scroll\": false,\n\t\"layout\": \"default\",\n\t\"layouts\": {\n\t\t'default' : {\n\t\t\ttype: 'template',\n\t\t\ttemplate: [\n\t\t\t'<div class=\"[theme:listBox.base.item.className|{dialog.style}ListItem]\"  a5-item=\"_AARow\" a5-value=\"\"><div>',\n\t\t\t'{PRODUCT_ID}',\n\t\t\t'&nbsp;',\n\t\t\t'',\n\t\t\t'{DESCRIPTION}',\n\t\t\t'&nbsp;',\n\t\t\t'',\n\t\t\t'{COST}',\n\t\t\t'&nbsp;',\n\t\t\t'',\n\t\t\t'{RETAIL}',\n\t\t\t'&nbsp;',\n\t\t\t'',\n\t\t\t'{RE_ORDER_QTY}',\n\t\t\t'&nbsp;',\n\t\t\t'',\n\t\t\t'{VENDOR}',\n\t\t\t'&nbsp;',\n\t\t\t'',\n\t\t\t'{QTY_IN_STOCK}',\n\t\t\t'&nbsp;',\n\t\t\t'</div></div>'\n\t\t\t].join(''),\n\t\t\titems: {\n\t\t\n\t\t}\n\t\t}\n\t\n\t},\n\t\"_onInitialize\": function() { $acn(this.contId,'{dialog.ComponentName}_' + this.variableName); },\n\t\"items\": {\n\t\t'_AARow' : {\n\t\t\t\"itemName\": \"_AARow\",\n\t\t\t\"selectable\": true,\n\t\t\t\"selectedClassName\": \"[theme:listBox.base.item.selectedClassName|{dialog.style}ListItemSelected]\"\n\t\t},\n\t\t'hello_world' : {\n\t\t\t\"itemName\": \"hello_world\",\n\t\t\t\"selectable\": true\n\t\t}\n\t\t\n\t\t}\n}"
+            },
+            "injectibleHTML": "",
+            "containerWindowHTML": "",
+            "repeatingsectionInfoJs": "",
+            "framesInfoJS": "{dialog.object}.framesInfo = {\n\n};\n",
+            "jsActionJavascriptGlobalFunctions": "",
+            "xbActionJavascriptGlobalFunctions": "",
+            "javascriptSetupForGridLookups": "{\n}",
+            "javascript": {
+                "showWaitMessage": "",
+                "hideWaitMessage": "",
+                "embeddedUXComponents": ""
+            },
+            "fileUpload_controlInfo": "",
+            "javascript_cascadingDropdowns": "{dialog.object}._cascadingControls = [];\n{dialog.object}._cascadingControlsChildren = [];",
+            "template_html": "<!--div GLOBALERRORS-->\n<div class=\"errorTip\" style=\"margin-bottom: 2px; display: none; width: 8in; \" id=\"{dialog.componentname}.GLOBALERRORS\"></div>\n<!--End div GLOBALERRORS-->\n\n<div id=\"{dialog.componentname}.R1\">\n'xbasic\n\nv._dirty = .f.\n\n\n\n<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.PANELHEADER_1\"   \n\t\t\tclass=\"A5CWLayout \"  style=\"\"  ><!--DIV for Container control-->\n<div class=\"A5CWLayout\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_1\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >API Example Viewbox</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n\n<div class=\"A5CWLayout\" style=\"width: 4in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.VIEWBOX_API\" for=\"{grid.componentname}.V.R{grid.rownumber}.VIEWBOX_API\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"float: left; width: __global.labelWidth__; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\">Viewbox Api</label>\n<!--LblE--><!--FldS--><div style=\"margin-left: __global.labelWidth__ ;\"><!--JSControlStart--><input type=\"hidden\" id=\"{grid.componentname}.V.R{grid.rownumber}.VIEWBOX_API\" name=\"V.R{grid.rownumber}.VIEWBOX_API\" /><!--JSControlEnd-->\n<div >\n\t<div id=\"{grid.componentname}.V.R{grid.rownumber}.VIEWBOX_API.CONTROL\"  class=\"{grid.componentName}_VIEWBOX_API\" style=\"overflow: auto; width: 100%; height: 3in; \"></div>\n</div>\n</div><!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n'xbasic\nv._dirty = .f.\n\n\n\n</div>\n<!--div DEBUGUPDATECOMMANDS-->\n<div class=\"\" style=\"display: none; \" id=\"{dialog.componentname}.DEBUGUPDATECOMMANDS\"></div>\n<!--End div DEBUGUPDATECOMMANDS-->\n",
+            "panelDisplayNames": "PANELCARD_1 : 'PANELCARD_1'",
+            "controlJavascript": "",
+            "controlJavascriptRepeatingSections": "",
+            "template_js": "",
+            "sessionVarsInShowHideExpns": "",
+            "themeSearchReplaceString": "[theme:listBox.base.item.selectedClassName|{dialog.style}ListItemSelected]=*if_error(p.listBox.base.item.selectedClassName,\"{dialog.style}ListItemSelected\")\n[theme:listBox.base.item.className|{dialog.style}ListItem]=*if_error(p.listBox.base.item.className,\"{dialog.style}ListItem\")\n",
+            "flagHasHTML5ImageCapture": false,
+            "flagUsesCordova": false,
+            "flagUseAmazonS3FileUpload": false,
+            "flagUseStripe": false,
+            "usesSystemSVG": false,
+            "flagUseAudioPlayer": false,
+            "flagUseInk": false,
+            "flagUsesAudioLibrary": false,
+            "flagUsesPhoneGapFileSystemFunctions": false,
+            "flagUsesGetAccurateLocation": false,
+            "editorSet_for_editor": "{dialog.object}._EDITOR_EDITORSET = {};",
+            "otherJS": "",
+            "javascript_layoutRules": "",
+            "javascript_controlNesting": "{\nPANELHEADER_1: []\n}",
+            "appcacheEvents": "",
+            "viewBoxSettings2": {
+                "viewbox_api": {
+                    "javascriptFunctions": "",
+                    "svg": "",
+                    "css": ".{dialog.componentName}_VIEWBOX_API{\n\n\n\n\n\n}"
+                }
+            },
+            "viewBoxesToRefresh": ""
+        },
+        "__flagHasMacro": false,
+        "FieldsInRepeatingSectionsDeletedBySecurity": "",
+        "repeatingSectionsToRecalc": "",
+        "dialogObject": "if(typeof {dialog.componentName}_DlgObj == 'object') {dialog.componentName}_DlgObj._destroy();\nvar {dialog.componentName}_DlgObj = new A5.DialogComponentHelper('{dialog.componentName}',{\n\tajaxURL: '{dialog.ajaxUrl}',\n\t_embeddedMode: {dialog.embeddedMode},\n\t_livePreviewInBuilder: {livePreviewInBuilder},\n\tcomponentGUID: 'ca1cf033-dc28-4fef-9204-fb5768dbb7f5',\n\tcolumnInfo: {columninfo},\n\toriginalValues: {dialog.jsOriginalValues},\n\tdefaultValues: {dialog.jsDefaultValues},\n\tdatePickerMonthNames: [{datePickerMonthNames}],\n\tdatePickerDayNames: [{datePickerDayNames}],\n\tdatePickerTodayButton: '{datePickerTodayButton}',\n\tdatePickerCloseButton: '{datePickerCloseButton}',\n\tdatePickerFirstDayOfWeek: {datePickerFirstDayOfWeek},\n\tresetFormMessage: '{resetFormMessage}',\n\tresetFormTitle: '{resetFormTitle}',\n\tresetFormIcon: '{resetFormIcon}',\n\tdirtyFormMessage: '{dirtyFormMessage}',\n\tdirtyFormTitle: '{dirtyFormTitle}',\n\tdirtyFormIcon: '{dirtyFormIcon}',\n\tdeleteRecordDialogTitle: '{deleteRecordTitle}',\n\tdeleteRecordDialogMessage: '{deleteRecordMessage}',\t\n\tssDateFormat: '{serverSideDateFormat}',\n\tstyleName: '{dialog.style}',\n\t_fieldHelpers_DIALOG2: [],\n\tparentComponentAlias: '{parentComponentAlias}',\n\tsubmitIfHasClientSideErrors: true, \n\trowErrors: {\n\t\t\t\tshowMessageBox: false,\n\t\t\t\tmessageBoxTitle: 'Error',\n\t\t\t\tstyle: 'color: red; width: 6in; height: 2in;'\n\t\t},\n\tfieldErrors: {\n\t\ttype: 'block', \n\t\tclassName: 'errorText',\n\t\tinputClassName: '[class.gridInputError]',\n\t\tedit: { \n\t\t\tcontainer: { className: '[class.gridInputContainerError]'}\n\t\t},\n\t\ticon: '{images.dialog.editError}',\n\t\tglobal: {\n\t\t\tcontId: '{dialog.componentname}.GLOBALERRORS',\n\t\t\thoverClassName: 'errorTextHighlight',\n\t\t\thoverInputClassName: 'errorInputHighlight'\n\t\t}\n\t},\n\t\tonOrientationChange: function(e) {\nvar pObj = {dialog.object}.getPanelObject();\nif(pObj) pObj.resize();\n\t\t},\n\t\t_onWindowResize: function(e) {\nvar arr = {dialog.object}._listControls;\nif(arr) {\n var obj;\n for(var i = 0; i < arr.length; i++) {\n  obj = {dialog.object}.getControl(arr[i]);\n  if(obj) obj.resize()\n }\n}\n\t\t},\n_onInitializeBegin: function(e) { /*systemOnInitializeBegin*/ ;\n   },\n\n\n\t});\n\n",
+        "xbasiccode": {
+            "blankInitialValueIfVarNotFound": "",
+            "setValueProperties": "value.VIEWBOX_API=\"\"",
+            "setValueProperties2": "value.VIEWBOX_API=\"\"",
+            "setValueUnformattedProperties": "value.VIEWBOX_API=convert_type(\"\",\"C\")\n"
+        },
+        "componentType": "Dialog2",
+        "version": 1,
+        "recNav": {
+            "slider": {
+                "showSlider": false
+            }
+        },
+        "A5SaveTimeStamp": "20200318130330734",
+        "__idinternalCurrentControl": "5e601508_303f_47cc_b303_5bcc7d04e8df",
+        "__nameCurrentControl": "viewbox_api",
+        "containerSubTypeNew": "",
+        "containerSubTypeOld": "",
+        "flagDropdownCascadingChanged": false,
+        "showJavascriptActions": false,
+        "showResponsiveLayoutHelp": false,
+        "a_UnboundActionJavascript": [
+            {
+                "idInternal": "c9566488-914d-4820-bbe0-9342a8a0649d",
+                "name": "doit",
+                "javascript": {
+                    "unbound": "/* actionJavascript:dae4ebe8-ae4c-4700-9877-e061b0eb4994 */\nalert('Sample Message');"
+                },
+                "javascriptDeclarationsRow": {
+                    "unbound": ""
+                },
+                "javascriptDeclarationsGlobal": {
+                    "unbound": ""
+                },
+                "xbasicFunctions": {
+                    "unbound": ""
+                },
+                "clientSideXbasicFunctions": {
+                    "unbound": ""
+                },
+                "part": ""
+            }
+        ],
+        "unboundActionShowOnNewActionMessage": true,
+        "a_actionJavascript": [
+            {
+                "actionGuid": "dae4ebe8-ae4c-4700-9877-e061b0eb4994",
+                "scriptMetaData": "<a_ajs<[1]<display=\"{I:'$$web.component.dialog'}{F=Tahoma,10}{C=Dark Blue,White}{B=Blue White,Dark Blue}Message box{T=4}{I:'a5_vertical_line'}\">\n<action=\"Message box\">\n<icon=\"$$web.component.dialog\">\n<isCommentedOut=.F.>\n<comment=\"\">\n<builder=\"a5ajs_messageBox(v,wf,pv,dlg_mode)\">\n<metaData=<<%str%\n<buttons=\"OK\">\n<message=\"'Sample Message'\">\n<returnVarName=\"msgResult\">\n<advancedMsgBox=.F.>\n<advancedMessageStyle=\"Window\">\n<dropdown<type=\"Message\">\n<title=\"Message Title\">\n<messageBody=\"Message body text\">\n<OKButton=\"OK\">\n<CancelButton=\"Cancel\">\n<ButtonSpacerHTML=\"&nbsp;\">\n<javascript<onOK=\"\">\n<onCancel=\"\">\n>\n<animationStyle=1>\n<width=\"400px\">\n<location=\"top\">\n>\n<title=\"MyTitle\">\n<messageHTML=\"<div style=\\\"height: 1in; padding: 15pt;\\\">My custom message</div>\">\n<type=\"o\">\n<javascript<ok=\"\">\n<cancel=\"\">\n<yes=\"\">\n<no=\"\">\n>\n<buttonLabel<ok=\"OK\">\n<cancel=\"Cancel\">\n<yes=\"Yes\">\n<no=\"No\">\n>\n<buttonLabelJustification=\"Default\">\n<customButtons=\"\">\n%str%>\n<javascriptAttribute=\"alert('Sample Message');\">\n<Javascriptdeclarations_row=\"\">\n<Javascriptdeclarations_global=\"\">\n<xbasicFunctions=\"\">\n>\n>\n<flagRunSynchronously=.F.>\n<flagWrapInTryCatch=.F.>\n<tryCatchJavascript=\"\">\n"
+            }
+        ],
+        "actionJavascriptUnboundLastEdited": "c9566488-914d-4820-bbe0-9342a8a0649d"
+    }
+}
