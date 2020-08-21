@@ -1,7 +1,7 @@
 # Alpha-Anywhere-Webinars
 Component files from Alpha Anywhere Demo and Q&amp;A Webcast
 
-Use the gree "Code" button to clone this repository locally on your machine or download a .zip file of the entire repository. Instructions for downloading individual files can be found in each folder.
+Use the green "Code" button to clone this repository locally on your machine or download a .zip file of the entire repository. Instructions for downloading individual files can be found in each folder.
 
 ## Watch the Webinars
 
