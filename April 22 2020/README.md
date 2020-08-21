@@ -2,9 +2,8 @@
 
 [Watch Webinar](https://youtu.be/9parC7t3Juc)
 
-## Downloading only the component for this webinar:
+## Downloading only the files for this webinar:
 
 1. Click the download link below
-2. Save the file
 
 <a href="https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/raw/master/April%2022%202020/tabbed_ui_replacement.zip">Download tabbed_ui_replacement.zip</a>
