@@ -1,4 +1,4 @@
-# Alpha Anywhere Webcast 2020 August 19, 2020
+# Alpha Anywhere Webcast August 19, 2020
 
 Link to webinar coming soon.
 
