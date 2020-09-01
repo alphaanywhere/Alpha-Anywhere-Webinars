@@ -1,6 +1,6 @@
 # Alpha Anywhere Webcast August 26, 2020
 
-Link to webinar coming soon.
+[Watch webinar](https://youtu.be/2WqFQytuJM4)
 
 ## Downloading only the components for this webinar:
 
