@@ -30,8 +30,8 @@ You can find components for the following webinars in this repository. Component
 
 The files for these webinars can be found in separate repositories.
 
- - [June 17, 2020 - Alphabet Button Search](https://github.com/SarahAlphaSoftware/alphabetButtons)
  - [July 22, 2020 - Cookies](https://github.com/SarahAlphaSoftware/cookieDemos)
+ - [June 17, 2020 - Alphabet Button Search](https://github.com/SarahAlphaSoftware/alphabetButtons)
 
 ## FAQ
 
