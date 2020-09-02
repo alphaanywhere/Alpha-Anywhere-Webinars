@@ -10,7 +10,7 @@ Visit the [Alpha Anywhere Demo and Q&A Webcast YouTube Playlist](https://www.you
 ## Webinars in this Repository
 
 You can find components for the following webinars in this repository. Components for future webinars will be added as they become available. Check back for updates or clone this repo locally and run `git pull` to fetch future updates.
-
+ - [September 2, 2020](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/September%202%202020)
  - [August 26, 2020](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/August%2026%202020)
  - [August 19, 2020](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/August%2019%202020)
  - [July 29, 2020 - Offline Capabilities](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/July%2029%202020)
