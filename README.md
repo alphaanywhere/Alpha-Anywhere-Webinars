@@ -14,7 +14,7 @@ You can find components for the following webinars in this repository. Component
  - [August 26, 2020](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/August%2026%202020)
  - [August 19, 2020](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/August%2019%202020)
  - [July 29, 2020 - Offline Capabilities](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/July%2029%202020)
- - [July 15, 2020](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/July%2015%202020)
+ - [July 15, 2020 - New Features & Style Options](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/July%2015%202020)
  - [July 1, 2020 - Offline Capabilities](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/July%201%202020)
  - [June 24, 2020 - ControlBar](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/June%2024%202020)
  - [June 10, 2020 - Using Pusher with Alpha Anywhere Part 3](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/June%2010%202020)
