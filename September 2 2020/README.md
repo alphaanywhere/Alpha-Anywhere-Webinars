@@ -1,7 +1,11 @@
 # Alpha Anywhere Webcast September 2, 2020
 
-Webinar link coming soon!
+Webinar video link coming soon!
 
-## Downloading only the components for this webinar:
+## Downloading only the component for this webinar:
 
-Coming soon. Please check back later.
+1. Right click the download link below
+2. Select "Save link as"
+3. Save the file
+
+<a href="https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/raw/master/September%202%202020/visibility_demonstration_ux.a5wcmp">Download visibility_demonstration_ux.a5wcmp</a>
