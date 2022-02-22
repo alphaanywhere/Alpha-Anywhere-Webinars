@@ -4,4 +4,4 @@
 
 ## Downloading only the files for this webinar:
 
-Coming Soon
+<a href="https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/raw/master/May%2013%202020/tabbed_ui_replacement.zip">Download tabbed_ui_replacement.zip</a>
