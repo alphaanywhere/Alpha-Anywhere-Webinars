@@ -18,6 +18,7 @@ You can find components for the following webinars in this repository. Component
  - [July 1, 2020 - Offline Capabilities](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/July%201%202020)
  - [June 24, 2020 - ControlBar](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/June%2024%202020)
  - [June 10, 2020 - Using Pusher with Alpha Anywhere Part 3](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/June%2010%202020)
+ - [May 13, 2020 - Tabbed UI Replacement Part 2](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/May%2013%202020)
  - [April 22, 2020 - Tabbed UI Replacement](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/April%2022%202020)
  - [April 15, 2020 - Tabbed UI Replacement](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/April%2015%202020)
  - [March 25, 2020 - Viewbox Series Continued](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/March%2025%202020)

@@ -1,0 +1,2234 @@
+{
+    "$schema": "UX",
+    "$definition": {
+        "style_name": "Alpha-Blue2",
+        "style_type": "Alpha Five",
+        "resolveAbstractClassNames": true,
+        "builderVersionNumber": 1,
+        "overrideStyleName": "Default",
+        "FontSize": "Medium",
+        "LocalCss": "<style type=\"text/css\">\n\n</style>",
+        "A5ContainerClassPadding": "0px",
+        "A5ContainerClassPaddingForContainerWidthMode": "4px",
+        "JavaScriptFunctionDeclarations": "function load_customer(customer_id,panel_title) {\n\t{dialog.object}.setValue('customer_id',customer_id);\n\t{dialog.object}.setValue('panel_title',panel_title);\n\n\t{dialog.object}.runAction('customer_edit_ux_load');\n\n}\n\n\n\nfunction panel_title () {\n\treturn {dialog.object}.getValue('panel_title');\n}\n\nfunction alias () {\n  return {dialog.object}.getValue('customer_id');\n}\n\n\nfunction show_msg_function(msg) {\n\tvar _html = '<div style=\"display:inline-block;\">' + msg + '</div>';\n\tvar _options = {\n\t\t\"className\": \"\",\n\t\t\"style\": \"box-shadow: 0px 2px 6px 2px rgba(0,0,0,.25);background: rgba(0,0,0,.8);color: #fff;border: 1px solid rgba(0,0,0,.8);border-radius: 4px;\",\n\t\t\"close\": {\n\t\t\t\"show\": true,\n\t\t\t\"icon\": \"svgIcon=#alpha-icon-x:icon{fill: #fff}\",\n\t\t\t\"iconHover\": \"svgIcon=#alpha-icon-xCircle:icon{fill: #fff}\"\n\t\t},\n\t\t\"duration\": 5000,\n\t\t\"animation\": {\n\t\t\t\"show\": {\n\t\t\t\t\"type\": \"auto\",\n\t\t\t\t\"duration\": 600\n\t\t\t},\n\t\t\t\"hide\": {\n\t\t\t\t\"type\": \"auto\",\n\t\t\t\t\"duration\": 600\n\t\t\t}\n\t\t}\n\t};\n\t{dialog.object}.transientMessage('top',_html,_options);\n\n}",
+        "hasArguments": true,
+        "layoutType": "ContainerWidth",
+        "previewMode": "Default",
+        "useDragScrolling": "Auto",
+        "pageTitle": "UX",
+        "waitMsg": {
+            "message": {
+                "text": "Wait...",
+                "waitIcon": "css/A5System/Images/wait.gif"
+            },
+            "cssAnimation": {
+                "size": "32"
+            }
+        },
+        "globalSettings": {
+            "labelWidth": "1in"
+        },
+        "serverSideEvents": {
+            "canAjaxCallback": "",
+            "afterAjaxCallback": ""
+        },
+        "onTimerEventInterval": 60,
+        "securityDeniedAction": "Redirect to login page",
+        "clientSideEvents": {
+            "onAjaxCallbackFailed": "",
+            "onAjaxCallbackNotAvailable": "",
+            "onAjaxCallbackNotAllowed": "",
+            "onBeforeCreate": "",
+            "onServerSideEventHandlerError": "",
+            "onFieldValidationError": "",
+            "beforePrepare": "",
+            "afterPrepare": "",
+            "afterValidate": "",
+            "onTabPaneChanged": "",
+            "beforeRptSectionRowPrepare": "",
+            "afterRptSectionRowPrepare": "",
+            "canRptSectionRowAdd": "",
+            "afterRptSectionRowAdd": "",
+            "canRptSectionRowDelete": "",
+            "afterRptSectionRowDelete": "",
+            "onStateChange": "",
+            "onDataStateChange": "",
+            "afterControlBasedOnClientSideDataCacheRefreshed": "",
+            "onControlFocus": "",
+            "onRptSectionFocus": "",
+            "onRptSectionRowChange": "",
+            "canResetForm": "",
+            "afterResetForm": "",
+            "canRecordNavigate": "",
+            "afterRecordNavigate": "",
+            "onSynchronizeDialog": "",
+            "afterPopulateFromTable": "",
+            "onRenderComplete": "",
+            "onAndroidBackButton": "",
+            "onPanelActivate": "",
+            "afterSaveToRepository": "",
+            "afterLoadFromRepository": "",
+            "afterGoogleVisualization": "",
+            "canDeleteParentRecord": "",
+            "afterDeleteParentRecord": "",
+            "onOrientationChange": "",
+            "onKeyboard": "",
+            "onCordovaReady": "",
+            "onPhoneGapReady": "",
+            "onImageError": "",
+            "onSignatureCaptureToggle": "",
+            "onSignatureCaptureAccept": "",
+            "onTimer": "",
+            "beforeOnTimer": "",
+            "canLogin": "",
+            "afterLogin": "",
+            "afterFailedLogin": "",
+            "canLogout": "",
+            "afterLogout": "",
+            "onSessionTimeoutWarning": "",
+            "onServerSideListSummaryCompute": "",
+            "beforeHTMLReportExport": "",
+            "onConnectionChange": "",
+            "appCache_cached": "",
+            "appCache_checking": "",
+            "appCache_downloading": "",
+            "appCache_error": "",
+            "appCache_noupdate": "",
+            "appCache_obsolete": "",
+            "appCache_progress": "",
+            "appCache_updateready": "",
+            "onOAuthCompleted": "",
+            "onControlBlur": "",
+            "onControlChange": "",
+            "onBeforePersistControlValuesToLocalStorage": "",
+            "onPersistControlValuesToLocalStorage": "",
+            "onRestoreVariablesFromLocalStorage": "",
+            "onRestoreComponentStateFromLocalStorage": "",
+            "localStorageEncryption": "",
+            "localStorageDecryption": "",
+            "securityNotAuthenticated": "",
+            "securityPermissionDenied": "",
+            "webSocketOnMessage": "",
+            "webSocketServerClose": "",
+            "webSocketSendMessageFail": "",
+            "onOAuthAuthorize": "",
+            "afterGoogleAddressSelect": "",
+            "onBeforeClientSideDataCacheRead": "",
+            "afterClientSideDataCacheAjaxCallback": "",
+            "onWatchEvent": "",
+            "onWindowResize": "",
+            "onPusherMessage": ""
+        },
+        "onlyValidateChangedFields": true,
+        "edit": {
+            "field_error_style": {
+                "type": "Block",
+                "showWarning": true,
+                "icon": "<Specified by Style>",
+                "controlContainer_classname": ""
+            },
+            "row_errors_window_title": "Error",
+            "row_errors_window_style": "color: red; width: 6in; height: 2in;",
+            "fieldValidationErrorMessage": "Form has errors."
+        },
+        "submitDialogIfHasClientSideValidationErrors": true,
+        "activeLanguage": "<Default>",
+        "datePicker": {
+            "dayNames": "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+            "monthNames": "January,February,March,April,May,June,July,August,September,October,November,December",
+            "firstDayOfWeek": 1,
+            "todayButtonText": "Today",
+            "closeButtonText": "Close"
+        },
+        "clientSideDateFormat": "MM/dd/yyyy",
+        "fontScalingOption": "All",
+        "helpTableType": "DBF",
+        "fieldHelpWindowStyle": "modal-resizeable",
+        "customization": {
+            "resetFormMessage": "Are you sure you want to reset the form?",
+            "resetFormTitle": "Warning",
+            "resetFormIcon": "<Specified by Style>",
+            "resetFormYesButton": "Yes",
+            "resetFormNoButton": "No",
+            "windowTitleDirection": "ltr",
+            "dirtyWarning": "You must first save your changes or cancel changes by clicking the Reset button.",
+            "dirtyWarningTitle": "Notice",
+            "dirtyWarningIcon": "<Specified by Style>",
+            "deleteRecordWarningTitle": "Delete Record",
+            "deleteRecordWarningMessage": "Are you sure you want to delete this record?"
+        },
+        "dataBinding": {
+            "computeDataBindingCodeAtDesignTimePrompt": "Prompt",
+            "autoRefreshSchemaOnLoad": true,
+            "autoRefreshPromptFirst": "Prompt",
+            "computeDataBindingEveryTimeComponentIsSaved": true
+        },
+        "actionJavascriptDefined": true,
+        "info": {
+            "createdBy": "mac",
+            "dateCreated": "2020-5-12",
+            "dateLastEdited": "2020-5-15",
+            "revisionnumber": 22
+        },
+        "flagShowCommentsInTree": true,
+        "treeCommentOffset": "6",
+        "renderUXLocation": {
+            "type": "window",
+            "sizeToElement": true
+        },
+        "checkSessionEvery": 1,
+        "warningIntervalBeforeExpiration": 1,
+        "sessionTimeOutWarningMessage": "Your session will expire in {secondsToSessionEnd} seconds. Click the button to extend your session.",
+        "sessionExtendSessionButtonLabel": "Extend Session",
+        "sessionTimeoutWarningDialogTitle": "Warning",
+        "sessionHasExpiredMessage": "Your session has expired.",
+        "sessionHasExpiredButtonLabel": "OK",
+        "sessionHasExpiredAction": "Nothing",
+        "sessionHasExpiredRedirectPage": "<self>",
+        "sessionHasExpiredDialogTitle": "Notice",
+        "sessionHasExpiredOKButtonJavascript": "<ReloadThisPage>",
+        "login": {
+            "errorMessageStyle": "color: red;",
+            "logoutDoesFullPageReload": true,
+            "twofactoreventfunctionname": ""
+        },
+        "applyResponsiveDesignSettings": true,
+        "responseDesignRulesMode": "FirstTrue",
+        "localStorage": {
+            "namespace": "<Default>",
+            "__version": 1,
+            "workingPreviewTestingMode": "Browser",
+            "variablesToNotPersist": ""
+        },
+        "preRenderComputeWhen": "Every time component is saved",
+        "page_fields": [
+            {
+                "controlType": "layout_directive_PanelLayoutBegin",
+                "display": "{C=#84+180+100,White}{B=White,#84+180+100}{F=+B}{Data=8fe06ec3-2197-405c-9c85-9b5386c51997}{I:'$$web.panel.layout'} [Panel Layout: PL_MAIN] (LTR)",
+                "idInternal": "8fe06ec3-2197-405c-9c85-9b5386c51997",
+                "lastIndex": 22,
+                "crc": "4294923730",
+                "v": {
+                    "container": {
+                        "id": "PL_MAIN"
+                    },
+                    "panelInstance": {
+                        "HeaderScrolling": {
+                            "axis": "Both"
+                        },
+                        "FooterScrolling": {
+                            "axis": "Both"
+                        },
+                        "sections": {
+                            "name": "<UsePanelId>",
+                            "renderMethod": "Auto-Create-Destroy"
+                        }
+                    },
+                    "panelLayout": {
+                        "flow": "LTR",
+                        "animation": {
+                            "type": "slide",
+                            "duration": 400
+                        },
+                        "javascript": {
+                            "onPanelView": ""
+                        },
+                        "dock": {
+                            "method": "Over",
+                            "flowLock": {
+                                "has": true
+                            }
+                        }
+                    },
+                    "info": {
+                        "level": 0,
+                        "isContainerStart": true,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": false,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 1,
+                        "color": "{C=#84+180+100,White}{B=White,#84+180+100}{F=+B}",
+                        "icon": "$$web.panel.layout",
+                        "displayText": "[Panel Layout: PL_MAIN] (LTR)",
+                        "parentPanelCardId": "",
+                        "lastID": "f6e3a04d-c819-4e4d-bdf8-19ce0b642262",
+                        "break": false,
+                        "display": "{C=#84+180+100,White}{B=White,#84+180+100}{F=+B}{Data=8fe06ec3-2197-405c-9c85-9b5386c51997}{I:'$$web.panel.layout'} [Panel Layout: PL_MAIN] (LTR)"
+                    },
+                    "listview": {
+                        "allchildren": ""
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0
+            },
+            {
+                "controlType": "layout_directive_ContainerBegin",
+                "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertline'}{Data=787add9b-67d9-454d-8b42-4bb9e624ae55}{I:'$$web.panel.header'} [PanelHeader:PANELHEADER_1]",
+                "displayODFlat": "{Data=787add9b-67d9-454d-8b42-4bb9e624ae55}{I:'$$format.border.style.dash'} [Container: PANELHEADER_1]",
+                "idInternal": "787add9b-67d9-454d-8b42-4bb9e624ae55",
+                "lastIndex": 4,
+                "parentContainer": 1,
+                "displayOD": "{Data=787add9b-67d9-454d-8b42-4bb9e624ae55}{I:'$$format.border.style.dash'} [Container: PANELHEADER_1]",
+                "displayODtree": "{Data=787add9b-67d9-454d-8b42-4bb9e624ae55}{I:'$$format.border.style.dash'} [Container: PANELHEADER_1]",
+                "crc": "4294929759",
+                "v": {
+                    "container": {
+                        "ID": "PANELHEADER_1",
+                        "contentAlignment": "Left",
+                        "buttonGroup": {
+                            "orientation": "Horizontal"
+                        },
+                        "subType": "PanelHeader",
+                        "contentVerticalAlign": "Top",
+                        "useFlex": true,
+                        "useFlexLeft": false,
+                        "alignItems": "",
+                        "edgeOffset": "",
+                        "allowScrolling": false,
+                        "scrolling": {
+                            "axis": "Both",
+                            "stopPropogation": false,
+                            "isDefined": false,
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "className": "",
+                                    "barClassName": "",
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "className": "",
+                                    "barClassName": "",
+                                    "location": "top",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "pull": {
+                            "isDefined": false,
+                            "javascript": {
+                                "onPullRelease": "",
+                                "onPullEnd": "",
+                                "onPull": ""
+                            },
+                            "pullpastEnd": {
+                                "YSetting": "auto",
+                                "XSetting": "auto"
+                            }
+                        }
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "info": {
+                        "level": 1,
+                        "isContainerStart": true,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "8fe06ec3-2197-405c-9c85-9b5386c51997",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 2,
+                        "color": "{C=Orange,White}{B=White,Orange}{F=+B}",
+                        "icon": "$$web.panel.header",
+                        "displayText": "[PanelHeader:PANELHEADER_1]",
+                        "parentPanelCardId": "",
+                        "lastID": "8cb1ab32-26da-46b4-bc1e-cd145cc3cea1",
+                        "break": false,
+                        "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertline'}{Data=787add9b-67d9-454d-8b42-4bb9e624ae55}{I:'$$web.panel.header'} [PanelHeader:PANELHEADER_1]"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.PANELHEADER_1\"   \n\t\t\tclass=\"A5CWLayout \"  style=\"\"  ><!--DIV for Container control-->",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0
+            },
+            {
+                "controlType": "layout_directive_ControlBar",
+                "display": "{B=White,Light Blue}{I:'vertline'}{I:'vertline'}{Data=60c8f942-313a-4362-92cd-404e17b84c91}{I:'$$window.toolbar'} [ControlBar: CONTROLBAR_1] �",
+                "displayODFlat": "{Data=60c8f942-313a-4362-92cd-404e17b84c91}{I:'$$window.toolbar'} [ControlBar]",
+                "idInternal": "60c8f942-313a-4362-92cd-404e17b84c91",
+                "parentContainer": 2,
+                "displayOD": "{Data=60c8f942-313a-4362-92cd-404e17b84c91}{I:'$$window.toolbar'} [ControlBar]",
+                "displayODtree": "{Data=60c8f942-313a-4362-92cd-404e17b84c91}{I:'$$window.toolbar'} [ControlBar]",
+                "crc": "4294912352",
+                "v": {
+                    "id": "CONTROLBAR_1",
+                    "comment": "",
+                    "_dirty": false,
+                    "ControlBar": {
+                        "definitionJSON": "{\n\t\"cb\": {\n\t\t\"actions\": [],\n\t\t\"items\": [\n\t\t{\n\t\t\t\"name\": \"html_title\",\n\t\t\t\"itemType\": \"html\",\n\t\t\t\"itemAction\": {\n\t\t\t},\n\t\t\t\"item\": {\n\t\t\t\t\"html\": {\n\t\t\t\t\t\"html\": \"TabbedUI Replacement Demonstration\",\n\t\t\t\t\t\"bind\": {\n\t\t\t\t\t}\n\t\t\t\t},\n\t\t\t\t\"htmltitle\": {\n\t\t\t\t\t\"bind\": {\n\t\t\t\t\t},\n\t\t\t\t\t\"leftOffset\": \"75px\",\n\t\t\t\t\t\"rightOffset\": \"75px\"\n\t\t\t\t},\n\t\t\t\t\"buttondropdown\": {\n\t\t\t\t\t\"specialType\": \"None\",\n\t\t\t\t\t\"special\": {\n\t\t\t\t\t\t\"setActivePanel\": {\n\t\t\t\t\t\t}\n\t\t\t\t\t},\n\t\t\t\t\t\"layout\": \"Text only\",\n\t\t\t\t\t\"html\": \"Button\",\n\t\t\t\t\t\"autoHideDisclosure\": \"auto\",\n\t\t\t\t\t\"showdropdownicon\": true,\n\t\t\t\t\t\"dropdownicon\": \"<Specified by Style>\"\n\t\t\t\t},\n\t\t\t\t\"edit\": {\n\t\t\t\t\t\"update\": \"default\",\n\t\t\t\t\t\"bind\": {\n\t\t\t\t\t},\n\t\t\t\t\t\"settings\": {\n\t\t\t\t\t\t\"watermark\": {\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}],\n\t\t\"javascriptLocal\": [],\n\t\t\"data\": [],\n\t\t\"layouts\": [\n\t\t{\n\t\t\t\"name\": \"Default\",\n\t\t\t\"default\": true,\n\t\t\t\"lines\": [\n\t\t\t{\n\t\t\t\t\"middle\": \"html_title\",\n\t\t\t\t\"linetype\": \"Default\"\n\t\t\t}]\n\t\t}],\n\t\t\"disclosures\": [],\n\t\t\"controlBarProperties\": {\n\t\t\t\"edge\": \"top\",\n\t\t\t\"javascript\": {\n\t\t\t},\n\t\t\t\"disclosure\": {\n\t\t\t\t\"animation\": {\n\t\t\t\t\t\"duration\": 300\n\t\t\t\t}\n\t\t\t},\n\t\t\t\"selectActiveLayoutDynamically\": false,\n\t\t\t\"refreshOnContainerResize\": true,\n\t\t\t\"animateRefresh\": false,\n\t\t\t\"animationType\": \"slide-left\",\n\t\t\t\"animationDuration\": \"200\",\n\t\t\t\"animationTween\": \"ease-in-out\",\n\t\t\t\"showSystemCommentsInJavascript\": true\n\t\t}\n\t},\n\t\"_state\": {\n\t\t\"showPane\": {\n\t\t\t\"css\": true,\n\t\t\t\"javascript\": true,\n\t\t\t\"items\": true,\n\t\t\t\"preview\": true\n\t\t},\n\t\t\"selected_item_C\": \"1\\r\\n\",\n\t\t\"selected_layout_C\": \"1\\r\\n\",\n\t\t\"selected_layoutLine_c\": \"1\",\n\t\t\"cssMode\": 1,\n\t\t\"jsMode\": 1,\n\t\t\"mode_items\": \"Filter\",\n\t\t\"mode_actions\": \"Filter\",\n\t\t\"mode_Layouts\": \"Filter\",\n\t\t\"mode_disclosures\": \"Filter\",\n\t\t\"previewSize\": \"433px\",\n\t\t\"tabPage\": \"ControlBarLayout\"\n\t}\n}"
+                    },
+                    "controltype": "ControlBar",
+                    "fillPanelContainer": false,
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "breakHeight2": "",
+                    "breakHorizontalSpace2": "",
+                    "width": "100%",
+                    "height": "",
+                    "style": "",
+                    "controlContainerClass": "",
+                    "controlContainerPreventFloat": false,
+                    "info": {
+                        "level": 2,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "787add9b-67d9-454d-8b42-4bb9e624ae55",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 3,
+                        "color": "",
+                        "icon": "$$window.toolbar",
+                        "displayText": "[ControlBar: CONTROLBAR_1]",
+                        "parentPanelCardId": "",
+                        "break": true,
+                        "display": "{B=White,Light Blue}{I:'vertline'}{I:'vertline'}{Data=60c8f942-313a-4362-92cd-404e17b84c91}{I:'$$window.toolbar'} [ControlBar: CONTROLBAR_1] �"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\"   id=\"{dialog.componentName}.V.R{dialog.rownumber}.CONTROLBAR_1\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\">\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0
+            },
+            {
+                "controlType": "layout_directive_ContainerEnd",
+                "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertline'}{Data=8cb1ab32-26da-46b4-bc1e-cd145cc3cea1}{I:'vertLineCap'} [PanelHeader End: PANELHEADER_1]",
+                "displayODFlat": "{Data=8cb1ab32-26da-46b4-bc1e-cd145cc3cea1}{I:'$$format.border.style.dash'} [Container End]",
+                "idInternal": "8cb1ab32-26da-46b4-bc1e-cd145cc3cea1",
+                "parentContainer": 1,
+                "displayOD": "{Data=8cb1ab32-26da-46b4-bc1e-cd145cc3cea1}{I:'$$format.border.style.dash'} [Container End]",
+                "displayODtree": "{Data=8cb1ab32-26da-46b4-bc1e-cd145cc3cea1}{I:'$$format.border.style.dash'} [Container End]",
+                "crc": "4294910242",
+                "v": {
+                    "container": {
+                        "BreakType": "None",
+                        "BreakHeight": ".1in",
+                        "breakHorizontalSpace": ".1in"
+                    },
+                    "info": {
+                        "level": 1,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": true,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "8fe06ec3-2197-405c-9c85-9b5386c51997",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 4,
+                        "containerStartID": "787add9b-67d9-454d-8b42-4bb9e624ae55",
+                        "color": "{C=Orange,White}{B=White,Orange}{F=+B}",
+                        "icon": "vertLineCap",
+                        "displayText": "[PanelHeader End: PANELHEADER_1]",
+                        "parentPanelCardId": "",
+                        "break": false,
+                        "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertline'}{Data=8cb1ab32-26da-46b4-bc1e-cd145cc3cea1}{I:'vertLineCap'} [PanelHeader End: PANELHEADER_1]"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 2,
+                "__flagwrapcontentsindiv": false
+            },
+            {
+                "controlType": "layout_directive_PanelCardBegin",
+                "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertline'}{Data=4b6c3633-f983-4e8c-a28e-26d445c62969}{I:'$$web.panel.card'} [Panel Card: PC_MENU]",
+                "idInternal": "4b6c3633-f983-4e8c-a28e-26d445c62969",
+                "lastIndex": 7,
+                "parentContainer": 1,
+                "crc": "4294905023",
+                "v": {
+                    "container": {
+                        "id": "PC_MENU"
+                    },
+                    "panelInstance": {
+                        "layout": {
+                            "size": "15%"
+                        },
+                        "sections": {
+                            "name": "<UsePanelId>",
+                            "renderMethod": "Auto-Create-Destroy"
+                        }
+                    },
+                    "panelCard": {
+                        "javascript": {
+                            "onActivate": "",
+                            "onView": ""
+                        },
+                        "allowBodyScrolling": true,
+                        "bodyScrolling": {
+                            "axis": "Both"
+                        },
+                        "pull": {
+                            "pullpastEnd": {
+                                "YSetting": "auto",
+                                "XSetting": "auto"
+                            }
+                        },
+                        "scrolling": {
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "location": "top",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "type": "Default",
+                        "pinchToZoom": false
+                    },
+                    "info": {
+                        "level": 1,
+                        "isContainerStart": true,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "8fe06ec3-2197-405c-9c85-9b5386c51997",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 5,
+                        "color": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}",
+                        "icon": "$$web.panel.card",
+                        "displayText": "[Panel Card: PC_MENU]",
+                        "parentPanelCardId": "4b6c3633-f983-4e8c-a28e-26d445c62969",
+                        "lastID": "2430bd13-4bbf-4b33-8d4c-7d1400c42916",
+                        "break": false,
+                        "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertline'}{Data=4b6c3633-f983-4e8c-a28e-26d445c62969}{I:'$$web.panel.card'} [Panel Card: PC_MENU]"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "'xbasic\n\nv._dirty = .f.\n\n\n",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0
+            },
+            {
+                "controlType": "dialog_formcontrol",
+                "display": "{B=White,Light Blue}{I:'vertline'}{I:'vertline'}{Data=7731c4ab-c3e3-4b89-9952-2ed5f0182100}{I:'$$window.menu'} [menu_main] �",
+                "idInternal": "7731c4ab-c3e3-4b89-9952-2ed5f0182100",
+                "parentContainer": 5,
+                "crc": "4294932653",
+                "v": {
+                    "controlType": "DataBoundCustomControl",
+                    "variableName": "menu_main",
+                    "type": "Character",
+                    "maxLength": -1,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": "",
+                        "controlHTMLInPanelCard": "in panel card",
+                        "javascript_dataBoundCustomControlData": "{dialog.object}._dataBoundCustomControlData['MENU_MAIN'] = [[dialog.dataBoundCustomControlData.menu_main]]; ",
+                        "javascript_dataBoundCustomControlSettings": "{dialog.object}._dataBoundCustomControlSettings['MENU_MAIN'] = [[dialog.dataBoundCustomControlSettings.menu_main]]; ",
+                        "javascript_dataBoundCustomControl": "{dialog.object}._controls['MENU_MAIN'] =  { type: 'dataBoundCustomControl',  data: {dialog.object}._dataBoundCustomControlData['MENU_MAIN'],  onInitialize: function() { if(this._onInitialize) {this._onInitialize();} },  settings: {dialog.object}._dataBoundCustomControlSettings['MENU_MAIN'] }"
+                    },
+                    "lookup": {
+                        "editCombo": {
+                            "openLookupOnFocus": false
+                        }
+                    },
+                    "textboxAutocorrect": true,
+                    "textboxAutoCapitalize": true,
+                    "label": "Menu Main",
+                    "class": "<Default>",
+                    "breakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "labelClass": "<Default>",
+                    "labelPosition": "Left",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "embeddedJavascriptControl": true,
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "onChange_ValidationOption": "Client-side only",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        },
+                        "ink": {
+                            "hasbackgroundimage": false,
+                            "backgroundimage": "",
+                            "inkunits": 1
+                        }
+                    },
+                    "textboxSubTheme": "",
+                    "getFunction": "",
+                    "setFunction": "",
+                    "datePicker": {
+                        "displayTimePicker": false,
+                        "openMethod": "ClickIcon",
+                        "dateFormat": "<Default>",
+                        "iconNumber": 2,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "userMustSelectFromDatePicker": false,
+                        "multiple": {
+                            "allow": false,
+                            "separators": ".."
+                        },
+                        "hasMask": false,
+                        "format": {
+                            "mask": ""
+                        },
+                        "timePickerOptionsDefined": false,
+                        "display": false,
+                        "friendlyDisplay": {
+                            "enabled": false,
+                            "settingsJSON": ""
+                        },
+                        "useComboBoxes": true,
+                        "lowYear": 1950,
+                        "highYear": 2050,
+                        "switchYear": 30,
+                        "lowDate": "",
+                        "highDate": "",
+                        "disabledDays": "",
+                        "disabledDates": ""
+                    },
+                    "displayAsSlider": false,
+                    "flags": {
+                        "clientSideDefinition": false
+                    },
+                    "listView": {
+                        "class": ""
+                    },
+                    "info": {
+                        "level": 2,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "4b6c3633-f983-4e8c-a28e-26d445c62969",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 6,
+                        "color": "",
+                        "icon": "$$window.menu",
+                        "displayText": "[menu_main]",
+                        "parentPanelCardId": "4b6c3633-f983-4e8c-a28e-26d445c62969",
+                        "break": true,
+                        "display": "{B=White,Light Blue}{I:'vertline'}{I:'vertline'}{Data=7731c4ab-c3e3-4b89-9952-2ed5f0182100}{I:'$$window.menu'} [menu_main] �"
+                    },
+                    "customControl": {
+                        "height": "",
+                        "width": "4in",
+                        "fillPanelContainer": true,
+                        "definitionJSON": "{\n\tsubtype: 'ExpandingMenu',\n\tmethodForDefiningMenuData: 'UseGenie',\n\tmenuDataGenieJSON: '{\\r\\n\\t\"tree\": [\\r\\n\\t{\\r\\n\\t\\t\"label\": \"Customer List\",\\r\\n\\t\\t\"level\": 1,\\r\\n\\t\\t\"isLeaf\": true,\\r\\n\\t\\t\"Icon\": \"\",\\r\\n\\t\\t\"Event\": \"\",\\r\\n\\t\\t\"value\": \"\",\\r\\n\\t\\t\"onClick\": \"{dialog.object}.runAction(\\'customer_ux_load\\');\",\\r\\n\\t\\t\"SecurityGroups\": \"\",\\r\\n\\t\\t\"serverSideShowHideExpn\": \"\",\\r\\n\\t\\t\"targetPanel\": \"\",\\r\\n\\t\\t\"itemType\": \"Item\",\\r\\n\\t\\t\"headingText\": \"\",\\r\\n\\t\\t\"actionName\": \"\",\\r\\n\\t\\t\"clientsideshowhideexpn\": \"\"\\r\\n\\t}]\\r\\n}',\n\tmenuDataJSON: '',\n\tmenuDataUserSpecifiedJSON: '',\n\tmenuDataXbasic: '',\n\tmenuMasterColor: '#0288d1',\n\tbelowMenuBackgrouncolor: '<Same as Menu Color>',\n\taboveMenuHTML: '',\n\tbelowMenuHTML: '',\n\ttextColorType: 'Custom',\n\ttextColor: '#fff',\n\tlevelIndent: '24px',\n\tsettings: {\n\t\titem: {\n\t\t\tclassName: 'item',\n\t\t\topened: {\n\t\t\t\tclassName: 'branchItemOpened',\n\t\t\t\ticon: 'svgIcon=#alpha-icon-chevronUp:icon'\n\t\t\t},\n\t\t\tclosed: {\n\t\t\t\tclassName: 'branchItemClosed',\n\t\t\t\ticon: 'svgIcon=#alpha-icon-chevronRight:icon'\n\t\t\t},\n\t\t\tselectedMenuItemClassName: '',\n\t\t\tselectedMenuItemStyle: ''\n\t\t},\n\t\tbranch: {\n\t\t\tclassName: 'branch'\n\t\t}\n\t},\n\tcssType: 'BuiltIn',\n\tcustomCSS: '',\n\tdelegateScrollingToParentContainer: false,\n\tbehavior: {\n\t\ttoggleOnHover: false,\n\t\tonHoverDelay: 600\n\t},\n\tsettingsJSON: '{\\r\\n\\tinputId: \\'{variablename}\\',\\r\\n\\tvariableName: \\'{variablenameUPPERCASE}\\',\\r\\n\\ttheme: \\'{dialog.style}\\',\\r\\n\\tmultiple: false,\\r\\n\\tseparator: \\'\\\\\\\\n\\',\\r\\n\\tloopNavigate: false,\\r\\n\\tloopNavigateNullSelection: true,\\r\\n\\tallowNullSelection: false,\\r\\n\\tautoRefresh: false,\\r\\n\\tallowNullDeselection: false,\\r\\n\\tallowAnyValue: true,\\r\\n\\tcaptureFocus: false,\\r\\n\\tscroll: {\\r\\n\\t\\taxis: \\'y\\',\\r\\n\\t\\tstopPropogation: false,\\r\\n\\t\\tpull: {\\r\\n\\t\\t\\ty: \\'auto\\'\\r\\n\\t\\t}\\r\\n\\t},\\r\\n\\tlayout: \\'default\\',\\r\\n\\tlayouts: {\\r\\n\\t\\tdefault: {\\r\\n\\t\\t\\ttype: \\'template\\',\\r\\n\\t\\t\\ttemplate: \\'\\\\r\\\\n{[scope].getTree([root].items,0)}\\\\r\\\\n{*root}\\\\r\\\\n{/*root}\\\\r\\\\n\\\\r\\\\n\\'\\r\\n\\t\\t}\\r\\n\\t},\\r\\n\\tgetTree: function(data,depth,opened) {\\r\\n\\tif(depth == 0){\\r\\n\\t\\tthis._branches = {};\\r\\n\\t\\tthis._branchPaths = [];\\r\\n\\t\\tvar html  = [\\'<div>\\'];\\r\\n\\t} else{\\r\\n\\t\\tvar dis = \\'none\\';\\r\\n\\t\\tif(opened) dis = \\'\\';\\r\\n\\t\\tvar html  = [\\'<div class=\"\\'+this.data.settings.branch.className+\\'\" style=\"display: \\'+dis+\\'; overflow: hidden;\">\\'];\\r\\n\\t}\\r\\n\\tvar iconOpened = this.data.settings.item.opened.icon;\\r\\n\\tvar iconClosed = this.data.settings.item.closed.icon;\\r\\n\\tif(iconOpened) iconOpened = A5.u.icon.html(iconOpened,\\'style=\"float: right\"\\');\\r\\n\\telse iconOpened = \\'\\';\\r\\n\\tif(iconClosed) iconClosed = A5.u.icon.html(iconClosed,\\'style=\"float: right\"\\');\\r\\n\\telse iconClosed = \\'\\';\\r\\n\\tdepth++;\\r\\n\\tvar cn = \\'\\';\\r\\n\\tvar icon = \\'\\';\\r\\n\\tvar itemIcon = \\'\\';\\r\\n\\tvar flagShow;\\r\\n\\tvar id = this.contId + \\'.\\';\\r\\n\\tvar mEvents = \\'\\';\\r\\n\\t;\\r\\n\\tif(this._branchPaths.length > 0 ) {\\r\\n\\t\\tid = id + this._branchPaths.join(\\'.\\') + \\'.\\'\\r\\n\\t}\\r\\n\\tfor(var i = 0; i < data.length; i++) {\\r\\n\\r\\n\\t\\tflagShow = true;\\r\\n\\t\\t\\tif(typeof data[i].showHide != \\'undefined\\') {\\r\\n\\t\\t\\t\\tif(typeof data[i].showHide == \\'function\\') {\\r\\n\\t\\t\\t\\t\\tflagShow = data[i].showHide.call();\\r\\n\\t\\t\\t\\t}\\r\\n\\t\\t};\\r\\n\\t\\tif(flagShow) {\\r\\n\\t\\t\\titemIcon = \\'\\';\\r\\n\\t\\t\\tif(data[i].icon) {\\r\\n\\t\\t\\t\\titemIcon = A5.u.icon.html(data[i].icon) + \\' \\';\\r\\n\\t\\t\\t}\\r\\n\\t\\t\\tif(typeof data[i].children != \\'undefined\\') {\\r\\n\\t\\t\\t\\tcn = this.data.settings.item.className+\\' \\'+this.data.settings.item.closed.className;\\r\\n\\t\\t\\t\\ticon = iconClosed;\\r\\n\\t\\t\\t\\tif(data[i].opened) {\\r\\n\\t\\t\\t\\t\\tcn = this.data.settings.item.className+\\' \\'+this.data.settings.item.opened.className;\\r\\n\\t\\t\\t\\t\\ticon = iconOpened;\\r\\n\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\tif(typeof data[i].action == \\'string\\'){\\r\\n\\t\\t\\t\\t\\thtml.push(\\'<div><div id=\"\\'+id+\\'\\'+i+\\'\" class=\"\\'+cn+\\'\" \\'+mEvents+\\' a5-item=\"toggle:\\'+data[i].action+\\'\" a5-value=\"\\'+data[i].value+\\'\"  >\\' +itemIcon+  data[i].html+icon+\\'</div>\\');\\r\\n\\t\\t\\t\\t} else{\\r\\n\\t\\t\\t\\t\\thtml.push(\\'<div><div id=\"\\'+id+\\'\\'+i+\\'\" class=\"\\'+cn+\\'\" \\'+mEvents+\\' a5-item=\"toggle\" a5-value=\"\\'+data[i].value+\\'\"  >\\' +itemIcon + data[i].html+icon+\\'</div>\\');\\r\\n\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\tthis._branches[data[i].value] = [].concat(this._branchPaths);\\r\\n\\t\\t\\t\\tthis._branchPaths.push(i);\\r\\n\\t\\t\\t\\thtml.push(this.getTree(data[i].children,depth, data[i].opened));\\r\\n\\t\\t\\t\\tthis._branchPaths.pop();\\r\\n\\t\\t\\t} else if(typeof data[i].action == \\'string\\'){\\r\\n\\t\\t\\t\\thtml.push(\\'<div id=\"\\'+id+\\'\\'+i+\\'\" class=\"\\'+this.data.settings.item.className+\\'\" a5-item=\"action:\\'+data[i].action+\\'\" a5-value=\"\\'+data[i].value+\\'\"  >\\' +itemIcon + data[i].html);\\r\\n\\t\\t\\t} else{\\r\\n\\t\\t\\t\\thtml.push(\\'<div id=\"\\'+id+\\'\\'+i+\\'\" class=\"\\'+this.data.settings.item.className+\\'\">\\'+itemIcon + data[i].html);\\r\\n\\t\\t\\t}\\r\\n\\t\\t\\thtml.push(\\'</div>\\');\\r\\n\\t\\t}\\r\\n\\t}\\r\\n\\thtml.push(\\'</div>\\');\\r\\n\\thtml = html.join(\\'\\');\\r\\n\\treturn html;\\r\\n},\\r\\n\\t_onInitialize: function() { $acn(this.contId,\\'{dialog.ComponentName}_\\' + this.variableName+ \\' menuFullScreenBackgroundColor\\');},\\r\\n\\tcollapseMenu: function(value) {\\r\\n\\tvar ele = false;\\r\\n\\tele = this.getElement(value);\\r\\n\\tif(ele) {\\r\\n\\t\\tthis.items.toggle.onClick.call(this,\\'\\',\\'\\',{},ele[0])\\r\\n\\t}\\r\\n}\\r\\n,\\r\\n\\thoverExpand: function(id) { \\r\\n\\tif(this._heId == id) {return false; }\\r\\n\\tclearTimeout(this._heTo); //hover expand timeout\\r\\n\\tthis._heId = id;\\r\\n\\tvar ci = this;\\r\\n\\tthis._heTo = setTimeout(function(){\\r\\n\\t\\tvar ele = $(ci._heId);\\r\\n\\t\\tif(ele) ci.items.toggle.onClick.call(ci,\\'\\',\\'\\',{},ele);\\r\\n\\t\\tci._heId = false;\\r\\n\\t\\tdelete ci;\\r\\n\\t},600); //hover duration before toggle\\r\\n}\\r\\n,\\r\\n\\thoverExpandCancel: function(id) { \\r\\n\\tif(this._heId == id) {\\r\\n\\t\\tclearTimeout(this._heTo); //hover expand timeout\\r\\n\\t\\tthis._heId = false;\\r\\n\\t}\\r\\n}\\r\\n,\\r\\n\\tcollapseSiblings: function(value) { \\r\\n\\tif(typeof this._branches[value] != \\'undefined\\') {\\r\\n\\t\\tvar b = this._branches[value];\\r\\n\\t\\tvar d = this.data.items;\\r\\n\\t\\tfor(var i = 0; i < b.length; i++) {\\r\\n\\t\\t\\td = d[i].children;\\r\\n\\t\\t}\\r\\n\\t\\tvar id = this.contId + \\'.\\';\\r\\n\\t\\tif(b.length > 0) {\\r\\n\\t\\t\\tid = id + b.join(\\'.\\') + \\'.\\';\\r\\n\\r\\n\\t\\t}\\r\\n\\t\\tvar ele  = \\'\\';\\r\\n\\t\\tvar nEle = \\'\\';\\r\\n\\t\\tfor(var i = 0; i < d.length; i++) {\\r\\n\\t\\t\\tif(d[i].value != value && d[i].children) {\\r\\n\\t\\t\\t\\tele = $(id + i);\\r\\n\\t\\t\\t\\tnEle = ele.nextSibling;\\r\\n\\r\\n\\t\\t\\t\\tif(nEle.style.display != \\'none\\') {\\r\\n\\t\\t\\t\\t\\tthis.items.toggle.onClick.call(this,\\'\\',\\'\\',{},ele)\\r\\n\\t\\t\\t\\t}\\r\\n\\r\\n\\t\\t\\t}\\r\\n\\t\\t}\\r\\n\\r\\n\\t}\\r\\n\\r\\n}\\r\\n,\\r\\n\\tcollapseAll: function() { \\r\\n\\tvar ele = false;\\r\\n\\tvar nEle = false;\\r\\n\\tvar attr = \\'\\';\\r\\n\\tfor(var i = 0; i < this._i.ids.length; i++) {\\r\\n\\t\\tele = $(this._i.ids[i]);\\r\\n\\t\\tif(ele) {\\r\\n\\t\\t\\tattr = ele.getAttribute(\\'a5-item\\');\\r\\n\\t\\t\\tif(attr.indexOf(\\'toggle\\') == 0) {\\r\\n\\t\\t\\t\\tnEle = ele.nextSibling;\\r\\n\\t\\t\\t\\tif(nEle.style.display != \\'none\\') this.items.toggle.onClick.call(this,\\'\\',\\'\\',{},ele)\\r\\n\\t\\t\\t}\\r\\n\\t\\t}\\r\\n\\t}\\r\\n}\\r\\n,\\r\\n\\tonChange: function() {\\r\\n\\r\\n\\tvar ele = this.getElement(this.value[0]);\\r\\n\\tif(ele ) {\\r\\n\\t\\tif(ele[0]) {\\r\\n\\t\\t\\tvar pEle = ele[0].parentNode;\\r\\n\\t\\t\\tvar tEle = $(this.contId);\\r\\n\\t\\t\\tvar iEle = null;\\r\\n\\t\\t\\tvar item = \\'\\';\\r\\n\\t\\t\\tvar ptEle = null;\\r\\n\\t\\t\\twhile(pEle != tEle) {\\r\\n\\t\\t\\t\\tptEle = pEle.parentNode;\\r\\n\\t\\t\\t\\tif(pEle.style.display == \\'none\\') {\\r\\n\\t\\t\\t\\t\\tiEle = ptEle.children[0];\\r\\n\\t\\t\\t\\t\\titem = iEle.getAttribute(\\'a5-item\\');\\r\\n\\t\\t\\t\\t\\tif(typeof item == \\'string\\') {\\r\\n\\t\\t\\t\\t\\t\\tif(item.indexOf(\\'toggle\\') == 0) {\\r\\n\\t\\t\\t\\t\\t\\t\\titem = item.split(\\':\\');\\r\\n\\t\\t\\t\\t\\t\\t\\titem.shift();\\r\\n\\t\\t\\t\\t\\t\\t\\titem = item.join(\\':\\');\\r\\n\\t\\t\\t\\t\\t\\t\\tthis.items.toggle.onClick.call(this,false,item,null,iEle,null);\\r\\n\\t\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\t}\\r\\n\\t\\t\\t\\tpEle = ptEle;\\r\\n\\r\\n\\t\\t\\t};\\r\\n\\t\\t}\\r\\n\\t};\\r\\n\\r\\n\\r\\n}\\r\\n,\\r\\n\\titems: {\\r\\n\\t\\t\\'toggle\\' : {\\r\\n\\t\\t\\titemName: \\'toggle\\',\\r\\n\\t\\t\\tselectable: true,\\r\\n\\t\\t\\tselectedClassName: \\'\\',\\r\\n\\t\\t\\tonClick: function(v,ia,i,ele) {\\r\\n\\t\\t\\t\\tthis.hoverExpandCancel(ele.id);\\r\\n\\t\\t\\t\\tia = ia.split(\\':\\');\\r\\n\\r\\n\\t\\t\\t\\taction = this.data.actions[ia.shift()];\\r\\n\\t\\t\\t\\tif(typeof action == \\'function\\' && v !== false){\\r\\n\\t\\t\\t\\t\\tia = ia.join(\\':\\');\\r\\n\\t\\t\\t\\t\\tvar r = action.call(this,ia,v,i,ele);\\r\\n\\t\\t\\t\\t\\tif(typeof r != \\'undefined\\' && !r) return false;\\r\\n\\t\\t\\t\\t}\\r\\n\\r\\n\\t\\t\\t\\tvar nEle = ele.nextSibling;\\r\\n\\t\\t\\t\\tif(nEle.style.display == \\'none\\'){\\r\\n\\t\\t\\t\\t\\tnEle.style.display = \\'\\';\\r\\n\\t\\t\\t\\t\\tA5.u.element.transition(nEle,{\\r\\n\\t\\t\\t\\t\\t\\tfrom: {height: \\'0px\\'},\\r\\n\\t\\t\\t\\t\\t\\tto: {height: nEle.offsetHeight+\\'px\\'},\\r\\n\\t\\t\\t\\t\\t\\tduration: 600\\r\\n\\t\\t\\t\\t\\t}, function(){\\r\\n\\t\\t\\t\\t\\t\\tthis.style.height = \\'\\';\\r\\n\\t\\t\\t\\t\\t});\\r\\n\\t\\t\\t\\t\\tele.className = this.data.settings.item.className+\\' \\'+this.data.settings.item.opened.className;\\r\\n\\t\\t\\t\\t\\tvar icon = this.data.settings.item.opened.icon;\\r\\n\\t\\t\\t\\t\\tif(icon) A5.u.icon.update(ele.lastChild,icon);\\r\\n\\t\\t\\t\\t} else{\\r\\n\\t\\t\\t\\t\\tA5.u.element.transition(nEle,{\\r\\n\\t\\t\\t\\t\\t\\tfrom: {height: nEle.offsetHeight+\\'px\\'},\\r\\n\\t\\t\\t\\t\\t\\tto: {height: \\'0px\\'},\\r\\n\\t\\t\\t\\t\\t\\tduration: 600\\r\\n\\t\\t\\t\\t\\t}, function(){\\r\\n\\t\\t\\t\\t\\t\\tthis.style.display = \\'none\\';\\r\\n\\t\\t\\t\\t\\t\\tthis.style.height = \\'\\';\\r\\n\\t\\t\\t\\t\\t});\\r\\n\\t\\t\\t\\t\\tele.className = this.data.settings.item.className+\\' \\'+this.data.settings.item.closed.className;\\r\\n\\t\\t\\t\\t\\tvar icon = this.data.settings.item.closed.icon;\\r\\n\\t\\t\\t\\t\\tif(icon) A5.u.icon.update(ele.lastChild,icon);\\r\\n\\t\\t\\t\\t}\\r\\n\\t\\t\\t}\\r\\n\\r\\n\\t\\t},\\r\\n\\t\\t\\'action\\' : {\\r\\n\\t\\t\\titemName: \\'action\\',\\r\\n\\t\\t\\tselectable: true,\\r\\n\\t\\t\\tselectedClassName: \\'\\',\\r\\n\\t\\t\\tonClick: function(v,ia,i,ele) {\\r\\n\\t\\t\\t\\tia = ia.split(\\':\\');\\r\\n\\t\\taction = this.data.actions[ia.shift()];\\r\\n\\t\\tif(typeof action == \\'function\\'){\\r\\n\\t\\t\\tia = ia.join(\\':\\');\\r\\n\\t\\t\\taction.call(this,ia,v,i,ele);\\r\\n\\t\\t}\\r\\n\\t\\t\\t}\\r\\n\\r\\n\\t\\t}\\r\\n\\r\\n\\t\\t}\\r\\n\\r\\n}',\n\tdataJSON: '{\\r\\n\\t\"items\": [\\r\\n\\t{\\r\\n\\t\\t\"html\": \"Customer List\",\\r\\n\\t\\t\"action\": \"action1\"\\r\\n\\t}],\\r\\n\\t\"actions\": {\\r\\n\\t\\t\"action1\": function(arg) { {dialog.object}.runAction(\\'customer_ux_load\\');}\\r\\n\\t},\\r\\n\\t\"settings\": {\\r\\n\\t\\t\"item\": {\\r\\n\\t\\t\\t\"className\": \"item\",\\r\\n\\t\\t\\t\"opened\": {\\r\\n\\t\\t\\t\\t\"className\": \"branchItemOpened\",\\r\\n\\t\\t\\t\\t\"icon\": \"svgIcon=#alpha-icon-chevronUp:icon\"\\r\\n\\t\\t\\t},\\r\\n\\t\\t\\t\"closed\": {\\r\\n\\t\\t\\t\\t\"className\": \"branchItemClosed\",\\r\\n\\t\\t\\t\\t\"icon\": \"svgIcon=#alpha-icon-chevronRight:icon\"\\r\\n\\t\\t\\t},\\r\\n\\t\\t\\t\"selectedMenuItemClassName\": \"\",\\r\\n\\t\\t\\t\"selectedMenuItemStyle\": \"\"\\r\\n\\t\\t},\\r\\n\\t\\t\"branch\": {\\r\\n\\t\\t\\t\"className\": \"branch\"\\r\\n\\t\\t}\\r\\n\\t}\\r\\n}',\n\tcss: '@function makeColorSafe($foreColor,$backColor) {\\r\\n    $f-h: hue($foreColor);\\r\\n    $f-s: saturation($foreColor);\\r\\n    $f-l: lightness($foreColor);\\r\\n    $b-h: hue($backColor);\\r\\n    $b-s: saturation($backColor);\\r\\n    $b-l: lightness($backColor);\\r\\n    $d-h: abs( $f-h - $b-h );\\r\\n    $d-s: abs( $f-s - $b-s );\\r\\n    $d-l: abs( $f-l - $b-l );\\r\\n    @if $d-h < 15deg {\\r\\n        @if $d-l < 60% {\\r\\n            $n-l: if( $b-l > 50%, $b-l - 60%, $b-l + 60% );\\r\\n            $n-s: if( $d-s > 20%, $f-s, if( $b-s > 75% , $f-s - 20%, $f-s + 20% ));\\r\\n            @return change-color( $foreColor , $lightness: $n-l , $saturation: $n-s )\\r\\n        }\\r\\n    } @else {\\r\\n        @if $d-l < 50% and $d-s < 50% {\\r\\n            $n-l: if( $b-l > 55%, $b-l - 50%, $b-l + 50% );\\r\\n            @return change-color( $foreColor , $lightness: $n-l )\\r\\n        }\\r\\n    }\\r\\n    @return $foreColor\\r\\n}\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n$color: #0288d1; //this sets the color of the menu tree. the PanelCard that contains this ViewBox has its background color set to the same value\\r\\n$colorHover: lighten($color,5);\\r\\n$colorBranch: lighten($color,10);\\r\\n$colorBranchHover: lighten($color,15);\\r\\n$foreColor: #fff;\\r\\n$indent: 24px;\\r\\n\\r\\n.item .icon {\\r\\n    fill: $foreColor;\\r\\n    stroke: $foreColor;\\r\\n}\\r\\n\\r\\n.item {\\r\\n\\tposition: relative;\\r\\n\\tpadding: 6px 12px;\\r\\n\\tbackground: $color;\\r\\n\\tcursor: pointer;\\r\\n\\tline-height: 26px;\\r\\n\\tcolor: $foreColor;\\r\\n}\\r\\n\\r\\n.item:hover {\\r\\n\\tbackground: $colorHover;\\r\\n}\\r\\n.branch .item {\\r\\n\\tpadding-left: $indent;\\r\\n\\tbackground: transparent;\\r\\n}\\r\\n.branch .item:hover {\\r\\n\\tbackground: $colorBranchHover;\\r\\n}\\r\\n.branch {\\r\\n\\tbackground: $colorBranch;\\r\\n}\\r\\n.branch .branch .item {\\r\\n\\tpadding-left: $indent*2;\\r\\n}\\r\\n.branch .branch .branch .item {\\r\\n\\tpadding-left: $indent*3;\\r\\n}\\r\\n.branch .branch .branch .branch .item {\\r\\n\\tpadding-left: $indent*4;\\r\\n}\\r\\n.branch .branch .branch .branch .branch .item {\\r\\n\\tpadding-left: $indent*5;\\r\\n}\\r\\n\\r\\n\\r\\n&.menuFullScreenBackgroundColor  {\\r\\n\\tbackground-color:#0288d1;\\r\\n}\\r\\n\\r\\n\\r\\n',\n\tlocalsvg: '',\n\tjavascript: ';',\n\tmethodForDefiningControl: 'Specify Now'\n}",
+                        "subtype": "ExpandingMenu",
+                        "class": "",
+                        "style": ""
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 4in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.MENU_MAIN\" for=\"{grid.componentname}.V.R{grid.rownumber}.MENU_MAIN\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"float: left; width: __global.labelWidth__; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\">Menu Main</label>\n<!--LblE--><!--FldS--><div style=\"margin-left: __global.labelWidth__ ;\"><!--JSControlStart--><input type=\"hidden\" id=\"{grid.componentname}.V.R{grid.rownumber}.MENU_MAIN\" name=\"V.R{grid.rownumber}.MENU_MAIN\" /><!--JSControlEnd-->\n<div >\n\t<div id=\"{grid.componentname}.V.R{grid.rownumber}.MENU_MAIN.CONTROL\"  class=\"{grid.componentName}_MENU_MAIN\" style=\"overflow: auto; width: 100%; \"></div>\n</div>\n</div><!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'MENU_MAIN': {info: {controlType: 'ExpandingMenu'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0
+            },
+            {
+                "controlType": "layout_directive_PanelCardEnd",
+                "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertline'}{Data=2430bd13-4bbf-4b33-8d4c-7d1400c42916}{I:'vertLineCap'} [Panel Card End: PC_MENU]",
+                "idInternal": "2430bd13-4bbf-4b33-8d4c-7d1400c42916",
+                "parentContainer": 1,
+                "crc": "4294928850",
+                "v": {
+                    "info": {
+                        "level": 1,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": true,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "8fe06ec3-2197-405c-9c85-9b5386c51997",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 7,
+                        "containerStartID": "4b6c3633-f983-4e8c-a28e-26d445c62969",
+                        "color": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}",
+                        "icon": "vertLineCap",
+                        "parentPanelCardId": "4b6c3633-f983-4e8c-a28e-26d445c62969",
+                        "displayText": "[Panel Card End: PC_MENU]",
+                        "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertline'}{Data=2430bd13-4bbf-4b33-8d4c-7d1400c42916}{I:'vertLineCap'} [Panel Card End: PC_MENU]"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 5
+            },
+            {
+                "controlType": "layout_directive_PanelNavigatorBegin",
+                "display": "{C=#51+111+61,White}{B=White,#51+111+61n}{F=+B}{I:'vertline'}{Data=4239e48b-47e2-47bc-a4f2-144400d76eed}{I:'$$web.panel.navigator'} [Panel Navigator: PL_CONTENT]  TabBand (LTR)",
+                "idInternal": "4239e48b-47e2-47bc-a4f2-144400d76eed",
+                "lastIndex": 12,
+                "parentContainer": 1,
+                "crc": "4294966920",
+                "v": {
+                    "container": {
+                        "id": "PL_CONTENT"
+                    },
+                    "panelInstance": {
+                        "sections": {
+                            "name": "<UsePanelId>",
+                            "renderMethod": "Auto-Create-Destroy"
+                        }
+                    },
+                    "panelNavigator": {
+                        "navigatorType": "TabBand",
+                        "navigatorFlow": "LTR",
+                        "animation": {
+                            "type": "slide",
+                            "duration": 400
+                        },
+                        "javascript": {
+                            "onBeforeRemove": "",
+                            "onPanelView": ""
+                        },
+                        "indicator": {
+                            "location": "Auto"
+                        },
+                        "tabBand": {
+                            "location": "Top"
+                        }
+                    },
+                    "info": {
+                        "level": 1,
+                        "isContainerStart": true,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "8fe06ec3-2197-405c-9c85-9b5386c51997",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 8,
+                        "color": "{C=#51+111+61,White}{B=White,#51+111+61n}{F=+B}",
+                        "icon": "$$web.panel.navigator",
+                        "displayText": "[Panel Navigator: PL_CONTENT]  TabBand (LTR)",
+                        "parentPanelCardId": "",
+                        "lastID": "760ac7e6-5ad2-4a31-8e61-4e5f3cea0769",
+                        "break": false,
+                        "display": "{C=#51+111+61,White}{B=White,#51+111+61n}{F=+B}{I:'vertline'}{Data=4239e48b-47e2-47bc-a4f2-144400d76eed}{I:'$$web.panel.navigator'} [Panel Navigator: PL_CONTENT]  TabBand (LTR)"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0
+            },
+            {
+                "controlType": "layout_directive_PanelCardBegin",
+                "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertline'}{I:'vertline'}{Data=8cf4687a-2f0e-4392-86dd-d3aacfc124b6}{I:'$$web.panel.card'} [Panel Card: PANELCARD_3]",
+                "idInternal": "8cf4687a-2f0e-4392-86dd-d3aacfc124b6",
+                "lastIndex": 11,
+                "parentContainer": 8,
+                "crc": "4294917917",
+                "v": {
+                    "container": {
+                        "id": "PANELCARD_3"
+                    },
+                    "panelInstance": {
+                        "sections": {
+                            "name": "<UsePanelId>",
+                            "renderMethod": "Auto-Create-Destroy"
+                        }
+                    },
+                    "panelCard": {
+                        "javascript": {
+                            "onActivate": "",
+                            "onView": ""
+                        },
+                        "allowBodyScrolling": true,
+                        "bodyScrolling": {
+                            "axis": "Both"
+                        },
+                        "pull": {
+                            "pullpastEnd": {
+                                "YSetting": "auto",
+                                "XSetting": "auto"
+                            }
+                        },
+                        "scrolling": {
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "location": "top",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "displayName": "Home",
+                        "type": "Default",
+                        "pinchToZoom": false
+                    },
+                    "info": {
+                        "level": 2,
+                        "isContainerStart": true,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "4239e48b-47e2-47bc-a4f2-144400d76eed",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 9,
+                        "color": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}",
+                        "icon": "$$web.panel.card",
+                        "displayText": "[Panel Card: PANELCARD_3]",
+                        "parentPanelCardId": "8cf4687a-2f0e-4392-86dd-d3aacfc124b6",
+                        "lastID": "63711fd9-3539-4e12-8019-39a5494d8b77",
+                        "break": false,
+                        "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertline'}{I:'vertline'}{Data=8cf4687a-2f0e-4392-86dd-d3aacfc124b6}{I:'$$web.panel.card'} [Panel Card: PANELCARD_3]"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "'xbasic\n\nv._dirty = .f.\n\n\n",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0
+            },
+            {
+                "controlType": "layout_directive_statictext",
+                "display": "{B=White,Light Blue}{I:'vertline'}{I:'vertline'}{I:'vertline'}{Data=27cbeb25-f3fe-48b0-8f4e-d42edfec2d37}{I:'$$format.text'} [Static Text:Home Tab Content] �",
+                "idInternal": "27cbeb25-f3fe-48b0-8f4e-d42edfec2d37",
+                "parentContainer": 9,
+                "crc": "4294928799",
+                "v": {
+                    "StaticText": "Home Tab Content",
+                    "Class": "<Default>",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "STATICTEXT_2",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "info": {
+                        "level": 3,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "8cf4687a-2f0e-4392-86dd-d3aacfc124b6",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 10,
+                        "color": "",
+                        "icon": "$$format.text",
+                        "displayText": "[Static Text:Home Tab Content]",
+                        "parentPanelCardId": "8cf4687a-2f0e-4392-86dd-d3aacfc124b6",
+                        "break": true,
+                        "display": "{B=White,Light Blue}{I:'vertline'}{I:'vertline'}{I:'vertline'}{Data=27cbeb25-f3fe-48b0-8f4e-d42edfec2d37}{I:'$$format.text'} [Static Text:Home Tab Content] �"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_2\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >Home Tab Content</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0
+            },
+            {
+                "controlType": "layout_directive_PanelCardEnd",
+                "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertline'}{I:'vertline'}{Data=63711fd9-3539-4e12-8019-39a5494d8b77}{I:'vertLineCap'} [Panel Card End: PANELCARD_3]",
+                "idInternal": "63711fd9-3539-4e12-8019-39a5494d8b77",
+                "parentContainer": 8,
+                "crc": "4294952818",
+                "v": {
+                    "info": {
+                        "level": 2,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": true,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "4239e48b-47e2-47bc-a4f2-144400d76eed",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 11,
+                        "containerStartID": "8cf4687a-2f0e-4392-86dd-d3aacfc124b6",
+                        "color": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}",
+                        "icon": "vertLineCap",
+                        "parentPanelCardId": "8cf4687a-2f0e-4392-86dd-d3aacfc124b6",
+                        "displayText": "[Panel Card End: PANELCARD_3]",
+                        "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertline'}{I:'vertline'}{Data=63711fd9-3539-4e12-8019-39a5494d8b77}{I:'vertLineCap'} [Panel Card End: PANELCARD_3]"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 9
+            },
+            {
+                "controlType": "layout_directive_PanelNavigatorEnd",
+                "display": "{C=#51+111+61,White}{B=White,#51+111+61}{F=+B}{I:'vertline'}{Data=760ac7e6-5ad2-4a31-8e61-4e5f3cea0769}{I:'vertLineCap'} [Panel Navigator End: ]",
+                "idInternal": "760ac7e6-5ad2-4a31-8e61-4e5f3cea0769",
+                "parentContainer": 1,
+                "crc": "4294963131",
+                "v": {
+                    "info": {
+                        "level": 1,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": true,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "8fe06ec3-2197-405c-9c85-9b5386c51997",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 12,
+                        "containerStartID": "4239e48b-47e2-47bc-a4f2-144400d76eed",
+                        "color": "{C=#51+111+61,White}{B=White,#51+111+61}{F=+B}",
+                        "icon": "vertLineCap",
+                        "displayText": "[Panel Navigator End: ]",
+                        "parentPanelCardId": "",
+                        "display": "{C=#51+111+61,White}{B=White,#51+111+61}{F=+B}{I:'vertline'}{Data=760ac7e6-5ad2-4a31-8e61-4e5f3cea0769}{I:'vertLineCap'} [Panel Navigator End: ]"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 8
+            },
+            {
+                "controlType": "layout_directive_PanelCardBegin",
+                "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertline'}{Data=8fc09e96-52e7-4e57-85e5-30e76b1d8bb7}{I:'$$web.panel.card'} [Panel Card: PANELCARD_2]",
+                "idInternal": "8fc09e96-52e7-4e57-85e5-30e76b1d8bb7",
+                "lastIndex": 21,
+                "parentContainer": 1,
+                "crc": "4294936259",
+                "v": {
+                    "container": {
+                        "id": "PANELCARD_2"
+                    },
+                    "panelInstance": {
+                        "layout": {
+                            "size": "10%"
+                        },
+                        "sections": {
+                            "name": "<UsePanelId>",
+                            "renderMethod": "Auto-Create-Destroy"
+                        }
+                    },
+                    "panelCard": {
+                        "javascript": {
+                            "onActivate": "",
+                            "onView": ""
+                        },
+                        "allowBodyScrolling": true,
+                        "bodyScrolling": {
+                            "axis": "Both"
+                        },
+                        "pull": {
+                            "pullpastEnd": {
+                                "YSetting": "auto",
+                                "XSetting": "auto"
+                            }
+                        },
+                        "scrolling": {
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "location": "top",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "type": "Default",
+                        "pinchToZoom": false
+                    },
+                    "info": {
+                        "level": 1,
+                        "isContainerStart": true,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "8fe06ec3-2197-405c-9c85-9b5386c51997",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 13,
+                        "color": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}",
+                        "icon": "$$web.panel.card",
+                        "displayText": "[Panel Card: PANELCARD_2]",
+                        "parentPanelCardId": "8fc09e96-52e7-4e57-85e5-30e76b1d8bb7",
+                        "lastID": "248a9d6a-0c2e-4e54-8e23-7677d3bde873",
+                        "break": false,
+                        "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertline'}{Data=8fc09e96-52e7-4e57-85e5-30e76b1d8bb7}{I:'$$web.panel.card'} [Panel Card: PANELCARD_2]"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "'xbasic\n\nv._dirty = .f.\n\n\n",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0
+            },
+            {
+                "controlType": "layout_directive_ContainerBegin",
+                "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertline'}{I:'vertline'}{Data=077fe34f-e535-4f82-bdfa-b3914f2a4602}{I:'$$web.panel.header'} [PanelHeader:PANELHEADER_2]",
+                "displayODFlat": "{Data=077fe34f-e535-4f82-bdfa-b3914f2a4602}{I:'$$format.border.style.dash'} [Container: PANELHEADER_2]",
+                "idInternal": "077fe34f-e535-4f82-bdfa-b3914f2a4602",
+                "lastIndex": 20,
+                "parentContainer": 13,
+                "displayOD": "{Data=077fe34f-e535-4f82-bdfa-b3914f2a4602}{I:'$$format.border.style.dash'} [Container: PANELHEADER_2]",
+                "displayODtree": "{Data=077fe34f-e535-4f82-bdfa-b3914f2a4602}{I:'$$format.border.style.dash'} [Container: PANELHEADER_2]",
+                "crc": "4294952059",
+                "v": {
+                    "container": {
+                        "ID": "PANELHEADER_2",
+                        "contentAlignment": "Left",
+                        "buttonGroup": {
+                            "orientation": "Horizontal"
+                        },
+                        "subType": "PanelHeader",
+                        "contentVerticalAlign": "Top",
+                        "useFlex": true,
+                        "useFlexLeft": false,
+                        "alignItems": "",
+                        "edgeOffset": "",
+                        "allowScrolling": false,
+                        "scrolling": {
+                            "axis": "Both",
+                            "stopPropogation": false,
+                            "isDefined": false,
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "className": "",
+                                    "barClassName": "",
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "className": "",
+                                    "barClassName": "",
+                                    "location": "top",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "pull": {
+                            "isDefined": false,
+                            "javascript": {
+                                "onPullRelease": "",
+                                "onPullEnd": "",
+                                "onPull": ""
+                            },
+                            "pullpastEnd": {
+                                "YSetting": "auto",
+                                "XSetting": "auto"
+                            }
+                        }
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "info": {
+                        "level": 2,
+                        "isContainerStart": true,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "8fc09e96-52e7-4e57-85e5-30e76b1d8bb7",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 14,
+                        "color": "{C=Orange,White}{B=White,Orange}{F=+B}",
+                        "icon": "$$web.panel.header",
+                        "displayText": "[PanelHeader:PANELHEADER_2]",
+                        "parentPanelCardId": "8fc09e96-52e7-4e57-85e5-30e76b1d8bb7",
+                        "lastID": "c29cad38-fef2-446d-80b9-69d89542bf9b",
+                        "break": false,
+                        "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertline'}{I:'vertline'}{Data=077fe34f-e535-4f82-bdfa-b3914f2a4602}{I:'$$web.panel.header'} [PanelHeader:PANELHEADER_2]"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.PANELHEADER_2\"   \n\t\t\tclass=\"A5CWLayout \"  style=\"\"  ><!--DIV for Container control-->",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0
+            },
+            {
+                "controlType": "layout_directive_statictext",
+                "display": "{B=White,Light Blue}{I:'vertline'}{I:'vertline'}{I:'vertline'}{Data=5cff5bf7-2c94-4bcf-841a-ac7ea0595610}{I:'$$format.text'} [Static Text:Normally Hidden] �",
+                "idInternal": "5cff5bf7-2c94-4bcf-841a-ac7ea0595610",
+                "parentContainer": 14,
+                "crc": "4294903232",
+                "v": {
+                    "StaticText": "Normally Hidden",
+                    "Class": "<Default>",
+                    "BreakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "id": "STATICTEXT_1",
+                    "labelClass": "<Default>",
+                    "labelPosition": "None",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "info": {
+                        "level": 3,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "077fe34f-e535-4f82-bdfa-b3914f2a4602",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 15,
+                        "color": "",
+                        "icon": "$$format.text",
+                        "displayText": "[Static Text:Normally Hidden]",
+                        "parentPanelCardId": "8fc09e96-52e7-4e57-85e5-30e76b1d8bb7",
+                        "break": true,
+                        "display": "{B=White,Light Blue}{I:'vertline'}{I:'vertline'}{I:'vertline'}{Data=5cff5bf7-2c94-4bcf-841a-ac7ea0595610}{I:'$$format.text'} [Static Text:Normally Hidden] �"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_1\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >Normally Hidden</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0
+            },
+            {
+                "controlType": "dialog_formcontrol",
+                "display": "{B=White,Light Blue}{I:'vertline'}{I:'vertline'}{I:'vertline'}{Data=ea48c659_024b_49f9_9eb5_fe16f41ec9ce}{I:'$$control.edit'} [customer_id] �",
+                "displayODFlat": "{Data=ea48c659_024b_49f9_9eb5_fe16f41ec9ce}",
+                "idInternal": "ea48c659_024b_49f9_9eb5_fe16f41ec9ce",
+                "parentContainer": 14,
+                "displayOD": "{Data=ea48c659_024b_49f9_9eb5_fe16f41ec9ce}",
+                "displayODtree": "{Data=ea48c659_024b_49f9_9eb5_fe16f41ec9ce}",
+                "crc": "4294919465",
+                "v": {
+                    "controlType": "textbox",
+                    "variableName": "customer_id",
+                    "type": "Character",
+                    "maxLength": -1,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "lookup": {
+                        "editCombo": {
+                            "openLookupOnFocus": false
+                        }
+                    },
+                    "textboxAutocorrect": true,
+                    "textboxAutoCapitalize": true,
+                    "label": "Record Id",
+                    "class": "<Default>",
+                    "breakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "labelClass": "<Default>",
+                    "labelPosition": "Above",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "onChange_ValidationOption": "Client-side only",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        },
+                        "ink": {
+                            "hasbackgroundimage": false,
+                            "backgroundimage": "",
+                            "inkunits": 1
+                        }
+                    },
+                    "textboxSubTheme": "",
+                    "getFunction": "",
+                    "setFunction": "",
+                    "datePicker": {
+                        "displayTimePicker": false,
+                        "openMethod": "ClickIcon",
+                        "dateFormat": "<Default>",
+                        "iconNumber": 2,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "userMustSelectFromDatePicker": false,
+                        "multiple": {
+                            "allow": false,
+                            "separators": ".."
+                        },
+                        "hasMask": false,
+                        "format": {
+                            "mask": ""
+                        },
+                        "timePickerOptionsDefined": false,
+                        "display": false,
+                        "friendlyDisplay": {
+                            "enabled": false,
+                            "settingsJSON": ""
+                        },
+                        "useComboBoxes": true,
+                        "lowYear": 1950,
+                        "highYear": 2050,
+                        "switchYear": 30,
+                        "lowDate": "",
+                        "highDate": "",
+                        "disabledDays": "",
+                        "disabledDates": ""
+                    },
+                    "displayAsSlider": false,
+                    "flags": {
+                        "clientSideDefinition": false
+                    },
+                    "listView": {
+                        "class": ""
+                    },
+                    "info": {
+                        "level": 3,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "077fe34f-e535-4f82-bdfa-b3914f2a4602",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 16,
+                        "color": "",
+                        "icon": "$$control.edit",
+                        "displayText": "[customer_id]",
+                        "parentPanelCardId": "8fc09e96-52e7-4e57-85e5-30e76b1d8bb7",
+                        "break": true,
+                        "display": "{B=White,Light Blue}{I:'vertline'}{I:'vertline'}{I:'vertline'}{Data=ea48c659_024b_49f9_9eb5_fe16f41ec9ce}{I:'$$control.edit'} [customer_id] �"
+                    },
+                    "specialtype": "None",
+                    "specialtypeJSON": ""
+                },
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 2in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.CUSTOMER_ID\" for=\"{grid.componentname}.V.R{grid.rownumber}.CUSTOMER_ID\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"display:block;\">Record Id</label>\n<!--LblE-->\n\t<!--FldS--><input\ttype=\"text\" id=\"{grid.componentname}.V.R{grid.rownumber}.CUSTOMER_ID\" title=\"\"     class=\"[theme:edit.base.className|class.dialogInput] \" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"    name=\"V.R{grid.rownumber}.CUSTOMER_ID\"    value=\"\"    />\n<!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'CUSTOMER_ID': {info: {controlType: 'textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0
+            },
+            {
+                "controlType": "dialog_formcontrol",
+                "display": "{B=White,Light Blue}{I:'vertline'}{I:'vertline'}{I:'vertline'}{Data=44113c93_c7e5_43bc_ab81_93bed13168c4}{I:'$$control.edit'} [panel_title] �",
+                "displayODFlat": "{Data=44113c93_c7e5_43bc_ab81_93bed13168c4}",
+                "idInternal": "44113c93_c7e5_43bc_ab81_93bed13168c4",
+                "parentContainer": 14,
+                "displayOD": "{Data=44113c93_c7e5_43bc_ab81_93bed13168c4}",
+                "displayODtree": "{Data=44113c93_c7e5_43bc_ab81_93bed13168c4}",
+                "crc": "4294904178",
+                "v": {
+                    "controlType": "textbox",
+                    "variableName": "panel_title",
+                    "type": "Character",
+                    "maxLength": -1,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "lookup": {
+                        "editCombo": {
+                            "openLookupOnFocus": false
+                        }
+                    },
+                    "textboxAutocorrect": true,
+                    "textboxAutoCapitalize": true,
+                    "label": "Pane Title",
+                    "class": "<Default>",
+                    "breakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "labelClass": "<Default>",
+                    "labelPosition": "Above",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "onChange_ValidationOption": "Client-side only",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        },
+                        "ink": {
+                            "hasbackgroundimage": false,
+                            "backgroundimage": "",
+                            "inkunits": 1
+                        }
+                    },
+                    "textboxSubTheme": "",
+                    "getFunction": "",
+                    "setFunction": "",
+                    "datePicker": {
+                        "displayTimePicker": false,
+                        "openMethod": "ClickIcon",
+                        "dateFormat": "<Default>",
+                        "iconNumber": 2,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "userMustSelectFromDatePicker": false,
+                        "multiple": {
+                            "allow": false,
+                            "separators": ".."
+                        },
+                        "hasMask": false,
+                        "format": {
+                            "mask": ""
+                        },
+                        "timePickerOptionsDefined": false,
+                        "display": false,
+                        "friendlyDisplay": {
+                            "enabled": false,
+                            "settingsJSON": ""
+                        },
+                        "useComboBoxes": true,
+                        "lowYear": 1950,
+                        "highYear": 2050,
+                        "switchYear": 30,
+                        "lowDate": "",
+                        "highDate": "",
+                        "disabledDays": "",
+                        "disabledDates": ""
+                    },
+                    "displayAsSlider": false,
+                    "flags": {
+                        "clientSideDefinition": false
+                    },
+                    "listView": {
+                        "class": ""
+                    },
+                    "info": {
+                        "level": 3,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "077fe34f-e535-4f82-bdfa-b3914f2a4602",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 17,
+                        "color": "",
+                        "icon": "$$control.edit",
+                        "displayText": "[panel_title]",
+                        "parentPanelCardId": "8fc09e96-52e7-4e57-85e5-30e76b1d8bb7",
+                        "break": true,
+                        "display": "{B=White,Light Blue}{I:'vertline'}{I:'vertline'}{I:'vertline'}{Data=44113c93_c7e5_43bc_ab81_93bed13168c4}{I:'$$control.edit'} [panel_title] �"
+                    },
+                    "specialtype": "None",
+                    "specialtypeJSON": ""
+                },
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 2in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.PANEL_TITLE\" for=\"{grid.componentname}.V.R{grid.rownumber}.PANEL_TITLE\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"display:block;\">Pane Title</label>\n<!--LblE-->\n\t<!--FldS--><input\ttype=\"text\" id=\"{grid.componentname}.V.R{grid.rownumber}.PANEL_TITLE\" title=\"\"     class=\"[theme:edit.base.className|class.dialogInput] \" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"    name=\"V.R{grid.rownumber}.PANEL_TITLE\"    value=\"\"    />\n<!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'PANEL_TITLE': {info: {controlType: 'textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0
+            },
+            {
+                "controlType": "dialog_formcontrol",
+                "display": "{B=White,Light Blue}{I:'vertline'}{I:'vertline'}{I:'vertline'}{Data=47793dfa_a2a4_4f04_b7f6_c1bd4d0d9c6a}{I:'$$control.edit'} [vendor_id] �",
+                "displayODFlat": "{Data=47793dfa_a2a4_4f04_b7f6_c1bd4d0d9c6a}",
+                "idInternal": "47793dfa_a2a4_4f04_b7f6_c1bd4d0d9c6a",
+                "parentContainer": 14,
+                "displayOD": "{Data=47793dfa_a2a4_4f04_b7f6_c1bd4d0d9c6a}",
+                "displayODtree": "{Data=47793dfa_a2a4_4f04_b7f6_c1bd4d0d9c6a}",
+                "crc": "4294936783",
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0,
+                "v": {
+                    "controlType": "textbox",
+                    "variableName": "vendor_id",
+                    "type": "Character",
+                    "maxLength": -1,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "lookup": {
+                        "editCombo": {
+                            "openLookupOnFocus": false
+                        }
+                    },
+                    "textboxSubTheme": "",
+                    "textboxAutocorrect": true,
+                    "textboxAutoCapitalize": true,
+                    "label": "Vendor Id",
+                    "class": "<Default>",
+                    "breakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "labelClass": "<Default>",
+                    "labelPosition": "Left",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "getFunction": "",
+                    "setFunction": "",
+                    "onChange_ValidationOption": "Client-side only",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        },
+                        "ink": {
+                            "hasbackgroundimage": false,
+                            "backgroundimage": "",
+                            "inkunits": 1
+                        }
+                    },
+                    "datePicker": {
+                        "friendlyDisplay": {
+                            "enabled": false,
+                            "settingsJSON": ""
+                        },
+                        "displayTimePicker": false,
+                        "openMethod": "ClickIcon",
+                        "dateFormat": "<Default>",
+                        "iconNumber": 2,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "userMustSelectFromDatePicker": false,
+                        "multiple": {
+                            "allow": false,
+                            "separators": ".."
+                        },
+                        "hasMask": false,
+                        "format": {
+                            "mask": ""
+                        },
+                        "timePickerOptionsDefined": false,
+                        "display": false,
+                        "useComboBoxes": true,
+                        "lowYear": 1950,
+                        "highYear": 2050,
+                        "switchYear": 30,
+                        "lowDate": "",
+                        "highDate": "",
+                        "disabledDays": "",
+                        "disabledDates": ""
+                    },
+                    "specialtype": "None",
+                    "specialtypeJSON": "",
+                    "info": {
+                        "level": 3,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "077fe34f-e535-4f82-bdfa-b3914f2a4602",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 18,
+                        "color": "",
+                        "icon": "$$control.edit",
+                        "displayText": "[vendor_id]",
+                        "parentPanelCardId": "8fc09e96-52e7-4e57-85e5-30e76b1d8bb7",
+                        "break": true,
+                        "display": "{B=White,Light Blue}{I:'vertline'}{I:'vertline'}{I:'vertline'}{Data=47793dfa_a2a4_4f04_b7f6_c1bd4d0d9c6a}{I:'$$control.edit'} [vendor_id] �"
+                    },
+                    "displayAsSlider": false,
+                    "listView": {
+                        "class": ""
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "flags": {
+                        "clientSideDefinition": false
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 2in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.VENDOR_ID\" for=\"{grid.componentname}.V.R{grid.rownumber}.VENDOR_ID\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"float: left; width: __global.labelWidth__; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\">Vendor Id</label>\n<!--LblE--><!--FldS--><div style=\"margin-left: __global.labelWidth__ ;\"><input\ttype=\"text\" id=\"{grid.componentname}.V.R{grid.rownumber}.VENDOR_ID\" title=\"\"     class=\"[theme:edit.base.className|class.dialogInput] \" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"    name=\"V.R{grid.rownumber}.VENDOR_ID\"    value=\"\"    />\n</div><!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'VENDOR_ID': {info: {controlType: 'textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
+                }
+            },
+            {
+                "controlType": "dialog_formcontrol",
+                "display": "{B=White,Light Blue}{I:'vertline'}{I:'vertline'}{I:'vertline'}{Data=b5f2d1af_c4cb_41a2_9908_028fba3c2052}{I:'$$control.edit'} [vendor_panel_title] �",
+                "displayODFlat": "{Data=b5f2d1af_c4cb_41a2_9908_028fba3c2052}",
+                "idInternal": "b5f2d1af_c4cb_41a2_9908_028fba3c2052",
+                "parentContainer": 14,
+                "displayOD": "{Data=b5f2d1af_c4cb_41a2_9908_028fba3c2052}",
+                "displayODtree": "{Data=b5f2d1af_c4cb_41a2_9908_028fba3c2052}",
+                "crc": "4294956976",
+                "v": {
+                    "controlType": "textbox",
+                    "variableName": "vendor_panel_title",
+                    "type": "Character",
+                    "maxLength": -1,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "precalc": {
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "lookup": {
+                        "editCombo": {
+                            "openLookupOnFocus": false
+                        }
+                    },
+                    "textboxAutocorrect": true,
+                    "textboxAutoCapitalize": true,
+                    "label": "Vendor Panel Title",
+                    "class": "<Default>",
+                    "breakType": "After",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "labelClass": "<Default>",
+                    "labelPosition": "Left",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "onChange_ValidationOption": "Client-side only",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        },
+                        "ink": {
+                            "hasbackgroundimage": false,
+                            "backgroundimage": "",
+                            "inkunits": 1
+                        }
+                    },
+                    "textboxSubTheme": "",
+                    "getFunction": "",
+                    "setFunction": "",
+                    "datePicker": {
+                        "displayTimePicker": false,
+                        "openMethod": "ClickIcon",
+                        "dateFormat": "<Default>",
+                        "iconNumber": 2,
+                        "OKButtonLabel": "OK",
+                        "CancelButtonLabel": "Cancel",
+                        "userMustSelectFromDatePicker": false,
+                        "multiple": {
+                            "allow": false,
+                            "separators": ".."
+                        },
+                        "hasMask": false,
+                        "format": {
+                            "mask": ""
+                        },
+                        "timePickerOptionsDefined": false,
+                        "display": false,
+                        "friendlyDisplay": {
+                            "enabled": false,
+                            "settingsJSON": ""
+                        },
+                        "useComboBoxes": true,
+                        "lowYear": 1950,
+                        "highYear": 2050,
+                        "switchYear": 30,
+                        "lowDate": "",
+                        "highDate": "",
+                        "disabledDays": "",
+                        "disabledDates": ""
+                    },
+                    "displayAsSlider": false,
+                    "flags": {
+                        "clientSideDefinition": false
+                    },
+                    "listView": {
+                        "class": ""
+                    },
+                    "info": {
+                        "level": 3,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "077fe34f-e535-4f82-bdfa-b3914f2a4602",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 19,
+                        "color": "",
+                        "icon": "$$control.edit",
+                        "displayText": "[vendor_panel_title]",
+                        "parentPanelCardId": "8fc09e96-52e7-4e57-85e5-30e76b1d8bb7",
+                        "break": true,
+                        "display": "{B=White,Light Blue}{I:'vertline'}{I:'vertline'}{I:'vertline'}{Data=b5f2d1af_c4cb_41a2_9908_028fba3c2052}{I:'$$control.edit'} [vendor_panel_title] �"
+                    },
+                    "specialtype": "None",
+                    "specialtypeJSON": ""
+                },
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 2in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.VENDOR_PANEL_TITLE\" for=\"{grid.componentname}.V.R{grid.rownumber}.VENDOR_PANEL_TITLE\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"float: left; width: __global.labelWidth__; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\">Vendor Panel Title</label>\n<!--LblE--><!--FldS--><div style=\"margin-left: __global.labelWidth__ ;\"><input\ttype=\"text\" id=\"{grid.componentname}.V.R{grid.rownumber}.VENDOR_PANEL_TITLE\" title=\"\"     class=\"[theme:edit.base.className|class.dialogInput] \" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"    name=\"V.R{grid.rownumber}.VENDOR_PANEL_TITLE\"    value=\"\"    />\n</div><!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'VENDOR_PANEL_TITLE': {info: {controlType: 'textbox'}, hiddenVal: false, type: 'input,label', isCalc: false, hlp: '', isArray: false, dataType: 'C'  }\n"
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0
+            },
+            {
+                "controlType": "layout_directive_ContainerEnd",
+                "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertline'}{I:'vertline'}{Data=c29cad38-fef2-446d-80b9-69d89542bf9b}{I:'vertLineCap'} [PanelHeader End: PANELHEADER_2]",
+                "displayODFlat": "{Data=c29cad38-fef2-446d-80b9-69d89542bf9b}{I:'$$format.border.style.dash'} [Container End]",
+                "idInternal": "c29cad38-fef2-446d-80b9-69d89542bf9b",
+                "parentContainer": 13,
+                "displayOD": "{Data=c29cad38-fef2-446d-80b9-69d89542bf9b}{I:'$$format.border.style.dash'} [Container End]",
+                "displayODtree": "{Data=c29cad38-fef2-446d-80b9-69d89542bf9b}{I:'$$format.border.style.dash'} [Container End]",
+                "crc": "4294918948",
+                "v": {
+                    "container": {
+                        "BreakType": "None",
+                        "BreakHeight": ".1in",
+                        "breakHorizontalSpace": ".1in"
+                    },
+                    "info": {
+                        "level": 2,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": true,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "8fc09e96-52e7-4e57-85e5-30e76b1d8bb7",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 20,
+                        "containerStartID": "077fe34f-e535-4f82-bdfa-b3914f2a4602",
+                        "color": "{C=Orange,White}{B=White,Orange}{F=+B}",
+                        "icon": "vertLineCap",
+                        "displayText": "[PanelHeader End: PANELHEADER_2]",
+                        "parentPanelCardId": "8fc09e96-52e7-4e57-85e5-30e76b1d8bb7",
+                        "break": false,
+                        "display": "{C=Orange,White}{B=White,Orange}{F=+B}{I:'vertline'}{I:'vertline'}{Data=c29cad38-fef2-446d-80b9-69d89542bf9b}{I:'vertLineCap'} [PanelHeader End: PANELHEADER_2]"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 14,
+                "__flagwrapcontentsindiv": false
+            },
+            {
+                "controlType": "layout_directive_PanelCardEnd",
+                "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertline'}{Data=248a9d6a-0c2e-4e54-8e23-7677d3bde873}{I:'vertLineCap'} [Panel Card End: PANELCARD_2]",
+                "idInternal": "248a9d6a-0c2e-4e54-8e23-7677d3bde873",
+                "parentContainer": 1,
+                "crc": "4294936392",
+                "v": {
+                    "info": {
+                        "level": 1,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": true,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "8fe06ec3-2197-405c-9c85-9b5386c51997",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 21,
+                        "containerStartID": "8fc09e96-52e7-4e57-85e5-30e76b1d8bb7",
+                        "color": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}",
+                        "icon": "vertLineCap",
+                        "parentPanelCardId": "8fc09e96-52e7-4e57-85e5-30e76b1d8bb7",
+                        "displayText": "[Panel Card End: PANELCARD_2]",
+                        "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertline'}{Data=248a9d6a-0c2e-4e54-8e23-7677d3bde873}{I:'vertLineCap'} [Panel Card End: PANELCARD_2]"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 13
+            },
+            {
+                "controlType": "layout_directive_PanelLayoutEnd",
+                "display": "{C=#84+180+100,White}{B=White,#84+180+100}{F=+B}{Data=f6e3a04d-c819-4e4d-bdf8-19ce0b642262}{I:'vertLineCap'} [Panel Layout End: PL_MAIN]",
+                "idInternal": "f6e3a04d-c819-4e4d-bdf8-19ce0b642262",
+                "crc": "4294903314",
+                "v": {
+                    "info": {
+                        "level": 0,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": true,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": false,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 22,
+                        "containerStartID": "8fe06ec3-2197-405c-9c85-9b5386c51997",
+                        "color": "{C=#84+180+100,White}{B=White,#84+180+100}{F=+B}",
+                        "icon": "vertLineCap",
+                        "displayText": "[Panel Layout End: PL_MAIN]",
+                        "parentPanelCardId": "",
+                        "display": "{C=#84+180+100,White}{B=White,#84+180+100}{F=+B}{Data=f6e3a04d-c819-4e4d-bdf8-19ce0b642262}{I:'vertLineCap'} [Panel Layout End: PL_MAIN]"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 1
+            }
+        ],
+        "builderType": "Dialog2",
+        "guid": "ecdf4f3b-47df-4b75-9b3d-3caf27a22779",
+        "componentName": "main_ux",
+        "componentFilename": "C:\\Users\\giantkillertraining\\tabbedui_replacement\\tabbedui_replacement.WebProjects\\Default.WebProject\\main_ux.a5wcmp",
+        "_style_versionNumber": 4,
+        "_style_hasSassOverrides": false,
+        "_style_hasCSSTweaks": false,
+        "_style_hasCSS_or_subtheme_tweaks": false,
+        "useCompactTheme": true,
+        "styleTweaksCSS": "",
+        "styleTweaksSubthemes": "",
+        "controlflowdirection": "ltr",
+        "SVGLinkedFiles": "",
+        "localsvg": "",
+        "createAppCacheVersion": false,
+        "createAppCacheVersionC": "No",
+        "appcache": {
+            "pageName": "<Default>",
+            "pageTitle": "",
+            "hasHomeScreenIcons": false,
+            "homeScreenIconName": "",
+            "icons": {
+                "precomposed": false
+            },
+            "pageHeadSection": ""
+        },
+        "clientsideNumberFormatDecimal": "period",
+        "clientsideNumberFormatThousands": "comma",
+        "dataSeriesPublishToClientSide": false,
+        "showLineNumbersInControlsList": false,
+        "saveFileType": "Formatted JSON",
+        "keyboardShortcutsJSON": "",
+        "preRenderWarningMessageShow": true,
+        "autoSetPreRenderOnForAllUX": false,
+        "selected": "47793dfa_a2a4_4f04_b7f6_c1bd4d0d9c6a\n",
+        "designPaneIndex": 1,
+        "masterPaneC": "controls",
+        "serverSideEventIndex": 1,
+        "clientSideEventIndex": 1,
+        "clientSideEventIndexC": "1",
+        "lastControlSelected": "insert_dialog_textbox",
+        "__WPhostName": "Chrome",
+        "embeddedMode": false,
+        "_style_hassubthemeTweaks": false,
+        "repeatingSectionsAreDirty": true,
+        "containerSubTypeNew": "",
+        "containerSubTypeOld": "",
+        "flagDropdownCascadingChanged": false,
+        "toolBox_value": "",
+        "addinBuildNumber": "5457",
+        "addinBuildNumberHighestUsed": "5457",
+        "alphaFiveBuildNumber": "12",
+        "openedFromTemplate": false,
+        "builtWithVersionNumer": 1,
+        "_buildCount": "21",
+        "securityEnabled": false,
+        "showHideIsUsed": false,
+        "precalc": {
+            "js_editorSetInitialization": ";\n",
+            "customControl": {
+                "js_beforePrepare": "",
+                "js_afterRender": "",
+                "customControl_xbasicFunctions": ""
+            },
+            "jschart": {
+                "js_beforePrepare": "",
+                "js_afterRender": "",
+                "jschart_xbasicFunctions": ""
+            },
+            "rgraph": {
+                "libraries": ""
+            },
+            "getSetFunctions": {
+                "js_beforePrepare": ""
+            },
+            "injectibleHTML": "",
+            "containerWindowHTML": "",
+            "repeatingsectionInfoJs": "",
+            "framesInfoJS": "{dialog.object}.framesInfo = {\n\n};\n",
+            "jsActionJavascriptGlobalFunctions": "",
+            "xbActionJavascriptGlobalFunctions": "",
+            "javascriptSetupForGridLookups": "{\n}",
+            "javascript": {
+                "showWaitMessage": "",
+                "hideWaitMessage": "",
+                "embeddedUXComponents": ""
+            },
+            "fileUpload_controlInfo": "",
+            "javascript_cascadingDropdowns": "{dialog.object}._cascadingControls = [];\n{dialog.object}._cascadingControlsChildren = [];",
+            "template_html": "<!--div GLOBALERRORS-->\n<div class=\"errorTip\" style=\"margin-bottom: 2px; display: none; width: 8in; \" id=\"{dialog.componentname}.GLOBALERRORS\"></div>\n<!--End div GLOBALERRORS-->\n\n<div id=\"{dialog.componentname}.R1\">\n'xbasic\nv._dirty = .f.\n\n<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.PANELHEADER_1\"   \n\t\t\tclass=\"A5CWLayout \"  style=\"\"  ><!--DIV for Container control-->\n<div class=\"A5CWLayout\"   id=\"{dialog.componentName}.V.R{dialog.rownumber}.CONTROLBAR_1\" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\">\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n\n<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n\n'xbasic\n\nv._dirty = .f.\n\n\n\n<div class=\"A5CWLayout\" style=\"width: 4in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.MENU_MAIN\" for=\"{grid.componentname}.V.R{grid.rownumber}.MENU_MAIN\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"float: left; width: __global.labelWidth__; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\">Menu Main</label>\n<!--LblE--><!--FldS--><div style=\"margin-left: __global.labelWidth__ ;\"><!--JSControlStart--><input type=\"hidden\" id=\"{grid.componentname}.V.R{grid.rownumber}.MENU_MAIN\" name=\"V.R{grid.rownumber}.MENU_MAIN\" /><!--JSControlEnd-->\n<div >\n\t<div id=\"{grid.componentname}.V.R{grid.rownumber}.MENU_MAIN.CONTROL\"  class=\"{grid.componentName}_MENU_MAIN\" style=\"overflow: auto; width: 100%; \"></div>\n</div>\n</div><!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n'xbasic\nv._dirty = .f.\n\n'xbasic\nv._dirty = .f.\n\n'xbasic\n\nv._dirty = .f.\n\n\n\n<div class=\"A5CWLayout\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_2\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >Home Tab Content</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n'xbasic\nv._dirty = .f.\n\n'xbasic\nv._dirty = .f.\n\n'xbasic\n\nv._dirty = .f.\n\n\n\n<div \tid=\"{dialog.componentName}.V.R{dialog.rownumber}.PANELHEADER_2\"   \n\t\t\tclass=\"A5CWLayout \"  style=\"\"  ><!--DIV for Container control-->\n<div class=\"A5CWLayout\" style=\"width: \" >\n\t<div id=\"{dialog.componentName}.V.R{dialog.rownumber}.STATICTEXT_1\" title=\"\"  class=\"\" style=\"box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"   >Normally Hidden</div>\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n<div class=\"A5CWLayout\" style=\"width: 2in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.CUSTOMER_ID\" for=\"{grid.componentname}.V.R{grid.rownumber}.CUSTOMER_ID\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"display:block;\">Record Id</label>\n<!--LblE-->\n\t<!--FldS--><input\ttype=\"text\" id=\"{grid.componentname}.V.R{grid.rownumber}.CUSTOMER_ID\" title=\"\"     class=\"[theme:edit.base.className|class.dialogInput] \" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"    name=\"V.R{grid.rownumber}.CUSTOMER_ID\"    value=\"\"    />\n<!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n<div class=\"A5CWLayout\" style=\"width: 2in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.PANEL_TITLE\" for=\"{grid.componentname}.V.R{grid.rownumber}.PANEL_TITLE\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"display:block;\">Pane Title</label>\n<!--LblE-->\n\t<!--FldS--><input\ttype=\"text\" id=\"{grid.componentname}.V.R{grid.rownumber}.PANEL_TITLE\" title=\"\"     class=\"[theme:edit.base.className|class.dialogInput] \" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"    name=\"V.R{grid.rownumber}.PANEL_TITLE\"    value=\"\"    />\n<!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n<div class=\"A5CWLayout\" style=\"width: 2in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.VENDOR_ID\" for=\"{grid.componentname}.V.R{grid.rownumber}.VENDOR_ID\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"float: left; width: __global.labelWidth__; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\">Vendor Id</label>\n<!--LblE--><!--FldS--><div style=\"margin-left: __global.labelWidth__ ;\"><input\ttype=\"text\" id=\"{grid.componentname}.V.R{grid.rownumber}.VENDOR_ID\" title=\"\"     class=\"[theme:edit.base.className|class.dialogInput] \" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"    name=\"V.R{grid.rownumber}.VENDOR_ID\"    value=\"\"    />\n</div><!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n<div class=\"A5CWLayout\" style=\"width: 2in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.VENDOR_PANEL_TITLE\" for=\"{grid.componentname}.V.R{grid.rownumber}.VENDOR_PANEL_TITLE\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"float: left; width: __global.labelWidth__; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\">Vendor Panel Title</label>\n<!--LblE--><!--FldS--><div style=\"margin-left: __global.labelWidth__ ;\"><input\ttype=\"text\" id=\"{grid.componentname}.V.R{grid.rownumber}.VENDOR_PANEL_TITLE\" title=\"\"     class=\"[theme:edit.base.className|class.dialogInput] \" style=\"width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\"    name=\"V.R{grid.rownumber}.VENDOR_PANEL_TITLE\"    value=\"\"    />\n</div><!--FldE-->\n</div><!--breakbegin--><br  style=\"clear:both; \" /><!--breakend-->\n<div style=\"font: 0pt arial;clear:both;\"></div>\n\t</div>\n\n'xbasic\nv._dirty = .f.\n\n'xbasic\nv._dirty = .f.\n\n\n\n</div>\n<!--div DEBUGUPDATECOMMANDS-->\n<div class=\"\" style=\"display: none; \" id=\"{dialog.componentname}.DEBUGUPDATECOMMANDS\"></div>\n<!--End div DEBUGUPDATECOMMANDS-->\n",
+            "panelDisplayNames": "PC_MENU : 'PC_MENU',PANELCARD_3 : 'Home',PANELCARD_2 : 'PANELCARD_2',PL_CONTENT : 'PL_CONTENT',PL_MAIN : 'PL_MAIN'",
+            "controlJavascript": "",
+            "controlJavascriptRepeatingSections": "",
+            "template_js": "",
+            "sessionVarsInShowHideExpns": "",
+            "flagHasShowTimer": false,
+            "themeSearchReplaceString": "[theme:edit.base.className|class.dialogInput]=*if_error(p.edit.base.className,\"[class.dialogInput]\")\n",
+            "flagHasHTML5ImageCapture": false,
+            "flagUsesCordova": false,
+            "flagUseAmazonS3FileUpload": false,
+            "flagUseStripe": false,
+            "usesSystemSVG": true,
+            "flagUseAudioPlayer": false,
+            "flagUseInk": false,
+            "flagUsesAudioLibrary": false,
+            "flagUsesPhoneGapFileSystemFunctions": false,
+            "flagUsesGetAccurateLocation": false,
+            "editorSet_for_editor": "{dialog.object}._EDITOR_EDITORSET = {};",
+            "otherJS": "",
+            "javascript_layoutRules": "",
+            "javascript_controlNesting": "{\nPANELHEADER_1: [],\nPANELHEADER_2: ['customer_id','panel_title','vendor_id','vendor_panel_title']\n}",
+            "appcacheEvents": "",
+            "controlbarSettings": {
+                "CONTROLBAR_1": "{\n    \"_name\": \"CONTROLBAR_1\",\n    \"className\": \"{dialog.componentName}_CONTROLBAR_1\",\n    \"disclosuresClassName\": \"{dialog.componentName}_CONTROLBAR_1\",\n    \"theme\": \"{dialog.style}\",\n    \"edge\": \"top\",\n    \"items\": {\n        \"html_title\": {\n            \"type\": \"html\",\n            \"html\": \"TabbedUI Replacement Demonstration\"\n        }\n    },\n    \"actions\": {},\n    \"layout\": \"Default\",\n    \"layouts\": {\n        \"Default\": {\n            \"lines\": [\n                {\n                    \"before\": {\n                        \"items\": []\n                    },\n                    \"middle\": {\n                        \"items\": [\n                            \"html_title\"\n                        ]\n                    },\n                    \"after\": {\n                        \"items\": []\n                    }\n                }\n            ]\n        }\n    },\n    \"disclosures\": {}\n}"
+            },
+            "hasListNavigator": false,
+            "vb_based_on_lists": "",
+            "vb_based_on_javascritFunctions": "",
+            "constrainContainerJS": "",
+            "hasFormViewControls": false,
+            "setScreenHeightJS": "",
+            "hasListColumnSelector": false,
+            "hasCharts": false,
+            "hasformbox": false,
+            "hasExpandingmenus": false,
+            "actionsheet": {
+                "has": false
+            },
+            "kanban": {
+                "has": false
+            },
+            "transformdataviewer": {
+                "has": false,
+                "controlnames": ""
+            },
+            "requiredPlugins": "",
+            "ControlBarSettings2": {
+                "CONTROLBAR_1": {
+                    "javascriptFunctions": "",
+                    "css": ".{dialog.componentName}_CONTROLBAR_1{\n\n}",
+                    "data": "{}"
+                }
+            }
+        },
+        "FieldsInRepeatingSectionsDeletedBySecurity": "",
+        "repeatingSectionsToRecalc": "",
+        "dialogObject": "if(typeof {dialog.componentName}_DlgObj == 'object') {dialog.componentName}_DlgObj._destroy();\nvar {dialog.componentName}_DlgObj = new A5.DialogComponentHelper('{dialog.componentName}',{\n\tajaxURL: '{dialog.ajaxUrl}',\n\t_embeddedMode: {dialog.embeddedMode},\n\t_livePreviewInBuilder: {livePreviewInBuilder},\n\tcomponentGUID: 'ecdf4f3b-47df-4b75-9b3d-3caf27a22779',\n\tcolumnInfo: {columninfo},\n\toriginalValues: {dialog.jsOriginalValues},\n\tdefaultValues: {dialog.jsDefaultValues},\n\tdatePickerMonthNames: [{datePickerMonthNames}],\n\tdatePickerDayNames: [{datePickerDayNames}],\n\tdatePickerTodayButton: '{datePickerTodayButton}',\n\tdatePickerCloseButton: '{datePickerCloseButton}',\n\tdatePickerFirstDayOfWeek: {datePickerFirstDayOfWeek},\n\tresetFormMessage: '{resetFormMessage}',\n\tresetFormTitle: '{resetFormTitle}',\n\tresetFormIcon: '{resetFormIcon}',\n\tdirtyFormMessage: '{dirtyFormMessage}',\n\tdirtyFormTitle: '{dirtyFormTitle}',\n\tdirtyFormIcon: '{dirtyFormIcon}',\n\tdeleteRecordDialogTitle: '{deleteRecordTitle}',\n\tdeleteRecordDialogMessage: '{deleteRecordMessage}',\t\n\tssDateFormat: '{serverSideDateFormat}',\n\tstyleName: '{dialog.style}',\n\t_fieldHelpers_DIALOG2: [],\n\tparentComponentAlias: '{parentComponentAlias}',\n\tsubmitIfHasClientSideErrors: true, \n\trowErrors: {\n\t\t\t\tshowMessageBox: false,\n\t\t\t\tmessageBoxTitle: 'Error',\n\t\t\t\tstyle: 'color: red; width: 6in; height: 2in;'\n\t\t},\n\tfieldErrors: {\n\t\ttype: 'block', \n\t\tclassName: 'errorText',\n\t\tinputClassName: '[class.gridInputError]',\n\t\tedit: { \n\t\t\tcontainer: { className: '[class.gridInputContainerError]'}\n\t\t},\n\t\ticon: '{images.dialog.editError}',\n\t\tglobal: {\n\t\t\tcontId: '{dialog.componentname}.GLOBALERRORS',\n\t\t\thoverClassName: 'errorTextHighlight',\n\t\t\thoverInputClassName: 'errorInputHighlight'\n\t\t}\n\t},\n\t\tonOrientationChange: function(e) {\nvar pObj = {dialog.object}.getPanelObject();\nif(pObj) pObj.resize();\n\t\t},\n\t\t_onWindowResize: function(e) {\nvar arr = {dialog.object}._listControls;\nif(arr) {\n var obj;\n for(var i = 0; i < arr.length; i++) {\n  obj = {dialog.object}.getControl(arr[i]);\n  if(obj) obj.resize()\n }\n}\n\t\t},\n_onInitializeBegin: function(e) { /*systemOnInitializeBegin*/ ;\n   },\n\n\n\t});\n\n",
+        "xbasiccode": {
+            "blankInitialValueIfVarNotFound": "",
+            "setValueProperties": "value.MENU_MAIN=\"\"\nvalue.CUSTOMER_ID=\"\"\nvalue.PANEL_TITLE=\"\"\nvalue.VENDOR_ID=\"\"\nvalue.VENDOR_PANEL_TITLE=\"\"",
+            "setValueProperties2": "value.MENU_MAIN=\"\"\nvalue.CUSTOMER_ID=\"\"\nvalue.PANEL_TITLE=\"\"\nvalue.VENDOR_ID=\"\"\nvalue.VENDOR_PANEL_TITLE=\"\"",
+            "setValueUnformattedProperties": "value.MENU_MAIN=convert_type(\"\",\"C\")\nvalue.CUSTOMER_ID=convert_type(\"\",\"C\")\nvalue.PANEL_TITLE=convert_type(\"\",\"C\")\nvalue.VENDOR_ID=convert_type(\"\",\"C\")\nvalue.VENDOR_PANEL_TITLE=convert_type(\"\",\"C\")\n"
+        },
+        "componentType": "Dialog2",
+        "version": 1,
+        "recNav": {
+            "slider": {
+                "showSlider": false
+            }
+        },
+        "A5SaveTimeStamp": "20200515162557913",
+        "a_actionJavascript": [
+            {
+                "actionGuid": "81f0abec-ce52-4aa9-98d7-f20835213fe1       ",
+                "scriptMetaData": "<a_ajs<[1]<display=\"{I:'$$web.component.dialog'}{F=Tahoma,10}{C=Dark Blue,White}{B=Blue White,Dark Blue}Open a UX component     {T=4}{I:'a5_vertical_line'}\">\n<action=\"Open a UX component     \">\n<icon=\"$$web.component.dialog\">\n<isCommentedOut=.F.>\n<comment=\"\">\n<builder=\"a5ajs_openGenericComponent(v,wf,pv,dlg_mode,\\\"dialog2\\\")\">\n<metaData=<<%str1%\n<targetGridDefinition=<<%str%\n<gridName=\"customer_list_ux\">\n<gridAlias=\"DEFAULT\">\n<argumentBindings=\"\">\n<overrideSettings=\"\">\n<useSameStyleAsParentGrid=.T.>\n<customSettingOverridesJSON=\"\">\n<order=\"\">\n<localArguments=\"\">\n<placeHolderValues=\"\">\n%str%>\n<flagShowSynchronizePrompts=.T.>\n<parentNavigator=\"PL_CONTENT\">\n<dynamicPanelTitle=\"Customer List\">\n<dynamicPanelSetFocus=.T.>\n<waitMessagePanel=\"\">\n<dynamicPanelCanClose=.F.>\n<grid<gridName=\"customer_list_ux\">\n<alias=\"DEFAULT\">\n<userFilter=\"\">\n<baseFilter=\"\">\n<link=\"\">\n<order=\"\">\n<argumentDefinitions=\"\">\n<argumentBindings=\"\">\n<useMasterStyle=.T.>\n<overrideSettings=\"\">\n<customSettingOverridesJSON=\"\">\n<debugMode=.F.>\n<timer=.F.>\n<queryEcho=.F.>\n<workingMessage=\"<img src=\\\"css/A5System/Images/wait.gif\\\" /> Computing Grid. Please wait...\">\n<beforeExecuteClientSideFunctionName=\"\">\n>\n<refreshUXOnSynchronize=.T.>\n<refreshUXJavascriptFunction=\"\">\n<allowAutoCloseIfDirty=.F.>\n<dialog<showWaitMessageOnRefresh=.F.>\n<waitMessageText=\"Wait...\">\n<waitMessageIcon=\"css/A5System/Images/wait.gif\">\n<useCachedDialog=.F.>\n>\n<specialMode=\"PopulateDialog\">\n<populateDialog=.F.>\n<getPrimaryKeyFrom=\"ControlsOnCurrentComponent\">\n<primaryKeyValue=\"\">\n<controlsContainingPrimaryKey=\"\">\n<variableContainingPrimaryKey=\"\">\n<targetType=\"DynamicPanel\">\n<targetDIVid=\"\">\n<targetDIVcanHide=.T.>\n<targetDIVHideHyperlink=\"Close\">\n<targetDIVStyle=\"\">\n<targetPanel=\"\">\n<dockWindow=.F.>\n<dockLocation=\"Bottom\">\n<windowNameExplicit=\"<Default>\">\n<ajaxWindowType=\"Modal-Popup\">\n<ajaxWindowPositionAttribute=\"\">\n<ajaxWindowPositionAttributeEnglish=\"\">\n<ajaxWindowPositionAttributeDD=\"\">\n<ajaxWindowPositionAttributeEnglishDD=\"\">\n<ajaxWindowModalLockClassName=\"<Default>\">\n<ajaxWindowTitle=\"Window\">\n<ajaxPaneTitle=\"Pane\">\n<ajaxPaneAlwaysUseNewPane=.T.>\n<ajaxWindowReuseExistingWindow=.F.>\n<ajaxWindowHeight=\"5in\">\n<ajaxWindowWidth=\"8in\">\n<ajaxWindowisResizable=.T.>\n<ajaxWindowWorkingMessage=\"Working...\">\n<ajaxWindowWorkingMessageIcon=\"css/A5System/Images/wait.gif\">\n<ajaxWindowWorkingMessageUseCSSAnimation=.F.>\n<ajaxWindowWorkingMessageCSSAnimationSettings<size=\"32\">\n>\n<ajaxWindowTitlePosition=\"Top\">\n<ajaxWindowTitleDirection=\"ltr\">\n<ajaxWindowTitleHasClose=.T.>\n<ajaxWindowTitleShow=.T.>\n<ajaxWindowDisableMove=.F.>\n<ajaxWindowRefreshGridOnClose=\"None\">\n<window<hasCustomButtons=.F.>\n<buttonCount=0>\n<customButtonsInLineStyle=\"\">\n<tbar<show=.F.>\n<html=\"\">\n<style=\"\">\n>\n<header<show=.F.>\n<html=\"\">\n<style=\"\">\n>\n<footer<show=.F.>\n<html=\"\">\n<style=\"\">\n>\n<bbar<show=.F.>\n<html=\"\">\n<style=\"\">\n>\n<onInitialize=\"\">\n<onBeforeShow=\"\">\n<onShow=\"\">\n<onBeforeHide=\"\">\n<onHide=\"\">\n<onFocus=\"\">\n<onMove=\"\">\n<onResize=\"\">\n<animation<hasAnimation=.F.>\n<show<method=\"Fade\">\n<speed=\"Slow\">\n>\n<hide<method=\"None\">\n<speed=\"Fast\">\n>\n>\n<backgroundStyle=\"\">\n<centerContentsVertical=.F.>\n<centerContentsHorizontal=.F.>\n<pointer<has=.F.>\n<location=\"Auto\">\n>\n<warnOnCloseIfChildGridIsDirty=.T.>\n<subtheme=\"\">\n<buttons>\n>\n<parentTabPaneRefreshGridOnClose=.F.>\n<javascriptTabPane<onBeforeChange=\"\">\n<onChange=\"\">\n<onRightClick=\"\">\n<onInitial=\"\">\n<onBeforeRemove=\"\">\n<onRemove=\"\">\n>\n<ajaxFailedMessage=\"\">\n<offlineJavascript=\"\">\n<ajaxcallbacktimeout=\"<Default>\">\n<optimization<method=\"AjaxCallback\">\n<jsfunction=\"\">\n>\n%str1%>\n<javascriptAttribute=\"{grid.componentName}_O_42F1D0EB78E34B9DA905AB6D3E94B954({grid.rownumber},'{grid.rowId}',this);\">\n<Javascriptdeclarations_row=\"\">\n<Javascriptdeclarations_global=<<%str%\n\nwindow['{grid.componentName}_O_42F1D0EB78E34B9DA905AB6D3E94B954'] = function(rowNum,rowId,objEle) {\nvar runMethod = 'ajax';\n\nif(runMethod == 'ajax') {\nif(typeof {dialog.object}._onlineStatus != 'undefined') { \n\tif({dialog.object}._onlineStatus == 'offline') { \n\t\t( function() {  }() );\n\t\t{dialog.object}._executeEvent('onAjaxCallbackNotAvailable', {xbasicFunctionName: '', ajaxEvent: 'OpenComponent'})\n\t\treturn false;\n\t}\n}\t\t\n\t\n};\n\n$('panelId').innerHTML = '<div style=\\'\\'  id=\\'GRIDDIV_panelId\\'></div>'; \nvar go = new Object();\n\ngo.ajaxFailedMessage = '';\ngo.ajaxCallbackTimeout = {dialog.object}.ajaxCallbackTimeout;\n\ngo.dialog2Name = 'customer_list_ux';\ngo.type = 'dialog2';\ngo.alias = 'DEFAULT';;\ngo.submitCurrentFieldValues = true;\ngo.sourceGridPart = 'O';\ngo.sourceGridRowNumber = '1';\ngo.workingMessage = '<img src=\\'css/A5System/Images/wait.gif\\' />Working...';\ngo.placeholderValues = '';\ngo.argumentBinding = '';\n\ngo._thisGridAlias = {grid.object}.gridId;\nif(typeof {grid.object}.gridId != 'undefined') go._thisGridAlias = {grid.object}.gridId;\nif(typeof {grid.object}.dialogId != 'undefined') {\n\tgo._thisGridAlias = {grid.object}.dialogId;\n}\n\t\n\ngo._thisGridGUID = {grid.object}.componentGUID;\ngo._gridCurrentFilter = {grid.object}._gridFilter;\n\n\ngo._gridCurrentOrder = {grid.object}._gridOrder;\ngo._gridCurrentArguments = {grid.object}._gridArguments;\ngo._gridCurrentDBType = {grid.object}._gridDBType;\ngo.overrideSettings = 'Style_name = `{Grid.style}`||Style_name = `{Grid.style}`'+'||';\ngo.a5_default_path = '{grid.defaultPath}';\n\ngo.dynamicPanel = true;\n\ngo.setFocusToDynamicPanel = true;\ngo.parentPanelNavigator = 'PL_CONTENT';\ngo.dynamicPanelTitle = 'Customer List';\ngo.waitMessageTarget = '';\ngo.canCloseDynamicPanel = false;\nvar pNavObj = {dialog.object}.panelGet('PL_CONTENT');\nvar existingPanel = pNavObj.getPanel(go.alias.toUpperCase());\n\n\n\ngo.dialog2Div = '';\n\nvar pNavObj = {dialog.object}.panelGet('PL_CONTENT');\nvar existingPanel = pNavObj.getPanel(go.alias.toUpperCase());\nif(existingPanel == false) { \n\t{dialog.object}.showWaitMessage('page',{useCSSAnimation: false,message: 'Working...',icon: 'css/A5System/Images/wait.gif'});\n\tA5.component.runGenericComponent(go)\n\t{dialog.object}.panelSetActive('PL_CONTENT',true,true);\n} else { \n\tpNavObj.setActivePanel(go.alias.toUpperCase());\n\t{dialog.object}.panelSetActive('PL_CONTENT',true,true);\n}\n\n\n}\n%str%>\n<xbasicFunctions=\"\">\n>\n>\n<flagRunSynchronously=.F.>\n<flagWrapInTryCatch=.F.>\n<tryCatchJavascript=\"\">\n"
+            },
+            {
+                "actionGuid": "827d9f6c-25a8-4b88-9c6b-a14ea6205139",
+                "scriptMetaData": "<a_ajs<[1]<display=\"{I:'$$web.component.dialog'}{F=Tahoma,10}{C=Dark Blue,White}{B=Blue White,Dark Blue}Open a UX component{T=4}{I:'a5_vertical_line'}\">\n<action=\"Open a UX component\">\n<icon=\"$$web.component.dialog\">\n<isCommentedOut=.F.>\n<comment=\"\">\n<builder=\"a5ajs_openGenericComponent(v,wf,pv,dlg_mode,\\\"dialog2\\\")\">\n<metaData=<<%str2%\n<targetGridDefinition=<<%str1%\n<gridName=\"Customer_edit_argument_ux\">\n<gridAlias=\"JAVASCRIPT_ALIAS\">\n<argumentBindings=<<%str%\nCUSTOMERID|Character|{customer_id}\n%str%>\n<overrideSettings=\"\">\n<useSameStyleAsParentGrid=.T.>\n<customSettingOverridesJSON=\"\">\n<order=\"\">\n<localArguments=\"\">\n<placeHolderValues=\"\">\n%str1%>\n<flagShowSynchronizePrompts=.T.>\n<parentNavigator=\"PL_CONTENT\">\n<dynamicPanelTitle=\"javascript:panel_title\">\n<dynamicPanelSetFocus=.T.>\n<waitMessagePanel=\"\">\n<dynamicPanelCanClose=.F.>\n<grid<gridName=\"Customer_edit_argument_ux\">\n<alias=\"JAVASCRIPT_ALIAS\">\n<userFilter=\"\">\n<baseFilter=\"\">\n<link=\"\">\n<order=\"\">\n<argumentDefinitions=\"\">\n<argumentBindings=<<%str%\nCUSTOMERID|Character|{customer_id}\n%str%>\n<useMasterStyle=.T.>\n<overrideSettings=\"\">\n<customSettingOverridesJSON=\"\">\n<debugMode=.F.>\n<timer=.F.>\n<queryEcho=.F.>\n<workingMessage=\"<img src=\\\"css/A5System/Images/wait.gif\\\" /> Computing Grid. Please wait...\">\n<beforeExecuteClientSideFunctionName=\"\">\n>\n<refreshUXOnSynchronize=.T.>\n<refreshUXJavascriptFunction=\"\">\n<allowAutoCloseIfDirty=.F.>\n<dialog<showWaitMessageOnRefresh=.F.>\n<waitMessageText=\"Wait...\">\n<waitMessageIcon=\"css/A5System/Images/wait.gif\">\n<useCachedDialog=.T.>\n>\n<specialMode=\"PopulateDialog\">\n<populateDialog=.F.>\n<getPrimaryKeyFrom=\"ControlsOnCurrentComponent\">\n<primaryKeyValue=\"\">\n<controlsContainingPrimaryKey=\"\">\n<variableContainingPrimaryKey=\"\">\n<targetType=\"DynamicPanel\">\n<targetDIVid=\"\">\n<targetDIVcanHide=.T.>\n<targetDIVHideHyperlink=\"Close\">\n<targetDIVStyle=\"\">\n<targetPanel=\"\">\n<dockWindow=.F.>\n<dockLocation=\"Bottom\">\n<windowNameExplicit=\"<Default>\">\n<ajaxWindowType=\"Modal-Popup\">\n<ajaxWindowPositionAttribute=\"\">\n<ajaxWindowPositionAttributeEnglish=\"\">\n<ajaxWindowPositionAttributeDD=\"\">\n<ajaxWindowPositionAttributeEnglishDD=\"\">\n<ajaxWindowModalLockClassName=\"<Default>\">\n<ajaxWindowTitle=\"Window\">\n<ajaxPaneTitle=\"Pane\">\n<ajaxPaneAlwaysUseNewPane=.T.>\n<ajaxWindowReuseExistingWindow=.F.>\n<ajaxWindowHeight=\"5in\">\n<ajaxWindowWidth=\"8in\">\n<ajaxWindowisResizable=.T.>\n<ajaxWindowWorkingMessage=\"Working...\">\n<ajaxWindowWorkingMessageIcon=\"css/A5System/Images/wait.gif\">\n<ajaxWindowWorkingMessageUseCSSAnimation=.F.>\n<ajaxWindowWorkingMessageCSSAnimationSettings<size=\"32\">\n>\n<ajaxWindowTitlePosition=\"Top\">\n<ajaxWindowTitleDirection=\"ltr\">\n<ajaxWindowTitleHasClose=.T.>\n<ajaxWindowTitleShow=.T.>\n<ajaxWindowDisableMove=.F.>\n<ajaxWindowRefreshGridOnClose=\"None\">\n<window<hasCustomButtons=.F.>\n<buttons>\n<buttonCount=0>\n<customButtonsInLineStyle=\"\">\n<tbar<show=.F.>\n<html=\"\">\n<style=\"\">\n>\n<header<show=.F.>\n<html=\"\">\n<style=\"\">\n>\n<footer<show=.F.>\n<html=\"\">\n<style=\"\">\n>\n<bbar<show=.F.>\n<html=\"\">\n<style=\"\">\n>\n<onInitialize=\"\">\n<onBeforeShow=\"\">\n<onShow=\"\">\n<onBeforeHide=\"\">\n<onHide=\"\">\n<onFocus=\"\">\n<onMove=\"\">\n<onResize=\"\">\n<animation<hasAnimation=.F.>\n<show<method=\"Fade\">\n<speed=\"Slow\">\n>\n<hide<method=\"None\">\n<speed=\"Fast\">\n>\n>\n<backgroundStyle=\"\">\n<centerContentsVertical=.F.>\n<centerContentsHorizontal=.F.>\n<pointer<has=.F.>\n<location=\"Auto\">\n>\n<warnOnCloseIfChildGridIsDirty=.T.>\n<subtheme=\"\">\n>\n<parentTabPaneRefreshGridOnClose=.F.>\n<javascriptTabPane<onBeforeChange=\"\">\n<onChange=\"\">\n<onRightClick=\"\">\n<onInitial=\"\">\n<onBeforeRemove=\"\">\n<onRemove=\"\">\n>\n<ajaxFailedMessage=\"\">\n<offlineJavascript=\"\">\n<ajaxcallbacktimeout=\"<Default>\">\n<optimization<method=\"AjaxCallback\">\n<jsfunction=\"\">\n>\n%str2%>\n<javascriptAttribute=\"{grid.componentName}_O_91A53CCAF6C94C52B9B619DA5CBCAD70({grid.rownumber},'{grid.rowId}',this);\">\n<Javascriptdeclarations_row=\"\">\n<Javascriptdeclarations_global=<<%str%\n\nwindow['{grid.componentName}_O_91A53CCAF6C94C52B9B619DA5CBCAD70'] = function(rowNum,rowId,objEle) {\nvar runMethod = 'ajax';\n\nif(runMethod == 'ajax') {\nif(typeof {dialog.object}._onlineStatus != 'undefined') { \n\tif({dialog.object}._onlineStatus == 'offline') { \n\t\t( function() {  }() );\n\t\t{dialog.object}._executeEvent('onAjaxCallbackNotAvailable', {xbasicFunctionName: '', ajaxEvent: 'OpenComponent'})\n\t\treturn false;\n\t}\n}\t\t\n\t\n};\n\n$('panelId').innerHTML = '<div style=\\'\\'  id=\\'GRIDDIV_panelId\\'></div>'; \nvar go = new Object();\n\ngo.ajaxFailedMessage = '';\ngo.ajaxCallbackTimeout = {dialog.object}.ajaxCallbackTimeout;\n\ngo.dialog2Name = 'Customer_edit_argument_ux';\ngo.type = 'dialog2';\ngo.alias = ALIAS().toUpperCase();;\ngo.submitCurrentFieldValues = true;\ngo.sourceGridPart = 'O';\ngo.sourceGridRowNumber = '1';\ngo.workingMessage = '<img src=\\'css/A5System/Images/wait.gif\\' />Working...';\ngo.placeholderValues = 'CUSTOMER_ID='+{dialog.object}.getValueNOCRLF('CUSTOMER_ID');\ngo.argumentBinding = 'CUSTOMERID=CUSTOMER_ID';\n\ngo._thisGridAlias = {grid.object}.gridId;\nif(typeof {grid.object}.gridId != 'undefined') go._thisGridAlias = {grid.object}.gridId;\nif(typeof {grid.object}.dialogId != 'undefined') {\n\tgo._thisGridAlias = {grid.object}.dialogId;\n}\n\t\n\ngo._thisGridGUID = {grid.object}.componentGUID;\ngo._gridCurrentFilter = {grid.object}._gridFilter;\n\n\ngo._gridCurrentOrder = {grid.object}._gridOrder;\ngo._gridCurrentArguments = {grid.object}._gridArguments;\ngo._gridCurrentDBType = {grid.object}._gridDBType;\ngo.overrideSettings = 'Style_name = `{Grid.style}`||Style_name = `{Grid.style}`'+'||';\ngo.a5_default_path = '{grid.defaultPath}';\n\ngo.dynamicPanel = true;\n\ngo.setFocusToDynamicPanel = true;\ngo.parentPanelNavigator = 'PL_CONTENT';\ngo.dynamicPanelTitle = panel_title();go.waitMessageTarget = '';\ngo.canCloseDynamicPanel = false;\nvar pNavObj = {dialog.object}.panelGet('PL_CONTENT');\nvar existingPanel = pNavObj.getPanel(go.alias.toUpperCase());\n\n\n\ngo.dialog2Div = '';\n\nvar pNavObj = {dialog.object}.panelGet('PL_CONTENT');\nvar existingPanel = pNavObj.getPanel(go.alias.toUpperCase());\nif(existingPanel == false) { \n\t{dialog.object}.showWaitMessage('page',{useCSSAnimation: false,message: 'Working...',icon: 'css/A5System/Images/wait.gif'});\n\tA5.component.runGenericComponent(go)\n\t{dialog.object}.panelSetActive('PL_CONTENT',true,true);\n} else { \n\tpNavObj.setActivePanel(go.alias.toUpperCase());\n\t{dialog.object}.panelSetActive('PL_CONTENT',true,true);\n}\n\n\n}\n%str%>\n<xbasicFunctions=\"\">\n>\n>\n<flagRunSynchronously=.F.>\n<flagWrapInTryCatch=.F.>\n<tryCatchJavascript=\"\">\n"
+            },
+            {
+                "actionGuid": "585afc08-b686-45b8-a66d-ff540cd08c6b",
+                "scriptMetaData": "<a_ajs<[1]<display=\"{I:'$$window.toolbar.blank'}{F=Tahoma,10}{C=Dark Blue,White}{B=Blue White,Dark Blue}Message box - Transient{T=4}{I:'a5_vertical_line'}\">\n<action=\"Message box - Transient\">\n<icon=\"$$window.toolbar.blank\">\n<isCommentedOut=.F.>\n<comment=\"\">\n<builder=\"a5ajs_transientMessage(v,wf,pv,dlg_mode)\">\n<metaData=<<%str%\n<menujson=\"\">\n<variablename=\"\">\n<windownamevariable=\"\">\n<appearance=\"Google\">\n<html=\"Hello!\">\n<position=\"top\">\n<relativeElementJavascript=\"\">\n<className=\"\">\n<inlineStyle=\"\">\n<buttonsJSON=\"\">\n<showCloseButton=.T.>\n<closeButtonIcon=\"svgIcon=#alpha-icon-x:icon\">\n<verticaloffset=\"\">\n<horizontaloffset=\"\">\n<duration=5000>\n<animateshow=.T.>\n<showanimationtype=\"auto\">\n<showanimationduration=600>\n<animatehide=.T.>\n<hideanimationtype=\"auto\">\n<hideanimationduration=600>\n<messageHeight=\"<Default>\">\n%str%>\n<javascriptAttribute=<<%str%\nvar _html = '<div style=\"display:inline-block;\">Hello!</div>';\nvar _options = {\n\t\"className\": \"\",\n\t\"style\": \"box-shadow: 0px 2px 6px 2px rgba(0,0,0,.25);background: rgba(0,0,0,.8);color: #fff;border: 1px solid rgba(0,0,0,.8);border-radius: 4px;\",\n\t\"close\": {\n\t\t\"show\": true,\n\t\t\"icon\": \"svgIcon=#alpha-icon-x:icon{fill: #fff}\",\n\t\t\"iconHover\": \"svgIcon=#alpha-icon-xCircle:icon{fill: #fff}\"\n\t},\n\t\"duration\": 5000,\n\t\"animation\": {\n\t\t\"show\": {\n\t\t\t\"type\": \"auto\",\n\t\t\t\"duration\": 600\n\t\t},\n\t\t\"hide\": {\n\t\t\t\"type\": \"auto\",\n\t\t\t\"duration\": 600\n\t\t}\n\t}\n};\n{dialog.object}.transientMessage('top',_html,_options);%str%>\n<Javascriptdeclarations_row=\"\">\n<Javascriptdeclarations_global=\"\">\n<xbasicFunctions=\"\">\n>\n>\n<flagRunSynchronously=.F.>\n<flagWrapInTryCatch=.F.>\n<tryCatchJavascript=\"\">\n"
+            }
+        ],
+        "flagOptimizedUXTree": true,
+        "flagReanalyzeContainers": false,
+        "minimumBuildNumber": "",
+        "_display": "",
+        "style_color_palette": "",
+        "customTabOrder": "",
+        "showPulseEffect": true,
+        "flagShowDeleteConfirmation": true,
+        "_conversiontoOptimizeUXTreeHasRun": true,
+        "friendlydatesCustomizationJSON": "",
+        "captureJSErrorStackTrace": false,
+        "optionalSystemLibraries": "",
+        "PreRenderUXInSections": false,
+        "useIphoneXStyling": false,
+        "iPhoneXStylingJSON": "",
+        "wrapPasswordFieldsInForms": true,
+        "useCSSFlexForContainerAlignment": true,
+        "pusherConfigJSON": "",
+        "pusherApp": false,
+        "__LPhostName": "Chrome",
+        "_style_isInherited": true,
+        "_analyzecontainersjs": true,
+        "favoriteControls": "",
+        "__idinternalCurrentControl": "47793dfa_a2a4_4f04_b7f6_c1bd4d0d9c6a",
+        "__nameCurrentControl": "vendor_id",
+        "_flagForceRecalcChildren": true,
+        "_repeatingSectionPendingRecalc": "\n",
+        "cachecomponent": false,
+        "_crcXbEvents": 4294903431,
+        "_crcJSFunctions": 4294966319,
+        "_crcJSEvents": 43605,
+        "_treeErrors": "",
+        "__flagHasMacro": false,
+        "a_UnboundActionJavascript": [
+            {
+                "idInternal": "8c7f557c-263a-45df-8997-14839e1a8cd5",
+                "name": "customer_ux_load",
+                "javascript": {
+                    "unbound": "/* actionJavascript:81f0abec-ce52-4aa9-98d7-f20835213fe1        */\n{grid.componentName}_O_42F1D0EB78E34B9DA905AB6D3E94B954({grid.rownumber},'{grid.rowId}',this);"
+                },
+                "javascriptDeclarationsRow": {
+                    "unbound": ""
+                },
+                "javascriptDeclarationsGlobal": {
+                    "unbound": "window['{grid.componentName}_O_42F1D0EB78E34B9DA905AB6D3E94B954'] = function(rowNum,rowId,objEle) {\nvar runMethod = 'ajax';\n\nif(runMethod == 'ajax') {\nif(typeof {dialog.object}._onlineStatus != 'undefined') { \n\tif({dialog.object}._onlineStatus == 'offline') { \n\t\t( function() {  }() );\n\t\t{dialog.object}._executeEvent('onAjaxCallbackNotAvailable', {xbasicFunctionName: '', ajaxEvent: 'OpenComponent'})\n\t\treturn false;\n\t}\n}\t\t\n\t\n};\n\n$('panelId').innerHTML = '<div style=\\'\\'  id=\\'GRIDDIV_panelId\\'></div>'; \nvar go = new Object();\n\ngo.ajaxFailedMessage = '';\ngo.ajaxCallbackTimeout = {dialog.object}.ajaxCallbackTimeout;\n\ngo.dialog2Name = 'customer_list_ux';\ngo.type = 'dialog2';\ngo.alias = 'DEFAULT';;\ngo.submitCurrentFieldValues = true;\ngo.sourceGridPart = 'O';\ngo.sourceGridRowNumber = '1';\ngo.workingMessage = '<img src=\\'css/A5System/Images/wait.gif\\' />Working...';\ngo.placeholderValues = '';\ngo.argumentBinding = '';\n\ngo._thisGridAlias = {grid.object}.gridId;\nif(typeof {grid.object}.gridId != 'undefined') go._thisGridAlias = {grid.object}.gridId;\nif(typeof {grid.object}.dialogId != 'undefined') {\n\tgo._thisGridAlias = {grid.object}.dialogId;\n}\n\t\n\ngo._thisGridGUID = {grid.object}.componentGUID;\ngo._gridCurrentFilter = {grid.object}._gridFilter;\n\n\ngo._gridCurrentOrder = {grid.object}._gridOrder;\ngo._gridCurrentArguments = {grid.object}._gridArguments;\ngo._gridCurrentDBType = {grid.object}._gridDBType;\ngo.overrideSettings = 'Style_name = `{Grid.style}`||Style_name = `{Grid.style}`'+'||';\ngo.a5_default_path = '{grid.defaultPath}';\n\ngo.dynamicPanel = true;\n\ngo.setFocusToDynamicPanel = true;\ngo.parentPanelNavigator = 'PL_CONTENT';\ngo.dynamicPanelTitle = 'Customer List';\ngo.waitMessageTarget = '';\ngo.canCloseDynamicPanel = false;\nvar pNavObj = {dialog.object}.panelGet('PL_CONTENT');\nvar existingPanel = pNavObj.getPanel(go.alias.toUpperCase());\n\n\n\ngo.dialog2Div = '';\n\nvar pNavObj = {dialog.object}.panelGet('PL_CONTENT');\nvar existingPanel = pNavObj.getPanel(go.alias.toUpperCase());\nif(existingPanel == false) { \n\t{dialog.object}.showWaitMessage('page',{useCSSAnimation: false,message: 'Working...',icon: 'css/A5System/Images/wait.gif'});\n\tA5.component.runGenericComponent(go)\n\t{dialog.object}.panelSetActive('PL_CONTENT',true,true);\n} else { \n\tpNavObj.setActivePanel(go.alias.toUpperCase());\n\t{dialog.object}.panelSetActive('PL_CONTENT',true,true);\n}\n\n\n}"
+                },
+                "xbasicFunctions": {
+                    "unbound": ""
+                },
+                "clientSideXbasicFunctions": {
+                    "unbound": ""
+                },
+                "part": ""
+            },
+            {
+                "idInternal": "048fdd9c-0f18-4e3b-a472-6b54c2c5b40e",
+                "name": "customer_edit_ux_load",
+                "javascript": {
+                    "unbound": "/* actionJavascript:827d9f6c-25a8-4b88-9c6b-a14ea6205139 */\n{grid.componentName}_O_91A53CCAF6C94C52B9B619DA5CBCAD70({grid.rownumber},'{grid.rowId}',this);"
+                },
+                "javascriptDeclarationsRow": {
+                    "unbound": ""
+                },
+                "javascriptDeclarationsGlobal": {
+                    "unbound": "window['{grid.componentName}_O_91A53CCAF6C94C52B9B619DA5CBCAD70'] = function(rowNum,rowId,objEle) {\nvar runMethod = 'ajax';\n\nif(runMethod == 'ajax') {\nif(typeof {dialog.object}._onlineStatus != 'undefined') { \n\tif({dialog.object}._onlineStatus == 'offline') { \n\t\t( function() {  }() );\n\t\t{dialog.object}._executeEvent('onAjaxCallbackNotAvailable', {xbasicFunctionName: '', ajaxEvent: 'OpenComponent'})\n\t\treturn false;\n\t}\n}\t\t\n\t\n};\n\n$('panelId').innerHTML = '<div style=\\'\\'  id=\\'GRIDDIV_panelId\\'></div>'; \nvar go = new Object();\n\ngo.ajaxFailedMessage = '';\ngo.ajaxCallbackTimeout = {dialog.object}.ajaxCallbackTimeout;\n\ngo.dialog2Name = 'Customer_edit_argument_ux';\ngo.type = 'dialog2';\ngo.alias = ALIAS().toUpperCase();;\ngo.submitCurrentFieldValues = true;\ngo.sourceGridPart = 'O';\ngo.sourceGridRowNumber = '1';\ngo.workingMessage = '<img src=\\'css/A5System/Images/wait.gif\\' />Working...';\ngo.placeholderValues = 'CUSTOMER_ID='+{dialog.object}.getValueNOCRLF('CUSTOMER_ID');\ngo.argumentBinding = 'CUSTOMERID=CUSTOMER_ID';\n\ngo._thisGridAlias = {grid.object}.gridId;\nif(typeof {grid.object}.gridId != 'undefined') go._thisGridAlias = {grid.object}.gridId;\nif(typeof {grid.object}.dialogId != 'undefined') {\n\tgo._thisGridAlias = {grid.object}.dialogId;\n}\n\t\n\ngo._thisGridGUID = {grid.object}.componentGUID;\ngo._gridCurrentFilter = {grid.object}._gridFilter;\n\n\ngo._gridCurrentOrder = {grid.object}._gridOrder;\ngo._gridCurrentArguments = {grid.object}._gridArguments;\ngo._gridCurrentDBType = {grid.object}._gridDBType;\ngo.overrideSettings = 'Style_name = `{Grid.style}`||Style_name = `{Grid.style}`'+'||';\ngo.a5_default_path = '{grid.defaultPath}';\n\ngo.dynamicPanel = true;\n\ngo.setFocusToDynamicPanel = true;\ngo.parentPanelNavigator = 'PL_CONTENT';\ngo.dynamicPanelTitle = panel_title();go.waitMessageTarget = '';\ngo.canCloseDynamicPanel = false;\nvar pNavObj = {dialog.object}.panelGet('PL_CONTENT');\nvar existingPanel = pNavObj.getPanel(go.alias.toUpperCase());\n\n\n\ngo.dialog2Div = '';\n\nvar pNavObj = {dialog.object}.panelGet('PL_CONTENT');\nvar existingPanel = pNavObj.getPanel(go.alias.toUpperCase());\nif(existingPanel == false) { \n\t{dialog.object}.showWaitMessage('page',{useCSSAnimation: false,message: 'Working...',icon: 'css/A5System/Images/wait.gif'});\n\tA5.component.runGenericComponent(go)\n\t{dialog.object}.panelSetActive('PL_CONTENT',true,true);\n} else { \n\tpNavObj.setActivePanel(go.alias.toUpperCase());\n\t{dialog.object}.panelSetActive('PL_CONTENT',true,true);\n}\n\n\n}"
+                },
+                "xbasicFunctions": {
+                    "unbound": ""
+                },
+                "clientSideXbasicFunctions": {
+                    "unbound": ""
+                },
+                "part": ""
+            },
+            {
+                "idInternal": "ac35d852-9242-46a3-9047-fa94777eda1e",
+                "name": "msg_show",
+                "javascript": {
+                    "unbound": "/* actionJavascript:585afc08-b686-45b8-a66d-ff540cd08c6b */\nvar _html = '<div style=\"display:inline-block;\">Hello!</div>';\nvar _options = {\n\t\"className\": \"\",\n\t\"style\": \"box-shadow: 0px 2px 6px 2px rgba(0,0,0,.25);background: rgba(0,0,0,.8);color: #fff;border: 1px solid rgba(0,0,0,.8);border-radius: 4px;\",\n\t\"close\": {\n\t\t\"show\": true,\n\t\t\"icon\": \"svgIcon=#alpha-icon-x:icon{fill: #fff}\",\n\t\t\"iconHover\": \"svgIcon=#alpha-icon-xCircle:icon{fill: #fff}\"\n\t},\n\t\"duration\": 5000,\n\t\"animation\": {\n\t\t\"show\": {\n\t\t\t\"type\": \"auto\",\n\t\t\t\"duration\": 600\n\t\t},\n\t\t\"hide\": {\n\t\t\t\"type\": \"auto\",\n\t\t\t\"duration\": 600\n\t\t}\n\t}\n};\n{dialog.object}.transientMessage('top',_html,_options);"
+                },
+                "javascriptDeclarationsRow": {
+                    "unbound": ""
+                },
+                "javascriptDeclarationsGlobal": {
+                    "unbound": ""
+                },
+                "xbasicFunctions": {
+                    "unbound": ""
+                },
+                "clientSideXbasicFunctions": {
+                    "unbound": ""
+                },
+                "part": ""
+            }
+        ],
+        "unboundActionShowOnNewActionMessage": true,
+        "actionJavascriptUnboundLastEdited": "ac35d852-9242-46a3-9047-fa94777eda1e",
+        "arguments": [
+            {
+                "Name": "CUSTOMER_ID",
+                "DataType": "Character",
+                "Source": "RUNTIMEBINDING",
+                "VariableScope": "",
+                "VariableName": "",
+                "DefaultValue": "{customer_id}",
+                "Value": ""
+            }
+        ],
+        "__allowCascadingRecalc": true,
+        "json": "{\n\t\"items\": [\n\t{\n\t\t\"html\": \"Customer List\",\n\t\t\"action\": \"action1\"\n\t}],\n\t\"actions\": {\n\t\t\"action1\": function(arg) { {dialog.object}.runAction('customer_ux_load');}\n\t}\n}",
+        "jsonInputArray": "{\n\t\"tree\": [\n\t{\n\t\t\"label\": \"Customer List\",\n\t\t\"level\": 1,\n\t\t\"isLeaf\": true,\n\t\t\"Icon\": \"\",\n\t\t\"Event\": \"\",\n\t\t\"value\": \"\",\n\t\t\"onClick\": \"{dialog.object}.runAction('customer_ux_load');\",\n\t\t\"SecurityGroups\": \"\",\n\t\t\"serverSideShowHideExpn\": \"\",\n\t\t\"targetPanel\": \"\",\n\t\t\"itemType\": \"Item\",\n\t\t\"headingText\": \"\",\n\t\t\"actionName\": \"\",\n\t\t\"clientsideshowhideexpn\": \"\"\n\t}]\n}",
+        "Livepreview_permissions": "",
+        "livePreview_permissions_friendly": "",
+        "_flagDoTreeview": true,
+        "_move": {
+            "index": 8,
+            "targetIndex": 9,
+            "count": 1
+        }
+    }
+}

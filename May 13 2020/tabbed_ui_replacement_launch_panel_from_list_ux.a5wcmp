@@ -1,0 +1,2557 @@
+{
+    "$schema": "UX",
+    "$definition": {
+        "style_name": "Alpha-Blue2",
+        "style_type": "Alpha Five",
+        "resolveAbstractClassNames": true,
+        "builderVersionNumber": 1,
+        "overrideStyleName": "Default",
+        "FontSize": "Medium",
+        "A5ContainerClassPadding": "0px",
+        "A5ContainerClassPaddingForContainerWidthMode": "4px",
+        "JavaScriptFunctionDeclarations": "function panel_name() {\n\nvar name = {Dialog.object}.getValue('list::LIST_CUSTOMERS::CompanyName')\nreturn name;\n\n}\n\nfunction ALIAS() {\n\nvar alias = {Dialog.object}.getValue('list::LIST_CUSTOMERS::CustomerID')\nreturn alias;\n\n}",
+        "layoutType": "ContainerWidth",
+        "previewMode": "Default",
+        "useDragScrolling": "Auto",
+        "pageTitle": "UX",
+        "waitMsg": {
+            "message": {
+                "text": "Wait...",
+                "waitIcon": "css/A5System/Images/wait.gif"
+            },
+            "cssAnimation": {
+                "size": "32"
+            }
+        },
+        "globalSettings": {
+            "labelWidth": "1in"
+        },
+        "serverSideEvents": {
+            "canAjaxCallback": "",
+            "afterAjaxCallback": ""
+        },
+        "onTimerEventInterval": 60,
+        "securityDeniedAction": "Redirect to login page",
+        "clientSideEvents": {
+            "onAjaxCallbackFailed": "",
+            "onAjaxCallbackNotAvailable": "",
+            "onAjaxCallbackNotAllowed": "",
+            "onBeforeCreate": "",
+            "onServerSideEventHandlerError": "",
+            "onFieldValidationError": "",
+            "beforePrepare": "",
+            "afterPrepare": "",
+            "afterValidate": "",
+            "onTabPaneChanged": "",
+            "beforeRptSectionRowPrepare": "",
+            "afterRptSectionRowPrepare": "",
+            "canRptSectionRowAdd": "",
+            "afterRptSectionRowAdd": "",
+            "canRptSectionRowDelete": "",
+            "afterRptSectionRowDelete": "",
+            "onStateChange": "",
+            "onDataStateChange": "",
+            "afterControlBasedOnClientSideDataCacheRefreshed": "",
+            "onControlFocus": "",
+            "onRptSectionFocus": "",
+            "onRptSectionRowChange": "",
+            "canResetForm": "",
+            "afterResetForm": "",
+            "canRecordNavigate": "",
+            "afterRecordNavigate": "",
+            "onSynchronizeDialog": "",
+            "afterPopulateFromTable": "",
+            "onRenderComplete": "",
+            "onAndroidBackButton": "",
+            "onPanelActivate": "",
+            "afterSaveToRepository": "",
+            "afterLoadFromRepository": "",
+            "afterGoogleVisualization": "",
+            "canDeleteParentRecord": "",
+            "afterDeleteParentRecord": "",
+            "onOrientationChange": "",
+            "onKeyboard": "",
+            "onCordovaReady": "",
+            "onPhoneGapReady": "",
+            "onImageError": "",
+            "onSignatureCaptureToggle": "",
+            "onSignatureCaptureAccept": "",
+            "onTimer": "",
+            "beforeOnTimer": "",
+            "canLogin": "",
+            "afterLogin": "",
+            "afterFailedLogin": "",
+            "canLogout": "",
+            "afterLogout": "",
+            "onSessionTimeoutWarning": "",
+            "onServerSideListSummaryCompute": "",
+            "beforeHTMLReportExport": "",
+            "onConnectionChange": "",
+            "appCache_cached": "",
+            "appCache_checking": "",
+            "appCache_downloading": "",
+            "appCache_error": "",
+            "appCache_noupdate": "",
+            "appCache_obsolete": "",
+            "appCache_progress": "",
+            "appCache_updateready": "",
+            "onOAuthCompleted": "",
+            "onControlBlur": "",
+            "onControlChange": "",
+            "onBeforePersistControlValuesToLocalStorage": "",
+            "onPersistControlValuesToLocalStorage": "",
+            "onRestoreVariablesFromLocalStorage": "",
+            "onRestoreComponentStateFromLocalStorage": "",
+            "localStorageEncryption": "",
+            "localStorageDecryption": "",
+            "securityNotAuthenticated": "",
+            "securityPermissionDenied": "",
+            "webSocketOnMessage": "",
+            "webSocketServerClose": "",
+            "webSocketSendMessageFail": "",
+            "onOAuthAuthorize": "",
+            "afterGoogleAddressSelect": "",
+            "onBeforeClientSideDataCacheRead": "",
+            "afterClientSideDataCacheAjaxCallback": "",
+            "onWatchEvent": "",
+            "onWindowResize": "",
+            "onPusherMessage": ""
+        },
+        "onlyValidateChangedFields": true,
+        "edit": {
+            "field_error_style": {
+                "type": "Block",
+                "showWarning": true,
+                "icon": "<Specified by Style>",
+                "controlContainer_classname": ""
+            },
+            "row_errors_window_title": "Error",
+            "row_errors_window_style": "color: red; width: 6in; height: 2in;",
+            "fieldValidationErrorMessage": "Form has errors."
+        },
+        "submitDialogIfHasClientSideValidationErrors": true,
+        "activeLanguage": "<Default>",
+        "datePicker": {
+            "dayNames": "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+            "monthNames": "January,February,March,April,May,June,July,August,September,October,November,December",
+            "firstDayOfWeek": 1,
+            "todayButtonText": "Today",
+            "closeButtonText": "Close"
+        },
+        "clientSideDateFormat": "MM/dd/yyyy",
+        "fontScalingOption": "All",
+        "helpTableType": "DBF",
+        "fieldHelpWindowStyle": "modal-resizeable",
+        "customization": {
+            "resetFormMessage": "Are you sure you want to reset the form?",
+            "resetFormTitle": "Warning",
+            "resetFormIcon": "<Specified by Style>",
+            "resetFormYesButton": "Yes",
+            "resetFormNoButton": "No",
+            "windowTitleDirection": "ltr",
+            "dirtyWarning": "You must first save your changes or cancel changes by clicking the Reset button.",
+            "dirtyWarningTitle": "Notice",
+            "dirtyWarningIcon": "<Specified by Style>",
+            "deleteRecordWarningTitle": "Delete Record",
+            "deleteRecordWarningMessage": "Are you sure you want to delete this record?"
+        },
+        "dataBinding": {
+            "computeDataBindingCodeAtDesignTimePrompt": "Prompt",
+            "autoRefreshSchemaOnLoad": true,
+            "autoRefreshPromptFirst": "Prompt",
+            "computeDataBindingEveryTimeComponentIsSaved": true
+        },
+        "actionJavascriptDefined": true,
+        "info": {
+            "createdBy": "mac",
+            "dateCreated": "2020-4-28",
+            "dateLastEdited": "2020-5-15",
+            "revisionnumber": 21
+        },
+        "flagShowCommentsInTree": true,
+        "treeCommentOffset": "6",
+        "renderUXLocation": {
+            "type": "window",
+            "sizeToElement": true
+        },
+        "checkSessionEvery": 1,
+        "warningIntervalBeforeExpiration": 1,
+        "sessionTimeOutWarningMessage": "Your session will expire in {secondsToSessionEnd} seconds. Click the button to extend your session.",
+        "sessionExtendSessionButtonLabel": "Extend Session",
+        "sessionTimeoutWarningDialogTitle": "Warning",
+        "sessionHasExpiredMessage": "Your session has expired.",
+        "sessionHasExpiredButtonLabel": "OK",
+        "sessionHasExpiredAction": "Nothing",
+        "sessionHasExpiredRedirectPage": "<self>",
+        "sessionHasExpiredDialogTitle": "Notice",
+        "sessionHasExpiredOKButtonJavascript": "<ReloadThisPage>",
+        "login": {
+            "errorMessageStyle": "color: red;",
+            "logoutDoesFullPageReload": true,
+            "twofactoreventfunctionname": ""
+        },
+        "applyResponsiveDesignSettings": true,
+        "responseDesignRulesMode": "FirstTrue",
+        "localStorage": {
+            "namespace": "<Default>",
+            "__version": 1,
+            "workingPreviewTestingMode": "Browser",
+            "variablesToNotPersist": ""
+        },
+        "preRenderComputeWhen": "Every time component is saved",
+        "page_fields": [
+            {
+                "controlType": "layout_directive_PanelNavigatorBegin",
+                "display": "{C=#51+111+61,White}{B=White,#51+111+61n}{F=+B}{Data=11a0743c-d5ef-49f7-ae68-5396717d9fbe}{I:'$$web.panel.navigator'} [Panel Navigator: PANELNAVIGATOR_1]  TabBand (LTR)",
+                "idInternal": "11a0743c-d5ef-49f7-ae68-5396717d9fbe",
+                "lastIndex": 5,
+                "crc": "4294915944",
+                "v": {
+                    "container": {
+                        "id": "PANELNAVIGATOR_1"
+                    },
+                    "panelInstance": {
+                        "sections": {
+                            "name": "<UsePanelId>",
+                            "renderMethod": "Auto-Create-Destroy"
+                        }
+                    },
+                    "panelNavigator": {
+                        "navigatorType": "TabBand",
+                        "navigatorFlow": "LTR",
+                        "animation": {
+                            "type": "slide",
+                            "duration": 400
+                        },
+                        "javascript": {
+                            "onBeforeRemove": "",
+                            "onPanelView": ""
+                        },
+                        "indicator": {
+                            "location": "Auto"
+                        },
+                        "tabBand": {
+                            "location": "Top"
+                        }
+                    },
+                    "info": {
+                        "level": 0,
+                        "isContainerStart": true,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": false,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 1,
+                        "color": "{C=#51+111+61,White}{B=White,#51+111+61n}{F=+B}",
+                        "icon": "$$web.panel.navigator",
+                        "displayText": "[Panel Navigator: PANELNAVIGATOR_1]  TabBand (LTR)",
+                        "parentPanelCardId": "",
+                        "lastID": "129332e0-8e96-46ce-bc24-f156768eb51e",
+                        "break": false,
+                        "display": "{C=#51+111+61,White}{B=White,#51+111+61n}{F=+B}{Data=11a0743c-d5ef-49f7-ae68-5396717d9fbe}{I:'$$web.panel.navigator'} [Panel Navigator: PANELNAVIGATOR_1]  TabBand (LTR)"
+                    },
+                    "listview": {
+                        "allchildren": ""
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0
+            },
+            {
+                "controlType": "layout_directive_PanelCardBegin",
+                "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertline'}{Data=73afdfe4-07ac-4d34-963a-0fd5d83e0ad0}{I:'$$web.panel.card'} [Panel Card: PC_LIST]",
+                "idInternal": "73afdfe4-07ac-4d34-963a-0fd5d83e0ad0",
+                "lastIndex": 4,
+                "parentContainer": 1,
+                "crc": "4294924646",
+                "v": {
+                    "container": {
+                        "id": "PC_LIST"
+                    },
+                    "panelInstance": {
+                        "sections": {
+                            "name": "<UsePanelId>",
+                            "renderMethod": "Auto-Create-Destroy"
+                        }
+                    },
+                    "panelCard": {
+                        "javascript": {
+                            "onActivate": "",
+                            "onView": ""
+                        },
+                        "allowBodyScrolling": true,
+                        "bodyScrolling": {
+                            "axis": "Both"
+                        },
+                        "pull": {
+                            "pullpastEnd": {
+                                "YSetting": "auto",
+                                "XSetting": "auto"
+                            }
+                        },
+                        "scrolling": {
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "location": "top",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "type": "Default",
+                        "pinchToZoom": false
+                    },
+                    "info": {
+                        "level": 1,
+                        "isContainerStart": true,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "11a0743c-d5ef-49f7-ae68-5396717d9fbe",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 2,
+                        "color": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}",
+                        "icon": "$$web.panel.card",
+                        "displayText": "[Panel Card: PC_LIST]",
+                        "parentPanelCardId": "73afdfe4-07ac-4d34-963a-0fd5d83e0ad0",
+                        "lastID": "b38204cf-9bbc-4c6f-b616-6a830ba26537",
+                        "break": false,
+                        "display": "{C=#104+150+112,White}{B=White,#104+150+112}{F=+B}{I:'vertline'}{Data=73afdfe4-07ac-4d34-963a-0fd5d83e0ad0}{I:'$$web.panel.card'} [Panel Card: PC_LIST]"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "'xbasic\n\nv._dirty = .f.\n\n\n",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0
+            },
+            {
+                "controlType": "dialog_formcontrol",
+                "display": "{B=White,Light Blue}{I:'vertline'}{I:'vertline'}{Data=e9a03b81_8c31_4ef0_94ff_d5e57c11be79}{I:'$$control.browse'} [LIST_CUSTOMERS]",
+                "displayODFlat": "{Data=e9a03b81_8c31_4ef0_94ff_d5e57c11be79}{I:'$$control.browse'} [LIST_CUSTOMERS]",
+                "idInternal": "e9a03b81_8c31_4ef0_94ff_d5e57c11be79",
+                "parentContainer": 2,
+                "displayOD": "{Data=e9a03b81_8c31_4ef0_94ff_d5e57c11be79}",
+                "displayODtree": "{Data=e9a03b81_8c31_4ef0_94ff_d5e57c11be79}",
+                "crc": "4294940339",
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 0,
+                "v": {
+                    "controlType": "List",
+                    "variableName": "LIST_CUSTOMERS",
+                    "maxLength": -1,
+                    "watermark": {
+                        "text": "<FieldLabel>"
+                    },
+                    "lookup": {
+                        "editCombo": {
+                            "openLookupOnFocus": false
+                        }
+                    },
+                    "textboxSubTheme": "",
+                    "textboxAutocorrect": true,
+                    "textboxAutoCapitalize": true,
+                    "label": "LIST CUSTOMERS",
+                    "class": "<Default>",
+                    "breakType": "none",
+                    "breakHeight": ".1in",
+                    "breakHorizontalSpace": ".1in",
+                    "labelClass": "<Default>",
+                    "labelPosition": "Left",
+                    "labelWidth": "{Global.LabelWidth}",
+                    "labelAlignment": "Left",
+                    "repeatingSectionColumnHeading": "<FieldLabel>",
+                    "embeddedJavascriptControl": true,
+                    "helpIcon": "images/$$generic.help.png.a5image",
+                    "showHelpIcon": "None",
+                    "helpIconBehavior": "ShowHelpOnClick",
+                    "clientSideFormat": {
+                        "type": "Mask"
+                    },
+                    "getFunction": "",
+                    "setFunction": "",
+                    "onChange_ValidationOption": "Client-side only",
+                    "dataBinding": {
+                        "updateable": true,
+                        "image": {
+                            "type": "JPG",
+                            "noImageFoundImage": "<None>",
+                            "newRecordImage": "<None>"
+                        },
+                        "ink": {
+                            "hasbackgroundimage": false,
+                            "backgroundimage": "",
+                            "inkunits": 1
+                        }
+                    },
+                    "datePicker": {
+                        "friendlyDisplay": {
+                            "enabled": false,
+                            "settingsJSON": ""
+                        },
+                        "display": false,
+                        "displayTimePicker": false,
+                        "timePickerOptionsDefined": false,
+                        "openMethod": "ClickIcon",
+                        "useComboBoxes": true,
+                        "dateFormat": "<Default>",
+                        "lowYear": 1950,
+                        "highYear": 2050,
+                        "switchYear": 30,
+                        "iconNumber": 2,
+                        "lowDate": "",
+                        "highDate": "",
+                        "disabledDays": "",
+                        "disabledDates": ""
+                    },
+                    "listView": {
+                        "listGUID": "31d25d5d-2dd5-4c1d-88c8-985bed2669f6",
+                        "class": "<Default>",
+                        "style": "",
+                        "dataSourceType": "SQL",
+                        "overrides": "",
+                        "flagIsDefined": true,
+                        "staticData": "",
+                        "staticJSONData": "",
+                        "height": "3in",
+                        "width": "4in",
+                        "hasParentList": false,
+                        "parentListId": "",
+                        "preLoadData": false,
+                        "objectNameInParentListForData": "",
+                        "linkingFields": {
+                            "parent": "",
+                            "this": ""
+                        },
+                        "hasDataHeader": false,
+                        "readonlyList": false,
+                        "captureFocus": true,
+                        "headerHTML": "",
+                        "noRecordsMessage": {
+                            "has": false,
+                            "HTML": "No records in list.",
+                            "centerH": true,
+                            "centerV": true
+                        },
+                        "templateItemsJSON": "[]",
+                        "hasDataFooter": false,
+                        "footerHTML": "",
+                        "headerStyle": "",
+                        "footerStyle": "",
+                        "hasFixedHeader": false,
+                        "fixedHeaderHTML": "",
+                        "fixedHeaderStyle": "",
+                        "fixedHeaderClassName": "",
+                        "hasFixedFooter": false,
+                        "fixedFooterHTML": "",
+                        "fixedFooterStyle": "",
+                        "fixedFooterClassName": "",
+                        "fillPanelContainer": true,
+                        "static": {
+                            "dataReturnType": "Field",
+                            "dataReturnField": "",
+                            "dataReturnExpression": ""
+                        },
+                        "jsFuncDS": {
+                            "functionName": "",
+                            "columnNames": "",
+                            "dataReturnType": "Field",
+                            "dataReturnField": "",
+                            "dataReturnExpression": "",
+                            "sampleData": ""
+                        },
+                        "transform": {
+                            "apikey": "",
+                            "dataReturnType": "Field",
+                            "dataReturnField": "",
+                            "dataReturnExpression": "",
+                            "formId": "",
+                            "fetchFormDefinition": false,
+                            "allfields": true,
+                            "fieldlist": "",
+                            "paginate": false,
+                            "pagesize": "",
+                            "hasNavigationBar": false,
+                            "navigationBarJson": ""
+                        },
+                        "excelfile": {
+                            "filename": "",
+                            "sheetname": "",
+                            "filter": "",
+                            "order": "",
+                            "dataReturnField": ""
+                        },
+                        "csvfile": {
+                            "filename": "",
+                            "sheetname": "",
+                            "filter": "",
+                            "order": "",
+                            "dataReturnField": ""
+                        },
+                        "clientSideFilterExpression": "",
+                        "clientSideOrderExpression": "",
+                        "custom": {
+                            "xbasicfunctionname": "",
+                            "xbasicdefinition": "",
+                            "localXbasic": false,
+                            "localXbasicDef": "",
+                            "javascriptfunctionname": "",
+                            "dataReturnType": "Field",
+                            "dataReturnField": "",
+                            "dataReturnExpression": "",
+                            "serverSideAfterQueryEvent": ""
+                        },
+                        "dataSeriesSeriesName": "",
+                        "dataSeries": {
+                            "dataReturnType": "Field",
+                            "dataReturnField": ""
+                        },
+                        "sql": {
+                            "dataReturnType": "PrimaryKey",
+                            "dataReturnField": "",
+                            "dataReturnExpression": "",
+                            "refreshSchemaOnEdit": true,
+                            "storedSchemaJSON": "",
+                            "flagTableInfoHasBeenUpdated": false,
+                            "connectionString": "::Name::AADemo-Northwind",
+                            "selectType": "CustomSQLStatement",
+                            "tablename": "Customers",
+                            "fieldlist": "CustomerID,CompanyName,ContactName,ContactTitle",
+                            "filter": "",
+                            "distinct": false,
+                            "order": "",
+                            "sqlstatement": "SELECT CustomerID, CompanyName, ContactName, ContactTitle FROM Customers",
+                            "portableSQL": true,
+                            "first": -1,
+                            "primaryKey": "CustomerID",
+                            "serverSideAfterQueryEvent": "",
+                            "serverSideBeforeQueryEvent": "",
+                            "getCountOfRecordsInQuery": true,
+                            "sqlSecurityJSON": "",
+                            "serversidedatenumberformatjson": "",
+                            "useSubselectsForNestedQueries": true
+                        },
+                        "dbf": {
+                            "dataReturnType": "Field",
+                            "dataReturnField": "",
+                            "dataReturnExpression": "",
+                            "serverSideAfterQueryEvent": "",
+                            "isDefined": false,
+                            "fieldmap": "",
+                            "filter": "",
+                            "order": ""
+                        },
+                        "variablename": "",
+                        "showTitleRow": false,
+                        "titleText": "",
+                        "hasFreeformTemplate": false,
+                        "freeformTemplate": "",
+                        "javascript": {
+                            "onBeforePopulate": "",
+                            "onPopulate": "",
+                            "onBeforeAddRows": "",
+                            "onBeforeRemoveRows": "",
+                            "onBeforeUpdateRow": "",
+                            "onAddRows": "",
+                            "onChange": "",
+                            "onRemoveRows": "",
+                            "onUpdateRow": "",
+                            "onBeforeListDraw": "",
+                            "onBeforeListClear": "",
+                            "onInitialize": "",
+                            "onBeforeItemDraw": "",
+                            "onListDraw": "",
+                            "onItemDraw": "",
+                            "onNavigate": "",
+                            "onSelect": "",
+                            "onBeforeSelect": "",
+                            "afterSelect": "",
+                            "onDblClick": "",
+                            "onClick": "",
+                            "onRightClick": "",
+                            "onTap": "",
+                            "onDblTap": "",
+                            "onDownHold": "",
+                            "onFocus": "",
+                            "onFieldClick": "",
+                            "onRowCheck": "",
+                            "onFieldDblClick": "",
+                            "onFieldRightClick": "",
+                            "onBlur": "",
+                            "beforeFetchMore": "",
+                            "afterFetchMore": "",
+                            "beforePageNavigate": "",
+                            "afterPageNavigate": "",
+                            "beforeRefreshRow": "",
+                            "afterRefreshRow": "",
+                            "afterRefreshData": "",
+                            "afterRenderComplete": "",
+                            "afterAjaxCallback": "",
+                            "beforeClientSideFilter": "",
+                            "afterClientSideFilter": "",
+                            "beforeServerSideSort": "",
+                            "afterServerSideSort": "",
+                            "afterServerSideSummaryCompute": "",
+                            "afterClientSideSummaryCompute": "",
+                            "onListColumnSelectorChanged": "",
+                            "beforeClientSideSort": "",
+                            "afterClientSideSort": "",
+                            "onInplaceEditStart": "",
+                            "onInplaceeditSave": "",
+                            "onInplaceEditCancel": "",
+                            "oninplaceeditAddRow": "",
+                            "afterinplaceeditAddRow": "",
+                            "afterinplaceeditAddRowWasSaved": "",
+                            "beforeMenuOpen": "",
+                            "onMenuClose": "",
+                            "showeditrowicon": "",
+                            "showaddrowicon": "",
+                            "onSwipe": "",
+                            "onScroll": "",
+                            "onPullRelease": "",
+                            "onPullEnd": "",
+                            "onPull": "",
+                            "afterSearchComplete": "",
+                            "beforeSearch": "",
+                            "onSearchResultTooLarge": "",
+                            "onSearchResultTooLargeForLocalStorage": "",
+                            "onBeforePersistToLocalStorage": "",
+                            "onPersistToLocalStorage": "",
+                            "onRestoreFromLocalStorage": "",
+                            "onListReady": "",
+                            "onResize": ""
+                        },
+                        "inplaceedit": {
+                            "editrowsecuritygroups": "",
+                            "addrowsecuritygroups": ""
+                        },
+                        "_hasIntegerControl": false,
+                        "pullpastEnd": {
+                            "YSetting": "auto",
+                            "XSetting": "auto"
+                        },
+                        "displayTextForNulls": "",
+                        "hasMoreEventsDefined": false,
+                        "hasMultipleLayouts": false,
+                        "autoselectLayoutOnOrientationChange": false,
+                        "autoSelectLandscape": "",
+                        "autoSelectPortrait": "",
+                        "subTheme": "",
+                        "dragScrollDirection": "Both",
+                        "scrolling": {
+                            "isDefined": false,
+                            "indicator": {
+                                "v": {
+                                    "show": true,
+                                    "className": "",
+                                    "barClassName": "",
+                                    "location": "right",
+                                    "offset": "0px",
+                                    "top": "0px",
+                                    "bottom": "0px"
+                                },
+                                "h": {
+                                    "show": true,
+                                    "className": "",
+                                    "barClassName": "",
+                                    "location": "top",
+                                    "offset": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        },
+                        "hasSearchPart": false,
+                        "hasAlphabetbuttonsearch": false,
+                        "alphabetbuttonsearchjson": "",
+                        "hasquicksearch": false,
+                        "qyucjsearchjson": "",
+                        "searchPart": {
+                            "fieldMap": "",
+                            "searchFieldProperties": "",
+                            "searchStyle": "IndividualControls",
+                            "combineMultipleConditionsUsing": "AND",
+                            "keywordsearchControl": "",
+                            "keywordSearchFields": "",
+                            "showDebugInfo": false,
+                            "debugInfoPlaceholder": "",
+                            "delayPopulateListTillActiveSearch": false,
+                            "searchErrorPlaceholder": "",
+                            "setMaxProperties": false,
+                            "maxSearchSizeJSON": ""
+                        },
+                        "controlCSS": "",
+                        "includeCRC": true,
+                        "userDefinedMethodsJSON": "{\n\t\"functions\": []\n}",
+                        "reverseColumnOrder": false,
+                        "enableHorizontalScrolling": false,
+                        "mincolumnwidth": "150px",
+                        "maxcolumnwidth": "",
+                        "enablewordwrap": true,
+                        "persistDataToLocalStorage": false,
+                        "persistWhere": "LocalStorage",
+                        "persistMode": "Full",
+                        "persisListLayout": false,
+                        "loadPersistedLayout": false,
+                        "incrementalRefreshAfterLoad": false,
+                        "versionNumber": 1,
+                        "hasDetailView": false,
+                        "detailView": {
+                            "method": "FieldMap",
+                            "fieldMap": "",
+                            "container": "",
+                            "serverSideUpdateRules": "DirtyFieldsOnly",
+                            "showDebuggingInfo": false,
+                            "placeholderForDebuggingInfo": "",
+                            "placeholderGlobalErrors": "",
+                            "suppressGlobalErrorAlerts": false,
+                            "globalErrorStyle": "font-family: Arial; font-size: 10pt; color: red; border: solid 1px red; width: 100%;",
+                            "showFadeOutConfirmationMessage": false,
+                            "fadeOutMessagePlaceholder": "",
+                            "fadeOutMessageText": "",
+                            "fadeOutMessageDuration": 2000,
+                            "fadeOutMessageStyle": "Default",
+                            "submitLocationInformation": false,
+                            "noRecordInListIsSelectedSetting": "None",
+                            "newRecordPolicy": "UseControlDefault",
+                            "useServerSideSyncLog": false,
+                            "clearServerSideSyncLog": true,
+                            "useTimestampfieldForIncrmentalRefresh": false,
+                            "incrementalRefreshTimestampfield": "",
+                            "synchronizationHandler": "",
+                            "synchronizationRefreshHandler": "",
+                            "refreshListIncrementalHandler": "",
+                            "synchronizationLevel": "EachListInHierarchy",
+                            "phoneGap": {
+                                "mediaFilesSettingsJSON": ""
+                            },
+                            "__doNotshowsynclogPrompt": true,
+                            "customization": {
+                                "clientSideErrorWarning": "Cannot save because there are validation errors.",
+                                "dirtyDetailViewRecord": {
+                                    "title": "Warning",
+                                    "icon": "<Defined in Style>",
+                                    "message": "You must first save or undo the changes you have made to the List's Detail View."
+                                },
+                                "confirmFormResetWarning": {
+                                    "title": "Warning",
+                                    "icon": "<Defined in Style>",
+                                    "message": "Are you sure you want to undo changes made to the List's Detail View?"
+                                },
+                                "confirmRowResetWarning": {
+                                    "title": "Warning",
+                                    "icon": "<Defined in Style>",
+                                    "message": "Are you sure you want to undo changes made to this record?"
+                                },
+                                "confirmDeleteWarning": {
+                                    "title": "Warning",
+                                    "icon": "<Defined in Style>",
+                                    "message": "Are you sure you want to delete this record?"
+                                },
+                                "writeConflict": {
+                                    "message": "Write conflict. Tap here to resolve.",
+                                    "useMineMessage": "Use mine ('{myvalue}')",
+                                    "useTheirsMessage": "Use theirs ('{theirvalue}')",
+                                    "useMineAll": "Use mine for all fields",
+                                    "useTheirsAll": "Use theirs for all fields"
+                                },
+                                "databaseError": {
+                                    "update": "Record was not updated.|More...|Less",
+                                    "insert": "Record was not inserted.|More...|Less",
+                                    "delete": "Record was not deleted.|More...|Less"
+                                },
+                                "useCustomClasses": false,
+                                "customClasses": "",
+                                "setClassonEditedRows": true,
+                                "css": {
+                                    "dirtyRecord": "",
+                                    "newRecord": "",
+                                    "serverSideError": "",
+                                    "deletedRecord": "",
+                                    "dirtyRecordRow": "",
+                                    "newRecordRow": "",
+                                    "serverSideErrorRow": "",
+                                    "deletedRecordRow": "",
+                                    "hasUnSyncedMediaFiles": ""
+                                }
+                            },
+                            "refreshRowOnSelect": false,
+                            "synchronizeImmediately": false,
+                            "pushServerUpdatesToClientOnCommit": false,
+                            "tablePropertiesDefined": true,
+                            "autoCommitDetailViewEdits": true,
+                            "syncBatchSize": 0,
+                            "synchProgressPlaceholder": "",
+                            "synchProgressProperties": "",
+                            "dirtyControlClassName": "",
+                            "javascript": {
+                                "canUpdateList": "",
+                                "afterUpdateList": "",
+                                "canSynchronizeList": "",
+                                "afterSynchronizeList": "",
+                                "afterSynchronizeListCompleted": "",
+                                "afterRefreshListIncremental": "",
+                                "hasClientSideValidationErrors": "",
+                                "afterSynchronizeListBatch": "",
+                                "beforeSynchronizeListBatchStart": "",
+                                "afterSynchronizeListBatchEnd": "",
+                                "canCancelBatch": "",
+                                "afterCancelBatch": "",
+                                "afterListRowSelectCancelled": "",
+                                "canResetRow": "",
+                                "canDeleteRow": "",
+                                "afterDeleteRow": "",
+                                "canUndoEdits": "",
+                                "afterResetRow": "",
+                                "afterUndoEdits": "",
+                                "canNewRecord": "",
+                                "afterNewRecord": "",
+                                "modeChanged": "",
+                                "onStateChanged": "",
+                                "afterDetailViewPopulate": "",
+                                "beforeDetailViewPopulate": "",
+                                "beforeMediaFilesUploaded": "",
+                                "afterMediaFilesUploaded": "",
+                                "listReadyToPersist": "",
+                                "beforeCRUDExecute": "",
+                                "onMediaFilesUploadErrors": "",
+                                "onNoMediaFilesToFetch": "",
+                                "beforeMediaFilesDownloaded": "",
+                                "afterMediaFilesDownloaded": "",
+                                "beforeDeleteOrphanMediaFiles": "",
+                                "afterDeleteOrphanMediaFiles": ""
+                            },
+                            "hasClientSideEventsDefined": false,
+                            "serverSideEvent": {
+                                "validate": "",
+                                "errorMessageTranslate": "",
+                                "onsynchronize": "",
+                                "aftersynchronize": "",
+                                "aftersynchronizeRecord": ""
+                            }
+                        },
+                        "dragScrollMomentum": true,
+                        "dragScroll": {
+                            "hasCustomSnapSettings": false,
+                            "snap": {
+                                "x": {
+                                    "use": false,
+                                    "offset": "0",
+                                    "step": "1"
+                                },
+                                "y": {
+                                    "use": false,
+                                    "offset": "0",
+                                    "step": "1"
+                                }
+                            }
+                        },
+                        "behavior": {
+                            "pulltorefresh": false,
+                            "pulltoRefreshSettingsJSON": "",
+                            "drag": {
+                                "has_side_to_side_rowdragbehavior": false,
+                                "settingsJSON": "",
+                                "has_reorder": false,
+                                "reorderSettingsJSON": ""
+                            }
+                        },
+                        "hasCheckBoxSelectColumn": false,
+                        "checkboxSelectColumnCustomzationJSON": "",
+                        "searchHighlighting": false,
+                        "searchHighlightClass": "",
+                        "searchHighlightStyle": "color: red;",
+                        "customSettingsJSON": "",
+                        "clientSideVirtualColumns": "",
+                        "clientSideLookupColumnsJSON": "",
+                        "allowInplaceediting": false,
+                        "inplaceEditingSettingsJSON": "",
+                        "clientSideGroupBreaksHas": false,
+                        "clientSideGroupBreakJSON": "",
+                        "listNavigatorHas": false,
+                        "listNavigatorJSON": "",
+                        "serverSideRowStyle": "",
+                        "clientSideRowStyle": "",
+                        "alternatingRowColor": false,
+                        "evenRowColor": "",
+                        "oddRowColor": "",
+                        "defaults": {
+                            "indexLayout": 1
+                        },
+                        "fieldsArray": {
+                            "fields": [
+                                {
+                                    "name": "Edit",
+                                    "type": "Unknown",
+                                    "displayFormat": "",
+                                    "serverSideInlineStyle": "",
+                                    "serverSideConditionalStyle": "",
+                                    "clientSideConditionalStyle": "",
+                                    "clientSideConditionalCellStyle": "",
+                                    "decodeValue": false,
+                                    "decodeValueLookupListJSON": "",
+                                    "securityGroups": "",
+                                    "javascriptAddressible": true,
+                                    "serversideShowhideExpn": "",
+                                    "clientSideShowHideExpn": "",
+                                    "controlType": "Static Image",
+                                    "clientsideInlineStyle": "",
+                                    "wordwrap": false,
+                                    "wordwrapOption": "normal",
+                                    "clientsideClass": "",
+                                    "baseExpression": "",
+                                    "searchPropertiesJSON": "",
+                                    "image": {
+                                        "base64Encode": false,
+                                        "type": "JPG",
+                                        "scale": "",
+                                        "fileNameTransformation": "",
+                                        "imageDataType": "Name",
+                                        "base64Prefix": "data:image/jpg;base64,",
+                                        "noImageFoundImage": ""
+                                    },
+                                    "sourceTableType": "",
+                                    "detailview": {
+                                        "serversidevalidation": "",
+                                        "defaultValueJavascript": "",
+                                        "onDetailViewPopulateJavascript": "",
+                                        "onListUpdateFromDetailView": "",
+                                        "updateable": true,
+                                        "checkforwriteConflicts": true,
+                                        "blankIsNull": false,
+                                        "updatePermissionSecurityGroups": "",
+                                        "serverSidePermissionExpression": "",
+                                        "imageCapturePropertiesJSON": "",
+                                        "ExifCapturePropertiesJSON": ""
+                                    },
+                                    "hide": false,
+                                    "button": {
+                                        "type": "Text",
+                                        "image": "",
+                                        "label": "Button",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "hyperlink": {
+                                        "label": "Hyperlink",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "actionType": "Javascript",
+                                        "href": "",
+                                        "target": "New Window",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "unboundtype": "Static Image",
+                                    "dynamicImage": {
+                                        "definition": "svgIcon=#alpha-icon-docEdit:icon,24",
+                                        "class": "",
+                                        "style": "",
+                                        "bubbleHelp": "",
+                                        "onClick": "{dialog.object}.runAction('load_customer_ux');",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "menu": {
+                                        "definitionJSON": "",
+                                        "buttonType": "Image",
+                                        "text": "Menu",
+                                        "image": "svgIcon=#alpha-icon-bars:icon,24",
+                                        "image_rotate": true,
+                                        "bubblehelp": "",
+                                        "inlinestyle": "",
+                                        "className": "",
+                                        "focusrow": false,
+                                        "imageOpen": "svgIcon=#alpha-icon-xLarge:icon,24",
+                                        "image_rotate_duraction": 300
+                                    },
+                                    "virtualJavascript": {
+                                        "javascript": ""
+                                    },
+                                    "serverSideSummaryFieldsHas": false,
+                                    "serverSideSummaryFields": "",
+                                    "clientSideSummaryFieldsHas": false,
+                                    "clientSideTypeTransform": "None",
+                                    "clientSideDateTemplate": "MM-dd-yyyy",
+                                    "clientSideDateFormat": "<None>",
+                                    "clientSideNumericFormat": "",
+                                    "inplaceEditing": {
+                                        "template": "",
+                                        "javascript": {
+                                            "validation": "",
+                                            "initialvalue": ""
+                                        },
+                                        "controltype": "Textbox",
+                                        "controljson": "",
+                                        "allow": true,
+                                        "conditionalalloweditJSfunction": "",
+                                        "securitygroups": ""
+                                    },
+                                    "customControl": {
+                                        "definition": ""
+                                    },
+                                    "chartPropertiesJSON": "",
+                                    "isComputedColumn": false,
+                                    "ink": {
+                                        "width": "300",
+                                        "height": "",
+                                        "sizeMethod": "Width-Height",
+                                        "scale": 0.25,
+                                        "zoom": "50%",
+                                        "boundsType": "Page",
+                                        "boundsMargin": 10,
+                                        "boundsX": 0,
+                                        "boundsY": 0,
+                                        "boundsWidth": 100,
+                                        "boundsHeight": 100
+                                    },
+                                    "star": {
+                                        "maxstars": 5,
+                                        "selectedColor": "Gold",
+                                        "unselectedColor": "Gray",
+                                        "width": "26px",
+                                        "height": "26px",
+                                        "readonly": false
+                                    },
+                                    "integer": {
+                                        "min": "0",
+                                        "max": "100",
+                                        "buttonClass": "[theme:button.base.className]",
+                                        "valueClass": "[class.dialogInput]",
+                                        "ValueStyle": "width: 40px;",
+                                        "hasIncrementBy10": false,
+                                        "hasIncrementBy100": false
+                                    },
+                                    "javascript": {
+                                        "methodName": ""
+                                    },
+                                    "map": {
+                                        "height": "300",
+                                        "width": "300",
+                                        "markerColor": "green",
+                                        "markerSize": "<default>",
+                                        "zoom": "8"
+                                    },
+                                    "radiobuttons": {
+                                        "choices": "",
+                                        "readonly": false,
+                                        "fillWidth": true
+                                    },
+                                    "checkboxButtons": {
+                                        "choices": "",
+                                        "readonly": false,
+                                        "fillWidth": true
+                                    },
+                                    "switch": {
+                                        "onvalue": "On",
+                                        "offValue": "Off",
+                                        "width": "100px",
+                                        "direction": "ltr",
+                                        "readonly": false,
+                                        "displaystyle": "Switch",
+                                        "htmlOn": "On",
+                                        "htmlOff": "Off",
+                                        "iconOn": "svgIcon=#alpha-icon-checkRounded:icon,24",
+                                        "iconOff": "svgIcon=#alpha-icon-squareRounded:icon,24",
+                                        "behavior": "ComboBox",
+                                        "groupName": "Group1"
+                                    },
+                                    "unboundField": true,
+                                    "deleteField": false,
+                                    "display": "{data=1}{I:'$$generic.image'} Edit (Static Image)"
+                                },
+                                {
+                                    "name": "CustomerID",
+                                    "type": "C",
+                                    "displayFormat": "",
+                                    "serverSideInlineStyle": "",
+                                    "serverSideConditionalStyle": "",
+                                    "clientSideConditionalStyle": "",
+                                    "clientSideConditionalCellStyle": "",
+                                    "decodeValue": false,
+                                    "decodeValueLookupListJSON": "",
+                                    "securityGroups": "",
+                                    "javascriptAddressible": false,
+                                    "serversideShowhideExpn": "",
+                                    "clientSideShowHideExpn": "",
+                                    "controlType": "Label",
+                                    "clientsideInlineStyle": "",
+                                    "wordwrap": false,
+                                    "wordwrapOption": "normal",
+                                    "clientsideClass": "",
+                                    "baseExpression": "CustomerID",
+                                    "searchPropertiesJSON": "",
+                                    "image": {
+                                        "base64Encode": false,
+                                        "type": "JPG",
+                                        "scale": "",
+                                        "fileNameTransformation": "",
+                                        "imageDataType": "Name",
+                                        "base64Prefix": "data:image/jpg;base64,",
+                                        "noImageFoundImage": ""
+                                    },
+                                    "sourceTableType": "",
+                                    "detailview": {
+                                        "serversidevalidation": "",
+                                        "defaultValueJavascript": "",
+                                        "onDetailViewPopulateJavascript": "",
+                                        "onListUpdateFromDetailView": "",
+                                        "updateable": true,
+                                        "checkforwriteConflicts": true,
+                                        "blankIsNull": false,
+                                        "updatePermissionSecurityGroups": "",
+                                        "serverSidePermissionExpression": "",
+                                        "imageCapturePropertiesJSON": "",
+                                        "ExifCapturePropertiesJSON": ""
+                                    },
+                                    "hide": false,
+                                    "button": {
+                                        "type": "Text",
+                                        "image": "",
+                                        "label": "Button",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "hyperlink": {
+                                        "label": "Hyperlink",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "actionType": "Javascript",
+                                        "href": "",
+                                        "target": "New Window",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "unboundtype": "",
+                                    "dynamicImage": {
+                                        "definition": "",
+                                        "class": "",
+                                        "style": "",
+                                        "bubbleHelp": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "menu": {
+                                        "definitionJSON": "",
+                                        "buttonType": "Image",
+                                        "text": "Menu",
+                                        "image": "svgIcon=#alpha-icon-bars:icon,24",
+                                        "image_rotate": true,
+                                        "bubblehelp": "",
+                                        "inlinestyle": "",
+                                        "className": "",
+                                        "focusrow": false,
+                                        "imageOpen": "svgIcon=#alpha-icon-xLarge:icon,24",
+                                        "image_rotate_duraction": 300
+                                    },
+                                    "virtualJavascript": {
+                                        "javascript": ""
+                                    },
+                                    "serverSideSummaryFieldsHas": false,
+                                    "serverSideSummaryFields": "",
+                                    "clientSideSummaryFieldsHas": false,
+                                    "clientSideTypeTransform": "None",
+                                    "clientSideDateTemplate": "MM-dd-yyyy",
+                                    "clientSideDateFormat": "<None>",
+                                    "clientSideNumericFormat": "",
+                                    "inplaceEditing": {
+                                        "template": "",
+                                        "javascript": {
+                                            "validation": "",
+                                            "initialvalue": ""
+                                        },
+                                        "controltype": "Textbox",
+                                        "controljson": "",
+                                        "allow": true,
+                                        "conditionalalloweditJSfunction": "",
+                                        "securitygroups": ""
+                                    },
+                                    "customControl": {
+                                        "definition": ""
+                                    },
+                                    "chartPropertiesJSON": "",
+                                    "isComputedColumn": false,
+                                    "ink": {
+                                        "width": "300",
+                                        "height": "",
+                                        "sizeMethod": "Width-Height",
+                                        "scale": 0.25,
+                                        "zoom": "50%",
+                                        "boundsType": "Page",
+                                        "boundsMargin": 10,
+                                        "boundsX": 0,
+                                        "boundsY": 0,
+                                        "boundsWidth": 100,
+                                        "boundsHeight": 100
+                                    },
+                                    "star": {
+                                        "maxstars": 5,
+                                        "selectedColor": "Gold",
+                                        "unselectedColor": "Gray",
+                                        "width": "26px",
+                                        "height": "26px",
+                                        "readonly": false
+                                    },
+                                    "integer": {
+                                        "min": "0",
+                                        "max": "100",
+                                        "buttonClass": "[theme:button.base.className]",
+                                        "valueClass": "[class.dialogInput]",
+                                        "ValueStyle": "width: 40px;",
+                                        "hasIncrementBy10": false,
+                                        "hasIncrementBy100": false
+                                    },
+                                    "javascript": {
+                                        "methodName": ""
+                                    },
+                                    "map": {
+                                        "height": "300",
+                                        "width": "300",
+                                        "markerColor": "green",
+                                        "markerSize": "<default>",
+                                        "zoom": "8"
+                                    },
+                                    "radiobuttons": {
+                                        "choices": "",
+                                        "readonly": false,
+                                        "fillWidth": true
+                                    },
+                                    "checkboxButtons": {
+                                        "choices": "",
+                                        "readonly": false,
+                                        "fillWidth": true
+                                    },
+                                    "switch": {
+                                        "onvalue": "On",
+                                        "offValue": "Off",
+                                        "width": "100px",
+                                        "direction": "ltr",
+                                        "readonly": false,
+                                        "displaystyle": "Switch",
+                                        "htmlOn": "On",
+                                        "htmlOff": "Off",
+                                        "iconOn": "svgIcon=#alpha-icon-checkRounded:icon,24",
+                                        "iconOff": "svgIcon=#alpha-icon-squareRounded:icon,24",
+                                        "behavior": "ComboBox",
+                                        "groupName": "Group1"
+                                    },
+                                    "unboundField": false,
+                                    "deleteField": false,
+                                    "display": "{data=2}{I:'$$control.smartField'} CustomerID (C)",
+                                    "baseName": "CustomerID",
+                                    "clientInlineStyle": ""
+                                },
+                                {
+                                    "name": "CompanyName",
+                                    "type": "C",
+                                    "displayFormat": "",
+                                    "serverSideInlineStyle": "",
+                                    "serverSideConditionalStyle": "",
+                                    "clientSideConditionalStyle": "",
+                                    "clientSideConditionalCellStyle": "",
+                                    "decodeValue": false,
+                                    "decodeValueLookupListJSON": "",
+                                    "securityGroups": "",
+                                    "javascriptAddressible": false,
+                                    "serversideShowhideExpn": "",
+                                    "clientSideShowHideExpn": "",
+                                    "controlType": "Label",
+                                    "clientsideInlineStyle": "",
+                                    "wordwrap": false,
+                                    "wordwrapOption": "normal",
+                                    "clientsideClass": "",
+                                    "baseExpression": "CompanyName",
+                                    "searchPropertiesJSON": "",
+                                    "image": {
+                                        "base64Encode": false,
+                                        "type": "JPG",
+                                        "scale": "",
+                                        "fileNameTransformation": "",
+                                        "imageDataType": "Name",
+                                        "base64Prefix": "data:image/jpg;base64,",
+                                        "noImageFoundImage": ""
+                                    },
+                                    "sourceTableType": "",
+                                    "detailview": {
+                                        "serversidevalidation": "",
+                                        "defaultValueJavascript": "",
+                                        "onDetailViewPopulateJavascript": "",
+                                        "onListUpdateFromDetailView": "",
+                                        "updateable": true,
+                                        "checkforwriteConflicts": true,
+                                        "blankIsNull": false,
+                                        "updatePermissionSecurityGroups": "",
+                                        "serverSidePermissionExpression": "",
+                                        "imageCapturePropertiesJSON": "",
+                                        "ExifCapturePropertiesJSON": ""
+                                    },
+                                    "hide": false,
+                                    "button": {
+                                        "type": "Text",
+                                        "image": "",
+                                        "label": "Button",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "hyperlink": {
+                                        "label": "Hyperlink",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "actionType": "Javascript",
+                                        "href": "",
+                                        "target": "New Window",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "unboundtype": "",
+                                    "dynamicImage": {
+                                        "definition": "",
+                                        "class": "",
+                                        "style": "",
+                                        "bubbleHelp": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "menu": {
+                                        "definitionJSON": "",
+                                        "buttonType": "Image",
+                                        "text": "Menu",
+                                        "image": "svgIcon=#alpha-icon-bars:icon,24",
+                                        "image_rotate": true,
+                                        "bubblehelp": "",
+                                        "inlinestyle": "",
+                                        "className": "",
+                                        "focusrow": false,
+                                        "imageOpen": "svgIcon=#alpha-icon-xLarge:icon,24",
+                                        "image_rotate_duraction": 300
+                                    },
+                                    "virtualJavascript": {
+                                        "javascript": ""
+                                    },
+                                    "serverSideSummaryFieldsHas": false,
+                                    "serverSideSummaryFields": "",
+                                    "clientSideSummaryFieldsHas": false,
+                                    "clientSideTypeTransform": "None",
+                                    "clientSideDateTemplate": "MM-dd-yyyy",
+                                    "clientSideDateFormat": "<None>",
+                                    "clientSideNumericFormat": "",
+                                    "inplaceEditing": {
+                                        "template": "",
+                                        "javascript": {
+                                            "validation": "",
+                                            "initialvalue": ""
+                                        },
+                                        "controltype": "Textbox",
+                                        "controljson": "",
+                                        "allow": true,
+                                        "conditionalalloweditJSfunction": "",
+                                        "securitygroups": ""
+                                    },
+                                    "customControl": {
+                                        "definition": ""
+                                    },
+                                    "chartPropertiesJSON": "",
+                                    "isComputedColumn": false,
+                                    "ink": {
+                                        "width": "300",
+                                        "height": "",
+                                        "sizeMethod": "Width-Height",
+                                        "scale": 0.25,
+                                        "zoom": "50%",
+                                        "boundsType": "Page",
+                                        "boundsMargin": 10,
+                                        "boundsX": 0,
+                                        "boundsY": 0,
+                                        "boundsWidth": 100,
+                                        "boundsHeight": 100
+                                    },
+                                    "star": {
+                                        "maxstars": 5,
+                                        "selectedColor": "Gold",
+                                        "unselectedColor": "Gray",
+                                        "width": "26px",
+                                        "height": "26px",
+                                        "readonly": false
+                                    },
+                                    "integer": {
+                                        "min": "0",
+                                        "max": "100",
+                                        "buttonClass": "[theme:button.base.className]",
+                                        "valueClass": "[class.dialogInput]",
+                                        "ValueStyle": "width: 40px;",
+                                        "hasIncrementBy10": false,
+                                        "hasIncrementBy100": false
+                                    },
+                                    "javascript": {
+                                        "methodName": ""
+                                    },
+                                    "map": {
+                                        "height": "300",
+                                        "width": "300",
+                                        "markerColor": "green",
+                                        "markerSize": "<default>",
+                                        "zoom": "8"
+                                    },
+                                    "radiobuttons": {
+                                        "choices": "",
+                                        "readonly": false,
+                                        "fillWidth": true
+                                    },
+                                    "checkboxButtons": {
+                                        "choices": "",
+                                        "readonly": false,
+                                        "fillWidth": true
+                                    },
+                                    "switch": {
+                                        "onvalue": "On",
+                                        "offValue": "Off",
+                                        "width": "100px",
+                                        "direction": "ltr",
+                                        "readonly": false
+                                    },
+                                    "unboundField": false,
+                                    "deleteField": false,
+                                    "display": "{data=3}{I:'$$control.smartField'} CompanyName (C)",
+                                    "baseName": "CompanyName",
+                                    "clientInlineStyle": ""
+                                },
+                                {
+                                    "name": "ContactName",
+                                    "type": "C",
+                                    "displayFormat": "",
+                                    "serverSideInlineStyle": "",
+                                    "serverSideConditionalStyle": "",
+                                    "clientSideConditionalStyle": "",
+                                    "clientSideConditionalCellStyle": "",
+                                    "decodeValue": false,
+                                    "decodeValueLookupListJSON": "",
+                                    "securityGroups": "",
+                                    "javascriptAddressible": false,
+                                    "serversideShowhideExpn": "",
+                                    "clientSideShowHideExpn": "",
+                                    "controlType": "Label",
+                                    "clientsideInlineStyle": "",
+                                    "wordwrap": false,
+                                    "wordwrapOption": "normal",
+                                    "clientsideClass": "",
+                                    "baseExpression": "ContactName",
+                                    "searchPropertiesJSON": "",
+                                    "image": {
+                                        "base64Encode": false,
+                                        "type": "JPG",
+                                        "scale": "",
+                                        "fileNameTransformation": "",
+                                        "imageDataType": "Name",
+                                        "base64Prefix": "data:image/jpg;base64,",
+                                        "noImageFoundImage": ""
+                                    },
+                                    "sourceTableType": "",
+                                    "detailview": {
+                                        "serversidevalidation": "",
+                                        "defaultValueJavascript": "",
+                                        "onDetailViewPopulateJavascript": "",
+                                        "onListUpdateFromDetailView": "",
+                                        "updateable": true,
+                                        "checkforwriteConflicts": true,
+                                        "blankIsNull": false,
+                                        "updatePermissionSecurityGroups": "",
+                                        "serverSidePermissionExpression": "",
+                                        "imageCapturePropertiesJSON": "",
+                                        "ExifCapturePropertiesJSON": ""
+                                    },
+                                    "hide": false,
+                                    "button": {
+                                        "type": "Text",
+                                        "image": "",
+                                        "label": "Button",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "hyperlink": {
+                                        "label": "Hyperlink",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "actionType": "Javascript",
+                                        "href": "",
+                                        "target": "New Window",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "unboundtype": "",
+                                    "dynamicImage": {
+                                        "definition": "",
+                                        "class": "",
+                                        "style": "",
+                                        "bubbleHelp": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "menu": {
+                                        "definitionJSON": "",
+                                        "buttonType": "Image",
+                                        "text": "Menu",
+                                        "image": "svgIcon=#alpha-icon-bars:icon,24",
+                                        "image_rotate": true,
+                                        "bubblehelp": "",
+                                        "inlinestyle": "",
+                                        "className": "",
+                                        "focusrow": false,
+                                        "imageOpen": "svgIcon=#alpha-icon-xLarge:icon,24",
+                                        "image_rotate_duraction": 300
+                                    },
+                                    "virtualJavascript": {
+                                        "javascript": ""
+                                    },
+                                    "serverSideSummaryFieldsHas": false,
+                                    "serverSideSummaryFields": "",
+                                    "clientSideSummaryFieldsHas": false,
+                                    "clientSideTypeTransform": "None",
+                                    "clientSideDateTemplate": "MM-dd-yyyy",
+                                    "clientSideDateFormat": "<None>",
+                                    "clientSideNumericFormat": "",
+                                    "inplaceEditing": {
+                                        "template": "",
+                                        "javascript": {
+                                            "validation": "",
+                                            "initialvalue": ""
+                                        },
+                                        "controltype": "Textbox",
+                                        "controljson": "",
+                                        "allow": true,
+                                        "conditionalalloweditJSfunction": "",
+                                        "securitygroups": ""
+                                    },
+                                    "customControl": {
+                                        "definition": ""
+                                    },
+                                    "chartPropertiesJSON": "",
+                                    "isComputedColumn": false,
+                                    "ink": {
+                                        "width": "300",
+                                        "height": "",
+                                        "sizeMethod": "Width-Height",
+                                        "scale": 0.25,
+                                        "zoom": "50%",
+                                        "boundsType": "Page",
+                                        "boundsMargin": 10,
+                                        "boundsX": 0,
+                                        "boundsY": 0,
+                                        "boundsWidth": 100,
+                                        "boundsHeight": 100
+                                    },
+                                    "star": {
+                                        "maxstars": 5,
+                                        "selectedColor": "Gold",
+                                        "unselectedColor": "Gray",
+                                        "width": "26px",
+                                        "height": "26px",
+                                        "readonly": false
+                                    },
+                                    "integer": {
+                                        "min": "0",
+                                        "max": "100",
+                                        "buttonClass": "[theme:button.base.className]",
+                                        "valueClass": "[class.dialogInput]",
+                                        "ValueStyle": "width: 40px;",
+                                        "hasIncrementBy10": false,
+                                        "hasIncrementBy100": false
+                                    },
+                                    "javascript": {
+                                        "methodName": ""
+                                    },
+                                    "map": {
+                                        "height": "300",
+                                        "width": "300",
+                                        "markerColor": "green",
+                                        "markerSize": "<default>",
+                                        "zoom": "8"
+                                    },
+                                    "radiobuttons": {
+                                        "choices": "",
+                                        "readonly": false,
+                                        "fillWidth": true
+                                    },
+                                    "checkboxButtons": {
+                                        "choices": "",
+                                        "readonly": false,
+                                        "fillWidth": true
+                                    },
+                                    "switch": {
+                                        "onvalue": "On",
+                                        "offValue": "Off",
+                                        "width": "100px",
+                                        "direction": "ltr",
+                                        "readonly": false
+                                    },
+                                    "unboundField": false,
+                                    "deleteField": false,
+                                    "display": "{data=4}{I:'$$control.smartField'} ContactName (C)",
+                                    "baseName": "ContactName",
+                                    "clientInlineStyle": ""
+                                },
+                                {
+                                    "name": "ContactTitle",
+                                    "type": "C",
+                                    "displayFormat": "",
+                                    "serverSideInlineStyle": "",
+                                    "serverSideConditionalStyle": "",
+                                    "clientSideConditionalStyle": "",
+                                    "clientSideConditionalCellStyle": "",
+                                    "decodeValue": false,
+                                    "decodeValueLookupListJSON": "",
+                                    "securityGroups": "",
+                                    "javascriptAddressible": false,
+                                    "serversideShowhideExpn": "",
+                                    "clientSideShowHideExpn": "",
+                                    "controlType": "Label",
+                                    "clientsideInlineStyle": "",
+                                    "wordwrap": false,
+                                    "wordwrapOption": "normal",
+                                    "clientsideClass": "",
+                                    "baseExpression": "ContactTitle",
+                                    "searchPropertiesJSON": "",
+                                    "image": {
+                                        "base64Encode": false,
+                                        "type": "JPG",
+                                        "scale": "",
+                                        "fileNameTransformation": "",
+                                        "imageDataType": "Name",
+                                        "base64Prefix": "data:image/jpg;base64,",
+                                        "noImageFoundImage": ""
+                                    },
+                                    "sourceTableType": "",
+                                    "detailview": {
+                                        "serversidevalidation": "",
+                                        "defaultValueJavascript": "",
+                                        "onDetailViewPopulateJavascript": "",
+                                        "onListUpdateFromDetailView": "",
+                                        "updateable": true,
+                                        "checkforwriteConflicts": true,
+                                        "blankIsNull": false,
+                                        "updatePermissionSecurityGroups": "",
+                                        "serverSidePermissionExpression": "",
+                                        "imageCapturePropertiesJSON": "",
+                                        "ExifCapturePropertiesJSON": ""
+                                    },
+                                    "hide": false,
+                                    "button": {
+                                        "type": "Text",
+                                        "image": "",
+                                        "label": "Button",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "hyperlink": {
+                                        "label": "Hyperlink",
+                                        "bubblehelp": "",
+                                        "class": "",
+                                        "style": "",
+                                        "onClick": "",
+                                        "actionType": "Javascript",
+                                        "href": "",
+                                        "target": "New Window",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "unboundtype": "",
+                                    "dynamicImage": {
+                                        "definition": "",
+                                        "class": "",
+                                        "style": "",
+                                        "bubbleHelp": "",
+                                        "onClick": "",
+                                        "stopPropagation": false,
+                                        "giveFocusToRowOnClick": false
+                                    },
+                                    "menu": {
+                                        "definitionJSON": "",
+                                        "buttonType": "Image",
+                                        "text": "Menu",
+                                        "image": "svgIcon=#alpha-icon-bars:icon,24",
+                                        "image_rotate": true,
+                                        "bubblehelp": "",
+                                        "inlinestyle": "",
+                                        "className": "",
+                                        "focusrow": false,
+                                        "imageOpen": "svgIcon=#alpha-icon-xLarge:icon,24",
+                                        "image_rotate_duraction": 300
+                                    },
+                                    "virtualJavascript": {
+                                        "javascript": ""
+                                    },
+                                    "serverSideSummaryFieldsHas": false,
+                                    "serverSideSummaryFields": "",
+                                    "clientSideSummaryFieldsHas": false,
+                                    "clientSideTypeTransform": "None",
+                                    "clientSideDateTemplate": "MM-dd-yyyy",
+                                    "clientSideDateFormat": "<None>",
+                                    "clientSideNumericFormat": "",
+                                    "inplaceEditing": {
+                                        "template": "",
+                                        "javascript": {
+                                            "validation": "",
+                                            "initialvalue": ""
+                                        },
+                                        "controltype": "Textbox",
+                                        "controljson": "",
+                                        "allow": true,
+                                        "conditionalalloweditJSfunction": "",
+                                        "securitygroups": ""
+                                    },
+                                    "customControl": {
+                                        "definition": ""
+                                    },
+                                    "chartPropertiesJSON": "",
+                                    "isComputedColumn": false,
+                                    "ink": {
+                                        "width": "300",
+                                        "height": "",
+                                        "sizeMethod": "Width-Height",
+                                        "scale": 0.25,
+                                        "zoom": "50%",
+                                        "boundsType": "Page",
+                                        "boundsMargin": 10,
+                                        "boundsX": 0,
+                                        "boundsY": 0,
+                                        "boundsWidth": 100,
+                                        "boundsHeight": 100
+                                    },
+                                    "star": {
+                                        "maxstars": 5,
+                                        "selectedColor": "Gold",
+                                        "unselectedColor": "Gray",
+                                        "width": "26px",
+                                        "height": "26px",
+                                        "readonly": false
+                                    },
+                                    "integer": {
+                                        "min": "0",
+                                        "max": "100",
+                                        "buttonClass": "[theme:button.base.className]",
+                                        "valueClass": "[class.dialogInput]",
+                                        "ValueStyle": "width: 40px;",
+                                        "hasIncrementBy10": false,
+                                        "hasIncrementBy100": false
+                                    },
+                                    "javascript": {
+                                        "methodName": ""
+                                    },
+                                    "map": {
+                                        "height": "300",
+                                        "width": "300",
+                                        "markerColor": "green",
+                                        "markerSize": "<default>",
+                                        "zoom": "8"
+                                    },
+                                    "radiobuttons": {
+                                        "choices": "",
+                                        "readonly": false,
+                                        "fillWidth": true
+                                    },
+                                    "checkboxButtons": {
+                                        "choices": "",
+                                        "readonly": false,
+                                        "fillWidth": true
+                                    },
+                                    "switch": {
+                                        "onvalue": "On",
+                                        "offValue": "Off",
+                                        "width": "100px",
+                                        "direction": "ltr",
+                                        "readonly": false
+                                    },
+                                    "unboundField": false,
+                                    "deleteField": false,
+                                    "display": "{data=5}{I:'$$control.smartField'} ContactTitle (C)",
+                                    "baseName": "ContactTitle",
+                                    "clientInlineStyle": ""
+                                }
+                            ]
+                        },
+                        "layoutsArray": {
+                            "layouts": [
+                                {
+                                    "Name": "Default",
+                                    "Type": "Column",
+                                    "showColumnTitles": true,
+                                    "columns": [
+                                        {
+                                            "heading": "&nbsp;",
+                                            "template": "{Edit}",
+                                            "canSort": false,
+                                            "sortColumnName": "",
+                                            "sortWhere": "ClientSide",
+                                            "serverSideSortExpression": "",
+                                            "name": "Edit",
+                                            "hideColumnReferenceField": "",
+                                            "display": "{I:'$$generic.image'} Edit",
+                                            "headingClassName": "",
+                                            "columnIsResizeable": false,
+                                            "headingInlineStyle": "",
+                                            "dataInlineStyle": "",
+                                            "columnWidth": "60px",
+                                            "footerTemplate": "",
+                                            "initialsortdirection": "Ascending",
+                                            "sortJavascript": "",
+                                            "javascript": {
+                                                "onclick": "",
+                                                "onrightclick": ""
+                                            },
+                                            "hideColumnIfFieldHidden": true,
+                                            "initialStateHidden": false,
+                                            "responsiveColumnWidth": ""
+                                        },
+                                        {
+                                            "heading": "&nbsp;",
+                                            "template": "{new_order}",
+                                            "canSort": false,
+                                            "sortColumnName": "",
+                                            "sortWhere": "ClientSide",
+                                            "serverSideSortExpression": "",
+                                            "name": "new_order",
+                                            "hideColumnReferenceField": "",
+                                            "display": "{I:'$$generic.image'} new_order",
+                                            "headingClassName": "",
+                                            "columnIsResizeable": false,
+                                            "headingInlineStyle": "",
+                                            "dataInlineStyle": "",
+                                            "columnWidth": "80px",
+                                            "footerTemplate": "",
+                                            "initialsortdirection": "Ascending",
+                                            "sortJavascript": "",
+                                            "javascript": {
+                                                "onclick": "",
+                                                "onrightclick": ""
+                                            },
+                                            "hideColumnIfFieldHidden": true,
+                                            "initialStateHidden": false,
+                                            "responsiveColumnWidth": ""
+                                        },
+                                        {
+                                            "heading": "CustomerID",
+                                            "template": "{CustomerID}",
+                                            "canSort": true,
+                                            "sortColumnName": "CustomerID",
+                                            "sortWhere": "ClientSide",
+                                            "serverSideSortExpression": "CustomerID",
+                                            "name": "CustomerID",
+                                            "hideColumnReferenceField": "CustomerID",
+                                            "display": "{I:'$$control.smartField'} CustomerID",
+                                            "headingClassName": "",
+                                            "columnIsResizeable": false,
+                                            "headingInlineStyle": "",
+                                            "dataInlineStyle": "",
+                                            "columnWidth": "flex(1)",
+                                            "footerTemplate": "",
+                                            "initialsortdirection": "Ascending",
+                                            "sortJavascript": "",
+                                            "javascript": {
+                                                "onclick": "",
+                                                "onrightclick": ""
+                                            },
+                                            "hideColumnIfFieldHidden": true,
+                                            "initialStateHidden": false,
+                                            "responsiveColumnWidth": ""
+                                        },
+                                        {
+                                            "heading": "CompanyName",
+                                            "template": "{CompanyName}",
+                                            "canSort": true,
+                                            "sortColumnName": "CompanyName",
+                                            "sortWhere": "ClientSide",
+                                            "serverSideSortExpression": "CompanyName",
+                                            "name": "CompanyName",
+                                            "hideColumnReferenceField": "CompanyName",
+                                            "display": "{I:'$$control.smartField'} CompanyName",
+                                            "headingClassName": "",
+                                            "columnIsResizeable": false,
+                                            "headingInlineStyle": "",
+                                            "dataInlineStyle": "",
+                                            "columnWidth": "flex(1)",
+                                            "footerTemplate": "",
+                                            "initialsortdirection": "Ascending",
+                                            "sortJavascript": "",
+                                            "javascript": {
+                                                "onclick": "",
+                                                "onrightclick": ""
+                                            },
+                                            "hideColumnIfFieldHidden": true,
+                                            "initialStateHidden": false,
+                                            "responsiveColumnWidth": ""
+                                        },
+                                        {
+                                            "heading": "ContactName",
+                                            "template": "{ContactName}",
+                                            "canSort": true,
+                                            "sortColumnName": "ContactName",
+                                            "sortWhere": "ClientSide",
+                                            "serverSideSortExpression": "ContactName",
+                                            "name": "ContactName",
+                                            "hideColumnReferenceField": "ContactName",
+                                            "display": "{I:'$$control.smartField'} ContactName",
+                                            "headingClassName": "",
+                                            "columnIsResizeable": false,
+                                            "headingInlineStyle": "",
+                                            "dataInlineStyle": "",
+                                            "columnWidth": "flex(1)",
+                                            "footerTemplate": "",
+                                            "initialsortdirection": "Ascending",
+                                            "sortJavascript": "",
+                                            "javascript": {
+                                                "onclick": "",
+                                                "onrightclick": ""
+                                            },
+                                            "hideColumnIfFieldHidden": true,
+                                            "initialStateHidden": false,
+                                            "responsiveColumnWidth": ""
+                                        },
+                                        {
+                                            "heading": "ContactTitle",
+                                            "template": "{ContactTitle}",
+                                            "canSort": true,
+                                            "sortColumnName": "ContactTitle",
+                                            "sortWhere": "ClientSide",
+                                            "serverSideSortExpression": "ContactTitle",
+                                            "name": "ContactTitle",
+                                            "hideColumnReferenceField": "ContactTitle",
+                                            "display": "{I:'$$control.smartField'} ContactTitle",
+                                            "headingClassName": "",
+                                            "columnIsResizeable": false,
+                                            "headingInlineStyle": "",
+                                            "dataInlineStyle": "",
+                                            "columnWidth": "flex(1)",
+                                            "footerTemplate": "",
+                                            "initialsortdirection": "Ascending",
+                                            "sortJavascript": "",
+                                            "javascript": {
+                                                "onclick": "",
+                                                "onrightclick": ""
+                                            },
+                                            "hideColumnIfFieldHidden": true,
+                                            "initialStateHidden": false,
+                                            "responsiveColumnWidth": ""
+                                        }
+                                    ],
+                                    "friendlyName": "",
+                                    "kanbansettingsjson": "",
+                                    "customsettingsjson": "",
+                                    "chartsettingsjson": "",
+                                    "mapsettingsjson": "",
+                                    "template": "",
+                                    "isDefaultLayout": true,
+                                    "snakingLayoutWidth": "1in",
+                                    "itemHeight": "",
+                                    "contentclassname": "",
+                                    "clientSideGroupBreaksHas": false,
+                                    "clientsidegroupBreaksMode": "<Use Default>",
+                                    "clientSideGroupBreakJSON": "",
+                                    "freeformType": "Vertical",
+                                    "className": "",
+                                    "hoverclassName": "",
+                                    "selectedClassName": "",
+                                    "style": "",
+                                    "titleClassName": "",
+                                    "separatorClassName": "",
+                                    "hasListItemFooter": false,
+                                    "listItemFooter": "",
+                                    "listItemFooterInitialState": "Open",
+                                    "dragScroll": {
+                                        "hasCustomSnapSettings": false,
+                                        "snap": {
+                                            "x": {
+                                                "use": false,
+                                                "offset": "0",
+                                                "step": "1"
+                                            },
+                                            "y": {
+                                                "use": false,
+                                                "offset": "0",
+                                                "step": "1"
+                                            }
+                                        }
+                                    },
+                                    "dragScrollMomentum": true
+                                }
+                            ]
+                        },
+                        "dataBinding": {
+                            "tablesArray": {
+                                "tables": [
+                                    {
+                                        "table": "Customers",
+                                        "owner": "",
+                                        "alias": "Customers",
+                                        "primaryKeyFields": "CustomerID",
+                                        "mapPrimaryKeyToListQuery": "",
+                                        "primaryKeyIsAutoIncrement": false,
+                                        "sequenceName": "",
+                                        "sqlInsertSequence": "",
+                                        "tableInfo": "CustomerID=C|F|T|NationalVaryingCharacter|!!|CustomerID\nCompanyName=C|F|T|NationalVaryingCharacter|!!|CompanyName\nContactName=C|F|T|NationalVaryingCharacter|!!|ContactName\nContactTitle=C|F|T|NationalVaryingCharacter|!!|ContactTitle\nAddress=C|F|T|NationalVaryingCharacter|!!|Address\nCity=C|F|T|NationalVaryingCharacter|!!|City\nRegion=C|F|T|NationalVaryingCharacter|!!|Region\nPostalCode=C|F|T|NationalVaryingCharacter|!!|PostalCode\nCountry=C|F|T|NationalVaryingCharacter|!!|Country\nPhone=C|F|T|NationalVaryingCharacter|!!|Phone\nFax=C|F|T|NationalVaryingCharacter|!!|Fax\nImage=B|F|F|VaryingBinary|!!|Image\nImageThumbnail=B|F|F|VaryingBinary|!!|ImageThumbnail\n",
+                                        "tableInfoCRC": -1,
+                                        "updateWhereClause": "{CustomerID}=(CustomerID = :old_CustomerID OR CustomerID IS NULL AND :old_CustomerID IS NULL)\n{CompanyName}=CompanyName = :old_CompanyName\n{ContactName}=(ContactName = :old_ContactName OR ContactName IS NULL AND :old_ContactName IS NULL)\n{ContactTitle}=(ContactTitle = :old_ContactTitle OR ContactTitle IS NULL AND :old_ContactTitle IS NULL)\n{Address}=(Address = :old_Address OR Address IS NULL AND :old_Address IS NULL)\n{City}=(City = :old_City OR City IS NULL AND :old_City IS NULL)\n{Region}=(Region = :old_Region OR Region IS NULL AND :old_Region IS NULL)\n{PostalCode}=(PostalCode = :old_PostalCode OR PostalCode IS NULL AND :old_PostalCode IS NULL)\n{Country}=(Country = :old_Country OR Country IS NULL AND :old_Country IS NULL)\n{Phone}=(Phone = :old_Phone OR Phone IS NULL AND :old_Phone IS NULL)\n{Fax}=(Fax = :old_Fax OR Fax IS NULL AND :old_Fax IS NULL)\n{Image}=(Image = :old_Image OR Image IS NULL AND :old_Image IS NULL)\n{ImageThumbnail}=(ImageThumbnail = :old_ImageThumbnail OR ImageThumbnail IS NULL AND :old_ImageThumbnail IS NULL)\n",
+                                        "updateWhereClauseNative": "",
+                                        "allowInsert": true,
+                                        "allowUpdate": true,
+                                        "allowDelete": true,
+                                        "deleteType": "Hard",
+                                        "deleteField": "",
+                                        "readonly": false,
+                                        "securityGroups_insert": "",
+                                        "securityGroups_update": "",
+                                        "securityGroups_delete": "",
+                                        "serversidePermission_insert": "",
+                                        "serversidePermission_update": "",
+                                        "serversidePermission_delete": "",
+                                        "joinDefinition": "",
+                                        "parentAlias": "",
+                                        "events": {
+                                            "beforeInsert": "",
+                                            "beforeUpdate": "",
+                                            "beforeDelete": "",
+                                            "afterInsert": "",
+                                            "afterUpdate": "",
+                                            "afterDelete": "",
+                                            "onWriteConflict": "",
+                                            "onSQLError": ""
+                                        },
+                                        "geography": {
+                                            "geocodeFieldDefinition": "",
+                                            "locationFieldDefinition": ""
+                                        },
+                                        "flagStoreLocationInformationC": "No",
+                                        "flagStoreLocationInformation": false,
+                                        "latField": "",
+                                        "lngField": "",
+                                        "flagUpdateLocationField": false,
+                                        "storeLocationWhen": "InsertOnly",
+                                        "locationFieldNameForLatLng": ""
+                                    }
+                                ]
+                            }
+                        },
+                        "odata": {
+                            "url": "http://services.odata.org/V4/Northwind/Northwind.svc",
+                            "serviceType": "OData",
+                            "requiresAuthentication": false,
+                            "usesCSRFToken": false,
+                            "authType": "Basic",
+                            "authUsername": "",
+                            "authPassword": "",
+                            "containerName": "",
+                            "columns": "",
+                            "filter": "",
+                            "order": "",
+                            "max_rows": -1,
+                            "dataReturnType": "Field",
+                            "dataReturnField": "",
+                            "primarykey": "",
+                            "primaryKeyType": ""
+                        },
+                        "paginateData": false,
+                        "pageSize": 20,
+                        "paginateMethod": "FetchMore",
+                        "fetchMoreButtonHTML": "More records...",
+                        "fetchMoreButtonType": "Button",
+                        "fetchMoreButtonStyle": "",
+                        "fetchMoreButtonContainerStyle": "text-align: center;",
+                        "hasNavigationBar": false,
+                        "navigationBarJson": "",
+                        "serverSideSorting": false,
+                        "breaks": {
+                            "has": false,
+                            "field": "",
+                            "sortDescending": false,
+                            "sortOnBreakField": true,
+                            "fieldChars": -1,
+                            "template": "",
+                            "stringDictionary": "",
+                            "caseSensitive": false,
+                            "breakType": "Automatic",
+                            "userDefinedBreakGroups": "",
+                            "geographyUnits": "Meters|Meters"
+                        },
+                        "allowNullSelection": true,
+                        "allowAnyValue": false,
+                        "allowTextSelection": false,
+                        "allowNullDeselection": false,
+                        "loopNavigate": false,
+                        "loopNavigateNullSelection": false,
+                        "delayRenderTillVisible": false,
+                        "delayRenderTillRefresh": false,
+                        "multiSelect": false,
+                        "multiSelectMode": "Control-click",
+                        "localCSS": "",
+                        "virtualization": {
+                            "type": "None",
+                            "onNavigateBehavior": "Navigate",
+                            "size": 50,
+                            "maxSize": 0,
+                            "offset": 10,
+                            "navigation": {
+                                "pull": true,
+                                "pullSize": 40,
+                                "prevHTML": "Previous",
+                                "prevClassName": "",
+                                "prevPressedClassName": "",
+                                "nextHTML": "Next",
+                                "nextClassName": "",
+                                "nextPressedClassName": ""
+                            }
+                        },
+                        "scroller": {
+                            "has": false,
+                            "messageType": "Template",
+                            "messageTemplate": "",
+                            "messageJS": "",
+                            "customizationIsDefined": false,
+                            "flow": "ttb",
+                            "location": "after",
+                            "className": "",
+                            "focusClassName": "",
+                            "dialClassName": "",
+                            "style": "",
+                            "offset": {
+                                "top": "0px",
+                                "bottom": "0px",
+                                "left": "0px",
+                                "right": "0px"
+                            },
+                            "slider": {
+                                "className": "",
+                                "innerClassName": "",
+                                "handle": {
+                                    "className": "",
+                                    "style": ""
+                                },
+                                "shadow": {
+                                    "show": true,
+                                    "className": "",
+                                    "style": ""
+                                },
+                                "message": {
+                                    "show": "auto",
+                                    "className": "",
+                                    "topClassName": "",
+                                    "bottomClassName": "",
+                                    "leftClassName": "",
+                                    "rightClassName": "",
+                                    "style": "",
+                                    "lowSwitch": 75,
+                                    "highSwitch": 75
+                                }
+                            },
+                            "dial": {
+                                "show": "drag",
+                                "invertDrag": false,
+                                "className": "",
+                                "message": {
+                                    "className": ""
+                                },
+                                "style": "",
+                                "pixelStep": 4,
+                                "size": 2
+                            }
+                        },
+                        "precalc": {
+                            "javascriptOnOrientationChange": ""
+                        }
+                    },
+                    "info": {
+                        "level": 2,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": false,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "73afdfe4-07ac-4d34-963a-0fd5d83e0ad0",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 3,
+                        "color": "",
+                        "icon": "$$control.browse",
+                        "displayText": "[LIST_CUSTOMERS]",
+                        "parentPanelCardId": "73afdfe4-07ac-4d34-963a-0fd5d83e0ad0",
+                        "break": false,
+                        "display": "{B=White,Light Blue}{I:'vertline'}{I:'vertline'}{Data=e9a03b81_8c31_4ef0_94ff_d5e57c11be79}{I:'$$control.browse'} [LIST_CUSTOMERS]"
+                    },
+                    "displayAsSlider": false,
+                    "precalc": {
+                        "controlHTMLInPanelCard": "in panel card",
+                        "javascript_listViewData": "{dialog.object}._listViewData['LIST_CUSTOMERS'] = [[dialog.listViewData.LIST_CUSTOMERS]]; ",
+                        "javascript_listViewSettings": "{dialog.object}._listViewSettings['LIST_CUSTOMERS'] = [[dialog.listViewSettings.LIST_CUSTOMERS]]; ",
+                        "javascript_listview": "{dialog.object}._controls['LIST_CUSTOMERS'] =  { type: 'list',  data: {dialog.object}._listViewData['LIST_CUSTOMERS'],  onInitialize: function() { \n\t\tvar pe = $(this.contId).parentElement;\n\t\tif(typeof this.listVariableName != 'undefined') { \n\t\t\tvar _cn = '{dialog.componentName}_' + this.listVariableName.toUpperCase() + '_2';\n\t\t\t$acn(pe,_cn);\n\t\t}\n\t\n\n; if(this._setupAlphabetSearch) this._setupAlphabetSearch.call(this)},  settings: {dialog.object}._listViewSettings['LIST_CUSTOMERS'] }",
+                        "javascriptAbstractSetupCode": ""
+                    },
+                    "flags": {
+                        "clientSideDefinition": false
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "<div class=\"A5CWLayout\" style=\"width: 4in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.LIST_CUSTOMERS\" for=\"{grid.componentname}.V.R{grid.rownumber}.LIST_CUSTOMERS\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"float: left; width: __global.labelWidth__; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\">LIST CUSTOMERS</label>\n<!--LblE--><!--FldS--><div style=\"margin-left: __global.labelWidth__ ;\"><!--JSControlStart--><input type=\"hidden\" id=\"{grid.componentname}.V.R{grid.rownumber}.LIST_CUSTOMERS\" name=\"V.R{grid.rownumber}.LIST_CUSTOMERS\" /><!--JSControlEnd-->\n<div  class=\"[theme:listBox.base.className|{dialog.style}List]\"   style=\"padding:0px; \"  >\n\t<div id=\"{grid.componentname}.V.R{grid.rownumber}.LIST_CUSTOMERS.CONTROL\"  class=\"{grid.componentName}_LIST_CUSTOMERS <Default>\" style=\"overflow: auto; width: 100%; height: 3in; \"></div>\n</div>\n</div><!--FldE-->\n</div>",
+                    "DesignViewHTML": "",
+                    "columnInfo": "'LIST_CUSTOMERS': {info: {controlType: 'List'}, hiddenVal: false, type: 'control', isCalc: false, hlp: '', isArray: false, dataType: ''  }\n"
+                }
+            },
+            {
+                "controlType": "layout_directive_PanelCardEnd",
+                "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertline'}{Data=b38204cf-9bbc-4c6f-b616-6a830ba26537}{I:'vertLineCap'} [Panel Card End: PC_LIST]",
+                "idInternal": "b38204cf-9bbc-4c6f-b616-6a830ba26537",
+                "parentContainer": 1,
+                "crc": "4294923073",
+                "v": {
+                    "info": {
+                        "level": 1,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": true,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": true,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "11a0743c-d5ef-49f7-ae68-5396717d9fbe",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 4,
+                        "containerStartID": "73afdfe4-07ac-4d34-963a-0fd5d83e0ad0",
+                        "color": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}",
+                        "icon": "vertLineCap",
+                        "parentPanelCardId": "73afdfe4-07ac-4d34-963a-0fd5d83e0ad0",
+                        "displayText": "[Panel Card End: PC_LIST]",
+                        "display": "{C=#104+150+1120,White}{B=White,#104+150+112}{F=+B}{I:'vertline'}{Data=b38204cf-9bbc-4c6f-b616-6a830ba26537}{I:'vertLineCap'} [Panel Card End: PC_LIST]"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 2
+            },
+            {
+                "controlType": "layout_directive_PanelNavigatorEnd",
+                "display": "{C=#51+111+61,White}{B=White,#51+111+61}{F=+B}{Data=129332e0-8e96-46ce-bc24-f156768eb51e}{I:'vertLineCap'} [Panel Navigator End: ]",
+                "idInternal": "129332e0-8e96-46ce-bc24-f156768eb51e",
+                "crc": "4294925475",
+                "v": {
+                    "info": {
+                        "level": 0,
+                        "isContainerStart": false,
+                        "isTabControlStart": false,
+                        "isContainerEnd": true,
+                        "isTabControlEnd": false,
+                        "isTabPaneEnd": false,
+                        "lastItemInTabPane": false,
+                        "inContainer": false,
+                        "inRepeatingSection": false,
+                        "inTabPane": false,
+                        "parentContainerID": "",
+                        "repeatingSectionParentId": "",
+                        "parentTabID": "",
+                        "parentTabPaneID": "",
+                        "index": 5,
+                        "containerStartID": "11a0743c-d5ef-49f7-ae68-5396717d9fbe",
+                        "color": "{C=#51+111+61,White}{B=White,#51+111+61}{F=+B}",
+                        "icon": "vertLineCap",
+                        "displayText": "[Panel Navigator End: ]",
+                        "parentPanelCardId": "",
+                        "display": "{C=#51+111+61,White}{B=White,#51+111+61}{F=+B}{Data=129332e0-8e96-46ce-bc24-f156768eb51e}{I:'vertLineCap'} [Panel Navigator End: ]"
+                    }
+                },
+                "precalc": {
+                    "ControlHTML": "'xbasic\nv._dirty = .f.\n",
+                    "DesignViewHTML": ""
+                },
+                "isCollapsed": false,
+                "parentIsCollapsed": false,
+                "containerStartIndex": 1
+            }
+        ],
+        "builderType": "Dialog2",
+        "guid": "ff0e19d9-eceb-4200-a084-13f8f704dabe",
+        "componentName": "tabbed_ui_replacement_launch_panel_from_list_ux",
+        "componentFilename": "C:\\Users\\giantkillertraining\\tabbedui_replacement\\tabbedui_replacement.WebProjects\\Default.WebProject\\tabbed_ui_replacement_launch_panel_from_list_ux.a5wcmp",
+        "_style_versionNumber": 4,
+        "_style_hasSassOverrides": false,
+        "_style_hasCSSTweaks": false,
+        "_style_hasCSS_or_subtheme_tweaks": false,
+        "useCompactTheme": true,
+        "styleTweaksCSS": "",
+        "styleTweaksSubthemes": "",
+        "controlflowdirection": "ltr",
+        "SVGLinkedFiles": "",
+        "localsvg": "",
+        "createAppCacheVersion": false,
+        "createAppCacheVersionC": "No",
+        "appcache": {
+            "pageName": "<Default>",
+            "pageTitle": "",
+            "hasHomeScreenIcons": false,
+            "homeScreenIconName": "",
+            "icons": {
+                "precomposed": false
+            },
+            "pageHeadSection": ""
+        },
+        "clientsideNumberFormatDecimal": "period",
+        "clientsideNumberFormatThousands": "comma",
+        "dataSeriesPublishToClientSide": false,
+        "showLineNumbersInControlsList": false,
+        "saveFileType": "Formatted JSON",
+        "keyboardShortcutsJSON": "",
+        "preRenderWarningMessageShow": true,
+        "autoSetPreRenderOnForAllUX": false,
+        "selected": "e9a03b81_8c31_4ef0_94ff_d5e57c11be79\n",
+        "designPaneIndex": 1,
+        "masterPaneC": "controls",
+        "serverSideEventIndex": 1,
+        "clientSideEventIndex": 1,
+        "clientSideEventIndexC": "1",
+        "lastControlSelected": "insert_dialog_list",
+        "__WPhostName": "Chrome",
+        "embeddedMode": false,
+        "_style_hassubthemeTweaks": false,
+        "repeatingSectionsAreDirty": true,
+        "containerSubTypeNew": "",
+        "containerSubTypeOld": "",
+        "flagDropdownCascadingChanged": false,
+        "toolBox_value": "",
+        "addinBuildNumber": "5457",
+        "addinBuildNumberHighestUsed": "5457",
+        "alphaFiveBuildNumber": "12",
+        "openedFromTemplate": false,
+        "builtWithVersionNumer": 1,
+        "_buildCount": "20",
+        "securityEnabled": false,
+        "showHideIsUsed": false,
+        "precalc": {
+            "js_editorSetInitialization": ";\n",
+            "customControl": {
+                "js_beforePrepare": "",
+                "js_afterRender": "",
+                "customControl_xbasicFunctions": ""
+            },
+            "jschart": {
+                "js_beforePrepare": "",
+                "js_afterRender": "",
+                "jschart_xbasicFunctions": ""
+            },
+            "rgraph": {
+                "libraries": ""
+            },
+            "getSetFunctions": {
+                "js_beforePrepare": ""
+            },
+            "injectibleHTML": "",
+            "containerWindowHTML": "",
+            "repeatingsectionInfoJs": "",
+            "framesInfoJS": "{dialog.object}.framesInfo = {\n\n};\n",
+            "jsActionJavascriptGlobalFunctions": "",
+            "xbActionJavascriptGlobalFunctions": "",
+            "javascriptSetupForGridLookups": "{\n}",
+            "javascript": {
+                "showWaitMessage": "",
+                "hideWaitMessage": "",
+                "embeddedUXComponents": ""
+            },
+            "fileUpload_controlInfo": "",
+            "javascript_cascadingDropdowns": "{dialog.object}._cascadingControls = [];\n{dialog.object}._cascadingControlsChildren = [];",
+            "template_html": "<!--div GLOBALERRORS-->\n<div class=\"errorTip\" style=\"margin-bottom: 2px; display: none; width: 8in; \" id=\"{dialog.componentname}.GLOBALERRORS\"></div>\n<!--End div GLOBALERRORS-->\n\n<div id=\"{dialog.componentname}.R1\">\n'xbasic\nv._dirty = .f.\n\n'xbasic\n\nv._dirty = .f.\n\n\n\n<div class=\"A5CWLayout\" style=\"width: 4in\" >\n\t<!--LblS--><label id=\"{grid.componentname}.LBL.R{grid.rownumber}.LIST_CUSTOMERS\" for=\"{grid.componentname}.V.R{grid.rownumber}.LIST_CUSTOMERS\" title=\"\" class=\"[class.dialogFieldLabel]\" style=\"float: left; width: __global.labelWidth__; box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -webkit-box-sizing: border-box;\">LIST CUSTOMERS</label>\n<!--LblE--><!--FldS--><div style=\"margin-left: __global.labelWidth__ ;\"><!--JSControlStart--><input type=\"hidden\" id=\"{grid.componentname}.V.R{grid.rownumber}.LIST_CUSTOMERS\" name=\"V.R{grid.rownumber}.LIST_CUSTOMERS\" /><!--JSControlEnd-->\n<div  class=\"[theme:listBox.base.className|{dialog.style}List]\"   style=\"padding:0px; \"  >\n\t<div id=\"{grid.componentname}.V.R{grid.rownumber}.LIST_CUSTOMERS.CONTROL\"  class=\"{grid.componentName}_LIST_CUSTOMERS <Default>\" style=\"overflow: auto; width: 100%; height: 3in; \"></div>\n</div>\n</div><!--FldE-->\n</div>\n'xbasic\nv._dirty = .f.\n\n'xbasic\nv._dirty = .f.\n\n\n\n</div>\n<!--div DEBUGUPDATECOMMANDS-->\n<div class=\"\" style=\"display: none; \" id=\"{dialog.componentname}.DEBUGUPDATECOMMANDS\"></div>\n<!--End div DEBUGUPDATECOMMANDS-->\n",
+            "panelDisplayNames": "PC_LIST : 'PC_LIST',PANELNAVIGATOR_1 : 'PANELNAVIGATOR_1'",
+            "controlJavascript": "",
+            "controlJavascriptRepeatingSections": "",
+            "template_js": "",
+            "sessionVarsInShowHideExpns": "",
+            "flagHasShowTimer": false,
+            "themeSearchReplaceString": "[theme:button.base.className]=*if_error(p.button.base.className,\"[class.gridButton]\")\n[theme:listBox.base.className|{dialog.style}List]=*if_error(p.listBox.base.className,\"{dialog.style}List\")\n",
+            "flagHasHTML5ImageCapture": false,
+            "flagUsesCordova": false,
+            "flagUseAmazonS3FileUpload": false,
+            "flagUseStripe": false,
+            "usesSystemSVG": true,
+            "flagUseAudioPlayer": false,
+            "flagUseInk": false,
+            "flagUsesAudioLibrary": false,
+            "flagUsesPhoneGapFileSystemFunctions": false,
+            "flagUsesGetAccurateLocation": false,
+            "editorSet_for_editor": "{dialog.object}._EDITOR_EDITORSET = {};",
+            "otherJS": "",
+            "javascript_layoutRules": "",
+            "javascript_controlNesting": "{\n\n}",
+            "appcacheEvents": "",
+            "hasListNavigator": false,
+            "vb_based_on_lists": "",
+            "vb_based_on_javascritFunctions": "",
+            "constrainContainerJS": "",
+            "hasFormViewControls": false,
+            "setScreenHeightJS": "",
+            "hasListColumnSelector": false,
+            "hasCharts": false,
+            "hasformbox": false,
+            "hasExpandingmenus": false,
+            "actionsheet": {
+                "has": false
+            },
+            "kanban": {
+                "has": false
+            },
+            "transformdataviewer": {
+                "has": false,
+                "controlnames": ""
+            },
+            "requiredPlugins": ""
+        },
+        "FieldsInRepeatingSectionsDeletedBySecurity": "",
+        "repeatingSectionsToRecalc": "",
+        "dialogObject": "if(typeof {dialog.componentName}_DlgObj == 'object') {dialog.componentName}_DlgObj._destroy();\nvar {dialog.componentName}_DlgObj = new A5.DialogComponentHelper('{dialog.componentName}',{\n\tajaxURL: '{dialog.ajaxUrl}',\n\t_embeddedMode: {dialog.embeddedMode},\n\t_livePreviewInBuilder: {livePreviewInBuilder},\n\tcomponentGUID: 'ff0e19d9-eceb-4200-a084-13f8f704dabe',\n\tcolumnInfo: {columninfo},\n\toriginalValues: {dialog.jsOriginalValues},\n\tdefaultValues: {dialog.jsDefaultValues},\n\tdatePickerMonthNames: [{datePickerMonthNames}],\n\tdatePickerDayNames: [{datePickerDayNames}],\n\tdatePickerTodayButton: '{datePickerTodayButton}',\n\tdatePickerCloseButton: '{datePickerCloseButton}',\n\tdatePickerFirstDayOfWeek: {datePickerFirstDayOfWeek},\n\tresetFormMessage: '{resetFormMessage}',\n\tresetFormTitle: '{resetFormTitle}',\n\tresetFormIcon: '{resetFormIcon}',\n\tdirtyFormMessage: '{dirtyFormMessage}',\n\tdirtyFormTitle: '{dirtyFormTitle}',\n\tdirtyFormIcon: '{dirtyFormIcon}',\n\tdeleteRecordDialogTitle: '{deleteRecordTitle}',\n\tdeleteRecordDialogMessage: '{deleteRecordMessage}',\t\n\tssDateFormat: '{serverSideDateFormat}',\n\tstyleName: '{dialog.style}',\n\t_fieldHelpers_DIALOG2: [],\n\tparentComponentAlias: '{parentComponentAlias}',\n\tsubmitIfHasClientSideErrors: true, \n\trowErrors: {\n\t\t\t\tshowMessageBox: false,\n\t\t\t\tmessageBoxTitle: 'Error',\n\t\t\t\tstyle: 'color: red; width: 6in; height: 2in;'\n\t\t},\n\tfieldErrors: {\n\t\ttype: 'block', \n\t\tclassName: 'errorText',\n\t\tinputClassName: '[class.gridInputError]',\n\t\tedit: { \n\t\t\tcontainer: { className: '[class.gridInputContainerError]'}\n\t\t},\n\t\ticon: '{images.dialog.editError}',\n\t\tglobal: {\n\t\t\tcontId: '{dialog.componentname}.GLOBALERRORS',\n\t\t\thoverClassName: 'errorTextHighlight',\n\t\t\thoverInputClassName: 'errorInputHighlight'\n\t\t}\n\t},\n\t\tonOrientationChange: function(e) {\nvar pObj = {dialog.object}.getPanelObject();\nif(pObj) pObj.resize();\n\t\t},\n\t\t_onWindowResize: function(e) {\nvar arr = {dialog.object}._listControls;\nif(arr) {\n var obj;\n for(var i = 0; i < arr.length; i++) {\n  obj = {dialog.object}.getControl(arr[i]);\n  if(obj) obj.resize()\n }\n}\n\t\t},\n_onInitializeBegin: function(e) { /*systemOnInitializeBegin*/ ;\n   },\n\n\n\t});\n\n",
+        "xbasiccode": {
+            "blankInitialValueIfVarNotFound": "",
+            "setValueProperties": "value.LIST_CUSTOMERS=\"\"",
+            "setValueProperties2": "value.LIST_CUSTOMERS=\"\"",
+            "setValueUnformattedProperties": "value.LIST_CUSTOMERS=convert_type(\"\",\"\")\n"
+        },
+        "componentType": "Dialog2",
+        "version": 1,
+        "recNav": {
+            "slider": {
+                "showSlider": false
+            }
+        },
+        "A5SaveTimeStamp": "20200515162824612",
+        "a_actionJavascript": [
+            {
+                "actionGuid": "03088e17-2fc2-4749-98d7-06d4fd9cc5f9        ",
+                "scriptMetaData": "<a_ajs<[1]<display=\"{I:'$$web.component.dialog'}{F=Tahoma,10}{C=Dark Blue,White}{B=Blue White,Dark Blue}Open a UX component to Edit Current Record in List Control in a UX, or add a new Record to a List Control in a UX       {T=4}{I:'a5_vertical_line'}\">\n<action=\"Open a UX component to Edit Current Record in List Control in a UX, or add a new Record to a List Control in a UX       \">\n<icon=\"$$web.component.dialog\">\n<isCommentedOut=.F.>\n<comment=\"\">\n<builder=\"a5ajs_openGenericComponent(v,wf,pv,dlg_mode,\\\"dialog2-EditListControlRow\\\")\">\n<metaData=<<%str2%\n<targetGridDefinition=<<%str1%\n<gridName=\"Customer_edit_argument_ux\">\n<gridAlias=\"JAVASCRIPT_ALIAS\">\n<argumentBindings=<<%str%\nCUSTOMERID|Character|{LIST_CUSTOMERS}\n%str%>\n<overrideSettings=\"\">\n<useSameStyleAsParentGrid=.T.>\n<customSettingOverridesJSON=\"\">\n<order=\"\">\n<localArguments=\"\">\n<placeHolderValues=\"\">\n%str1%>\n<flagShowSynchronizePrompts=.F.>\n<parentNavigator=\"PANELNAVIGATOR_1\">\n<dynamicPanelTitle=\"javascript:panel_name\">\n<dynamicPanelSetFocus=.T.>\n<waitMessagePanel=\"page\">\n<dynamicPanelCanClose=.F.>\n<grid<gridName=\"Customer_edit_argument_ux\">\n<alias=\"JAVASCRIPT_ALIAS\">\n<userFilter=\"\">\n<baseFilter=\"\">\n<link=\"\">\n<order=\"\">\n<argumentDefinitions=\"\">\n<argumentBindings=<<%str%\nCUSTOMERID|Character|{LIST_CUSTOMERS}\n%str%>\n<useMasterStyle=.T.>\n<overrideSettings=\"\">\n<customSettingOverridesJSON=\"\">\n<debugMode=.F.>\n<timer=.F.>\n<queryEcho=.F.>\n<workingMessage=\"<img src=\\\"css/A5System/Images/wait.gif\\\" /> Computing Grid. Please wait...\">\n<beforeExecuteClientSideFunctionName=\"\">\n>\n<refreshUXOnSynchronize=.T.>\n<refreshUXJavascriptFunction=\"\">\n<allowAutoCloseIfDirty=.F.>\n<dialog<showWaitMessageOnRefresh=.F.>\n<waitMessageText=\"Wait...\">\n<waitMessageIcon=\"css/A5System/Images/wait.gif\">\n<useCachedDialog=.F.>\n>\n<specialMode=\"ExistingOrNewListControlRecord\">\n<closeDialogAfterSubmit=.T.>\n<gridRecordMode=\"EditExistingRecord\">\n<listControlId=\"LIST_CUSTOMERS\">\n<populateDialog=.F.>\n<targetType=\"DynamicPanel\">\n<targetDIVid=\"\">\n<targetDIVcanHide=.T.>\n<targetDIVHideHyperlink=\"Close\">\n<targetDIVStyle=\"\">\n<targetPanel=\"\">\n<dockWindow=.F.>\n<dockLocation=\"Bottom\">\n<windowNameExplicit=\"<Default>\">\n<ajaxWindowType=\"Modal-Popup\">\n<ajaxWindowPositionAttribute=\"\">\n<ajaxWindowPositionAttributeEnglish=\"\">\n<ajaxWindowPositionAttributeDD=\"\">\n<ajaxWindowPositionAttributeEnglishDD=\"\">\n<ajaxWindowModalLockClassName=\"<Default>\">\n<ajaxWindowTitle=\"Window\">\n<ajaxPaneTitle=\"Pane\">\n<ajaxPaneAlwaysUseNewPane=.T.>\n<ajaxWindowReuseExistingWindow=.F.>\n<ajaxWindowHeight=\"5in\">\n<ajaxWindowWidth=\"8in\">\n<ajaxWindowisResizable=.T.>\n<ajaxWindowWorkingMessage=\"Working...\">\n<ajaxWindowWorkingMessageIcon=\"css/A5System/Images/wait.gif\">\n<ajaxWindowWorkingMessageUseCSSAnimation=.F.>\n<ajaxWindowWorkingMessageCSSAnimationSettings<size=\"32\">\n>\n<ajaxWindowTitlePosition=\"Top\">\n<ajaxWindowTitleDirection=\"ltr\">\n<ajaxWindowTitleHasClose=.T.>\n<ajaxWindowTitleShow=.T.>\n<ajaxWindowDisableMove=.F.>\n<ajaxWindowRefreshGridOnClose=\"None\">\n<window<hasCustomButtons=.F.>\n<buttonCount=0>\n<customButtonsInLineStyle=\"\">\n<tbar<show=.F.>\n<html=\"\">\n<style=\"\">\n>\n<header<show=.F.>\n<html=\"\">\n<style=\"\">\n>\n<footer<show=.F.>\n<html=\"\">\n<style=\"\">\n>\n<bbar<show=.F.>\n<html=\"\">\n<style=\"\">\n>\n<onInitialize=\"\">\n<onBeforeShow=\"\">\n<onShow=\"\">\n<onBeforeHide=\"\">\n<onHide=\"\">\n<onFocus=\"\">\n<onMove=\"\">\n<onResize=\"\">\n<animation<hasAnimation=.F.>\n<show<method=\"Fade\">\n<speed=\"Slow\">\n>\n<hide<method=\"None\">\n<speed=\"Fast\">\n>\n>\n<backgroundStyle=\"\">\n<centerContentsVertical=.F.>\n<centerContentsHorizontal=.F.>\n<pointer<has=.F.>\n<location=\"Auto\">\n>\n<warnOnCloseIfChildGridIsDirty=.T.>\n<subtheme=\"\">\n<buttons>\n>\n<parentTabPaneRefreshGridOnClose=.F.>\n<javascriptTabPane<onBeforeChange=\"\">\n<onChange=\"\">\n<onRightClick=\"\">\n<onInitial=\"\">\n<onBeforeRemove=\"\">\n<onRemove=\"\">\n>\n<ajaxFailedMessage=\"\">\n<offlineJavascript=\"\">\n<ajaxcallbacktimeout=\"<Default>\">\n<optimization<method=\"AjaxCallback\">\n<jsfunction=\"\">\n>\n%str2%>\n<javascriptAttribute=\"{grid.componentName}_O_089C257371294AC5A7305429743F1465({grid.rownumber},'{grid.rowId}',this);\">\n<Javascriptdeclarations_row=\"\">\n<Javascriptdeclarations_global=<<%str%\n\nwindow['{grid.componentName}_O_089C257371294AC5A7305429743F1465'] = function(rowNum,rowId,objEle) {\nvar runMethod = 'ajax';\n\nif(runMethod == 'ajax') {\nif(typeof {dialog.object}._onlineStatus != 'undefined') { \n\tif({dialog.object}._onlineStatus == 'offline') { \n\t\t( function() {  }() );\n\t\t{dialog.object}._executeEvent('onAjaxCallbackNotAvailable', {xbasicFunctionName: '', ajaxEvent: 'OpenComponent'})\n\t\treturn false;\n\t}\n}\t\t\n\t\n};\n\n$('panelId').innerHTML = '<div style=\\'\\'  id=\\'GRIDDIV_panelId\\'></div>'; \nvar go = new Object();\n\ngo.ajaxFailedMessage = '';\ngo.ajaxCallbackTimeout = {dialog.object}.ajaxCallbackTimeout;\n\ngo.dialog2Name = 'Customer_edit_argument_ux';\ngo.type = 'dialog2';\ngo.specialDialogMode = 'editListRow';\ngo.listControlId = 'LIST_CUSTOMERS';\ngo.recordPrimaryKey = {dialog.object}.getValue(go.listControlId);\ngo.closeDialogAfterSubmit=true;\ngo.alias = ALIAS().toUpperCase();;\ngo.submitCurrentFieldValues = true;\ngo.sourceGridPart = 'O';\ngo.sourceGridRowNumber = '1';\ngo.workingMessage = '<img src=\\'css/A5System/Images/wait.gif\\' />Working...';\ngo.placeholderValues = 'LIST_CUSTOMERS='+{dialog.object}.getValueNOCRLF('LIST_CUSTOMERS');\ngo.argumentBinding = 'CUSTOMERID=LIST_CUSTOMERS';\n\ngo._thisGridAlias = {grid.object}.gridId;\nif(typeof {grid.object}.gridId != 'undefined') go._thisGridAlias = {grid.object}.gridId;\nif(typeof {grid.object}.dialogId != 'undefined') {\n\tgo._thisGridAlias = {grid.object}.dialogId;\n}\n\t\n\ngo._thisGridGUID = {grid.object}.componentGUID;\ngo._gridCurrentFilter = {grid.object}._gridFilter;\n\n\ngo._gridCurrentOrder = {grid.object}._gridOrder;\ngo._gridCurrentArguments = {grid.object}._gridArguments;\ngo._gridCurrentDBType = {grid.object}._gridDBType;\ngo.overrideSettings = 'Style_name = `{Grid.style}`||Style_name = `{Grid.style}`'+'||';\ngo.a5_default_path = '{grid.defaultPath}';\n\ngo.dynamicPanel = true;\n\ngo.setFocusToDynamicPanel = true;\ngo.parentPanelNavigator = 'PANELNAVIGATOR_1';\ngo.dynamicPanelTitle = panel_name();go.waitMessageTarget = 'PAGE';\ngo.canCloseDynamicPanel = false;\nvar pNavObj = {dialog.object}.panelGet('PANELNAVIGATOR_1');\nvar existingPanel = pNavObj.getPanel(go.alias.toUpperCase());\n\n\n\ngo.dialog2Div = '';\n\nvar pNavObj = {dialog.object}.panelGet('PANELNAVIGATOR_1');\nvar existingPanel = pNavObj.getPanel(go.alias.toUpperCase());\nif(existingPanel == false) { \n\t{dialog.object}.showWaitMessage('page',{useCSSAnimation: false,message: 'Working...',icon: 'css/A5System/Images/wait.gif'});\n\tA5.component.runGenericComponent(go)\n\t{dialog.object}.panelSetActive('PANELNAVIGATOR_1',true,true);\n} else { \n\tpNavObj.setActivePanel(go.alias.toUpperCase());\n\t{dialog.object}.panelSetActive('PANELNAVIGATOR_1',true,true);\n}\n\n\n}\n%str%>\n<xbasicFunctions=\"\">\n>\n>\n<flagRunSynchronously=.F.>\n<flagWrapInTryCatch=.F.>\n<tryCatchJavascript=\"\">\n"
+            }
+        ],
+        "flagOptimizedUXTree": true,
+        "flagReanalyzeContainers": false,
+        "minimumBuildNumber": "",
+        "_display": "",
+        "style_color_palette": "",
+        "customTabOrder": "",
+        "showPulseEffect": true,
+        "flagShowDeleteConfirmation": true,
+        "_conversiontoOptimizeUXTreeHasRun": true,
+        "friendlydatesCustomizationJSON": "",
+        "captureJSErrorStackTrace": false,
+        "optionalSystemLibraries": "",
+        "PreRenderUXInSections": false,
+        "useIphoneXStyling": false,
+        "iPhoneXStylingJSON": "",
+        "wrapPasswordFieldsInForms": true,
+        "useCSSFlexForContainerAlignment": true,
+        "pusherConfigJSON": "",
+        "pusherApp": false,
+        "__LPhostName": "Chrome",
+        "_style_isInherited": true,
+        "_analyzecontainersjs": true,
+        "favoriteControls": "",
+        "lastbutton": "OK",
+        "__idinternalCurrentControl": "e9a03b81_8c31_4ef0_94ff_d5e57c11be79",
+        "__nameCurrentControl": "LIST_CUSTOMERS",
+        "_flagForceRecalcChildren": true,
+        "_repeatingSectionPendingRecalc": "\n",
+        "cachecomponent": false,
+        "_crcXbEvents": 4294903431,
+        "_crcJSFunctions": 4294942652,
+        "_crcJSEvents": 43605,
+        "_treeErrors": "",
+        "__flagHasMacro": false,
+        "a_UnboundActionJavascript": [
+            {
+                "idInternal": "ea48e18f-bb8b-4663-ae77-dffceff0d8dd",
+                "name": "load_customer_ux",
+                "javascript": {
+                    "unbound": "/* actionJavascript:03088e17-2fc2-4749-98d7-06d4fd9cc5f9         */\n{grid.componentName}_O_089C257371294AC5A7305429743F1465({grid.rownumber},'{grid.rowId}',this);"
+                },
+                "javascriptDeclarationsRow": {
+                    "unbound": ""
+                },
+                "javascriptDeclarationsGlobal": {
+                    "unbound": "window['{grid.componentName}_O_089C257371294AC5A7305429743F1465'] = function(rowNum,rowId,objEle) {\nvar runMethod = 'ajax';\n\nif(runMethod == 'ajax') {\nif(typeof {dialog.object}._onlineStatus != 'undefined') { \n\tif({dialog.object}._onlineStatus == 'offline') { \n\t\t( function() {  }() );\n\t\t{dialog.object}._executeEvent('onAjaxCallbackNotAvailable', {xbasicFunctionName: '', ajaxEvent: 'OpenComponent'})\n\t\treturn false;\n\t}\n}\t\t\n\t\n};\n\n$('panelId').innerHTML = '<div style=\\'\\'  id=\\'GRIDDIV_panelId\\'></div>'; \nvar go = new Object();\n\ngo.ajaxFailedMessage = '';\ngo.ajaxCallbackTimeout = {dialog.object}.ajaxCallbackTimeout;\n\ngo.dialog2Name = 'Customer_edit_argument_ux';\ngo.type = 'dialog2';\ngo.specialDialogMode = 'editListRow';\ngo.listControlId = 'LIST_CUSTOMERS';\ngo.recordPrimaryKey = {dialog.object}.getValue(go.listControlId);\ngo.closeDialogAfterSubmit=true;\ngo.alias = ALIAS().toUpperCase();;\ngo.submitCurrentFieldValues = true;\ngo.sourceGridPart = 'O';\ngo.sourceGridRowNumber = '1';\ngo.workingMessage = '<img src=\\'css/A5System/Images/wait.gif\\' />Working...';\ngo.placeholderValues = 'LIST_CUSTOMERS='+{dialog.object}.getValueNOCRLF('LIST_CUSTOMERS');\ngo.argumentBinding = 'CUSTOMERID=LIST_CUSTOMERS';\n\ngo._thisGridAlias = {grid.object}.gridId;\nif(typeof {grid.object}.gridId != 'undefined') go._thisGridAlias = {grid.object}.gridId;\nif(typeof {grid.object}.dialogId != 'undefined') {\n\tgo._thisGridAlias = {grid.object}.dialogId;\n}\n\t\n\ngo._thisGridGUID = {grid.object}.componentGUID;\ngo._gridCurrentFilter = {grid.object}._gridFilter;\n\n\ngo._gridCurrentOrder = {grid.object}._gridOrder;\ngo._gridCurrentArguments = {grid.object}._gridArguments;\ngo._gridCurrentDBType = {grid.object}._gridDBType;\ngo.overrideSettings = 'Style_name = `{Grid.style}`||Style_name = `{Grid.style}`'+'||';\ngo.a5_default_path = '{grid.defaultPath}';\n\ngo.dynamicPanel = true;\n\ngo.setFocusToDynamicPanel = true;\ngo.parentPanelNavigator = 'PANELNAVIGATOR_1';\ngo.dynamicPanelTitle = panel_name();go.waitMessageTarget = 'PAGE';\ngo.canCloseDynamicPanel = false;\nvar pNavObj = {dialog.object}.panelGet('PANELNAVIGATOR_1');\nvar existingPanel = pNavObj.getPanel(go.alias.toUpperCase());\n\n\n\ngo.dialog2Div = '';\n\nvar pNavObj = {dialog.object}.panelGet('PANELNAVIGATOR_1');\nvar existingPanel = pNavObj.getPanel(go.alias.toUpperCase());\nif(existingPanel == false) { \n\t{dialog.object}.showWaitMessage('page',{useCSSAnimation: false,message: 'Working...',icon: 'css/A5System/Images/wait.gif'});\n\tA5.component.runGenericComponent(go)\n\t{dialog.object}.panelSetActive('PANELNAVIGATOR_1',true,true);\n} else { \n\tpNavObj.setActivePanel(go.alias.toUpperCase());\n\t{dialog.object}.panelSetActive('PANELNAVIGATOR_1',true,true);\n}\n\n\n}"
+                },
+                "xbasicFunctions": {
+                    "unbound": ""
+                },
+                "clientSideXbasicFunctions": {
+                    "unbound": ""
+                },
+                "part": ""
+            }
+        ],
+        "unboundActionShowOnNewActionMessage": true,
+        "actionJavascriptUnboundLastEdited": "ea48e18f-bb8b-4663-ae77-dffceff0d8dd"
+    }
+}
