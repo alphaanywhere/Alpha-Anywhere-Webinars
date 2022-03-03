@@ -16,7 +16,7 @@ You can find components for the following webinars in this repository. Component
  - February 16, 2022 (coming soon!)
  - [February 9, 2022](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/2022%2002%2009)
  - [February 2, 2022](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/2022%2002%2002)
- - January 26, 2022 (coming soon!)
+ - [January 26, 2022](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/2022%2001%2026)
  - January 19, 2022 (coming soon!)
  - January 12, 2022 (coming soon!)
  - January 5, 2022 (coming soon!)

@@ -9,7 +9,7 @@
 
 ## Downloading the component for this webinar
 
-Unfortunately, the component shown in this webinar isn't available! Sometimes we get really into a demo and forget to save our work. We've created a sample component you can download instead based on what was shown during the webinar.
+Unfortunately, the component shown in this webinar isn't available! Sometimes we really get into a demo and forget to save our work. We've created a sample component you can download instead based on what was shown during the webinar.
 
 1. Right click the download link below
 2. Select "Save link as"
