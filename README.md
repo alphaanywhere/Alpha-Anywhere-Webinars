@@ -61,4 +61,4 @@ We try to upload the files as soon as possible, but that isn't always possible. 
 
 ### A webinar is missing. How do I get the components?
 
-Send us an email at guides@alphasoftware.com with the webinar date to request components for past webinars not included listed here. We'll do our best to find them, but sometimes they're not available.
+If the files are missing for a 2022 webinar, send us an email at guides@alphasoftware.com with the webinar date to request components. We'll do our best to find them, but sometimes they're not available. Unfortunately, components from 2021 and prior are no longer available if they're not listed here.
