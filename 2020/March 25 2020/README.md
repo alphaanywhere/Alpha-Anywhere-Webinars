@@ -9,6 +9,6 @@
 3. Save the file
 4. Repeat for each file
 
-<a href="https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/raw/master/March%2025%202020/control_bar_argument_set_text.a5wcmp">Download control_bar_argument_set_text.a5wcmp</a>
+<a href="https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/raw/master/2020/March%2025%202020/control_bar_argument_set_text.a5wcmp">Download control_bar_argument_set_text.a5wcmp</a>
 
-<a href="https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/raw/master/March%2025%202020/viewbox_parent_child_ux.a5wcmp">Download viewbox_parent_child_ux.a5wcmp</a>
+<a href="https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/raw/master/2020/March%2025%202020/viewbox_parent_child_ux.a5wcmp">Download viewbox_parent_child_ux.a5wcmp</a>
