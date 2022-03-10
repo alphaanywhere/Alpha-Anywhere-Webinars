@@ -6,4 +6,4 @@
 
 1. Click the download link below
 
-<a href="https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/raw/master/April%2022%202020/tabbed_ui_replacement.zip">Download tabbed_ui_replacement.zip</a>
+<a href="https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/raw/master/2020/April%2022%202020/tabbed_ui_replacement.zip">Download tabbed_ui_replacement.zip</a>
