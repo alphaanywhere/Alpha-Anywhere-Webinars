@@ -9,6 +9,6 @@
 3. Save the file
 4. Repeat for each file
 
-<a href="https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/raw/master/August%2026%202020/Checkbox_filter_report_grid.a5wcmp">Download Checkbox_filter_report_grid.a5wcmp</a>
+<a href="https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/raw/master/2020/August%2026%202020/Checkbox_filter_report_grid.a5wcmp">Download Checkbox_filter_report_grid.a5wcmp</a>
 
-<a href="https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/raw/master/August%2026%202020/multiple_report_filter_example_ux.a5wcmp">Download multiple_report_filter_example_ux.a5wcmp</a>
+<a href="https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/raw/master/2020/August%2026%202020/multiple_report_filter_example_ux.a5wcmp">Download multiple_report_filter_example_ux.a5wcmp</a>
