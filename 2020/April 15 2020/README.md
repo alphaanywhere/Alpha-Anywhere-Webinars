@@ -8,4 +8,4 @@
 2. Select "Save link as"
 3. Save the file
 
-<a id="raw-url" href="https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/raw/master/April%2015%202020/tabbedUI_webinar_ux.a5wcmp">Download tabbedUI_webinar_ux.a5wcmp</a>
+<a id="raw-url" href="https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/raw/master/2020/April%2015%202020/tabbedUI_webinar_ux.a5wcmp">Download tabbedUI_webinar_ux.a5wcmp</a>
