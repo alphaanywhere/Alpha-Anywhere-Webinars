@@ -8,4 +8,4 @@
 2. Select "Save link as"
 3. Save the file
 
-<a href="https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/raw/master/July%2029%202020/web_disconnected_demonstration_week2_ux.a5wcmp">Download web_disconnected_demonstration_week2_ux.a5wcmp</a>
+<a href="https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/raw/master/2020/July%2029%202020/web_disconnected_demonstration_week2_ux.a5wcmp">Download web_disconnected_demonstration_week2_ux.a5wcmp</a>
