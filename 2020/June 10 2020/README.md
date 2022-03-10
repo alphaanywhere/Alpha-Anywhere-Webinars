@@ -8,4 +8,4 @@
 2. Select "Save link as"
 3. Save the file
 
-<a href="https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/raw/master/June%2010%202020/Pusher_map_ux.a5wcmp">Download Pusher_map_ux.a5wcmp</a>
+<a href="https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/raw/master/2020/June%2010%202020/Pusher_map_ux.a5wcmp">Download Pusher_map_ux.a5wcmp</a>
