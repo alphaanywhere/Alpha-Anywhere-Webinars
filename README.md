@@ -11,6 +11,7 @@ Visit the [Alpha Anywhere Demo and Q&A Webcast YouTube Playlist](https://www.you
 
 You can find components for the following webinars in this repository. Components for future webinars will be added as they become available. Check back for updates or clone this repo locally and run `git pull` to fetch future updates.
 ### 2022
+ - [May 18, 2022 - UX Watch Events](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/2022%2005%2018)
  - [May 11, 2022 - What is CORS](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/2022%2005%2011)
  - [May 4, 2022 - Security Framework - New additions to the Quick Setup Genie](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/2022%2005%2004)
  - [April 27, 2022 - New Storage Connections - DropBox & Google](https://github.com/alphaanywhere/Alpha-Anywhere-Webinars/tree/master/2022%2004%2027)
